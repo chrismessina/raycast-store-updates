@@ -74,15 +74,15 @@ function ExtensionActions({ item }: { item: FeedItem }) {
           icon={Icon.RaycastLogoNeg}
           shortcut={Keyboard.Shortcut.Common.Open}
         />
-        <Action.OpenInBrowser title="View on Web" url={item.url} icon={Icon.Globe} />
-      </ActionPanel.Section>
-      <ActionPanel.Section>
-        <Action.OpenInBrowser title="View Author Profile" url={item.author.url} icon={Icon.Person} />
+        <Action.OpenInBrowser title="Open in Browser" url={item.url} icon={Icon.Globe} />
         <Action.CopyToClipboard
           title="Copy Extension URL"
           content={item.url}
           shortcut={Keyboard.Shortcut.Common.Copy}
         />
+      </ActionPanel.Section>
+      <ActionPanel.Section>
+        <Action.OpenInBrowser title="View Author Profile" url={item.author.url} icon={Icon.Person} />
       </ActionPanel.Section>
     </ActionPanel>
   );
@@ -126,11 +126,7 @@ export default function Command() {
   return (
     <List isLoading={isLoading} searchBarPlaceholder="Search extensions...">
       {items.length === 0 && !isLoading ? (
-        <List.EmptyView
-          icon={Icon.MagnifyingGlass}
-          title="No Extensions Found"
-          description="Unable to load the feed"
-        />
+        <List.EmptyView icon={Icon.MagnifyingGlass} title="No Extensions Found" description="Unable to load the feed" />
       ) : (
         items.map((item) => <ExtensionListItem key={item.id} item={item} />)
       )}
