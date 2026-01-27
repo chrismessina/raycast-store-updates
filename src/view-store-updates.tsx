@@ -53,6 +53,74 @@ function isNewExtension(dateModified: string): boolean {
   return hoursDiff <= 24;
 }
 
+/**
+ * Formats a date for display in the detail metadata.
+ */
+function formatDate(dateString: string): string {
+  const date = new Date(dateString);
+  return date.toLocaleDateString(undefined, {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+}
+
+// =============================================================================
+// Components
+// =============================================================================
+
+function ExtensionListItem({ item }: { item: FeedItem }) {
+  const modifiedDate = new Date(item.date_modified);
+  const isNew = isNewExtension(item.date_modified);
+
+  return (
+    <List.Item
+      title={item.title}
+      subtitle={item.author.name}
+      icon={{ source: item.image, fallback: Icon.Box }}
+      accessories={[
+        {
+          tag: {
+            value: isNew ? "New" : "Updated",
+            color: isNew ? Color.Green : Color.Blue,
+          },
+        },
+        {
+          date: modifiedDate,
+          tooltip: `Modified: ${modifiedDate.toLocaleString()}`,
+        },
+      ]}
+      detail={
+        <List.Item.Detail
+          markdown={`![Extension Icon](${item.image})\n\n${item.summary}`}
+          metadata={
+            <List.Item.Detail.Metadata>
+              <List.Item.Detail.Metadata.Label title="Title" text={item.title} />
+              <List.Item.Detail.Metadata.Label title="Description" text={item.summary} />
+              <List.Item.Detail.Metadata.Separator />
+              <List.Item.Detail.Metadata.Link title="Author" text={item.author.name} target={item.author.url} />
+              <List.Item.Detail.Metadata.Label title="Last Updated" text={formatDate(item.date_modified)} />
+              <List.Item.Detail.Metadata.TagList title="Status">
+                <List.Item.Detail.Metadata.TagList.Item
+                  text={isNew ? "New" : "Updated"}
+                  color={isNew ? Color.Green : Color.Blue}
+                />
+              </List.Item.Detail.Metadata.TagList>
+            </List.Item.Detail.Metadata>
+          }
+        />
+      }
+      actions={
+        <ActionPanel>
+          <Action.OpenInBrowser title="View on Web" url={item.url} />
+        </ActionPanel>
+      }
+    />
+  );
+}
+
 // =============================================================================
 // Command
 // =============================================================================
@@ -121,19 +189,7 @@ export default function Command() {
       {filteredItems.length === 0 && !isLoading ? (
         <List.EmptyView icon={Icon.MagnifyingGlass} {...getEmptyViewProps()} />
       ) : (
-        filteredItems.map((item) => (
-          <List.Item
-            key={item.id}
-            icon={{ source: item.image, fallback: Icon.Box }}
-            title={item.title}
-            subtitle={item.author.name}
-            actions={
-              <ActionPanel>
-                <Action.OpenInBrowser title="View on Web" url={item.url} />
-              </ActionPanel>
-            }
-          />
-        ))
+        filteredItems.map((item) => <ExtensionListItem key={item.id} item={item} />)
       )}
     </List>
   );

@@ -19,10 +19,10 @@
 - [x] Add empty state handling for errors and no results
 
 ## Phase 4: ExtensionListItem Component
-- [ ] Create `ExtensionListItem` component
-- [ ] Add list item with title, subtitle (author), icon
-- [ ] Add accessories (New/Updated tag, modification date)
-- [ ] Add `List.Item.Detail` with markdown and metadata
+- [x] Create `ExtensionListItem` component
+- [x] Add list item with title, subtitle (author), icon
+- [x] Add accessories (New/Updated tag, modification date)
+- [x] Add `List.Item.Detail` with markdown and metadata
 
 ## Phase 5: Actions and Deeplinks
 - [ ] Create `ExtensionActions` component
