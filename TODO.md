@@ -13,10 +13,10 @@
 - [x] Add filtered items computation with `useMemo`
 
 ## Phase 3: List UI with Search and Filtering
-- [ ] Replace placeholder List with searchable List
-- [ ] Add `List.Dropdown` for All/New/Updated filtering
-- [ ] Enable `isShowingDetail` for sidebar view
-- [ ] Add empty state handling for errors and no results
+- [x] Replace placeholder List with searchable List
+- [x] Add `List.Dropdown` for All/New/Updated filtering
+- [x] Enable `isShowingDetail` for sidebar view
+- [x] Add empty state handling for errors and no results
 
 ## Phase 4: ExtensionListItem Component
 - [ ] Create `ExtensionListItem` component

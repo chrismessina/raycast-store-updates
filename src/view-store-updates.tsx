@@ -81,21 +81,60 @@ export default function Command() {
     }
   }, [data?.items, filter]);
 
+  // Determine empty state message based on filter
+  const getEmptyViewProps = () => {
+    if (filter === "new") {
+      return {
+        title: "No New Extensions",
+        description: "No extensions have been added in the last 24 hours",
+      };
+    }
+    if (filter === "updated") {
+      return {
+        title: "No Updated Extensions",
+        description: "No extensions have been updated recently",
+      };
+    }
+    return {
+      title: "No Extensions Found",
+      description: "Unable to load the feed",
+    };
+  };
+
   return (
-    <List isLoading={isLoading}>
-      {filteredItems.map((item) => (
-        <List.Item
-          key={item.id}
-          icon={{ source: item.image, fallback: Icon.Box }}
-          title={item.title}
-          subtitle={item.author.name}
-          actions={
-            <ActionPanel>
-              <Action.OpenInBrowser title="View on Web" url={item.url} />
-            </ActionPanel>
-          }
-        />
-      ))}
+    <List
+      isLoading={isLoading}
+      isShowingDetail
+      searchBarPlaceholder="Search extensions..."
+      searchBarAccessory={
+        <List.Dropdown
+          tooltip="Filter by Type"
+          value={filter}
+          onChange={(newValue) => setFilter(newValue as FilterValue)}
+        >
+          <List.Dropdown.Item title="All" value="all" />
+          <List.Dropdown.Item title="New (Last 24h)" value="new" />
+          <List.Dropdown.Item title="Updated" value="updated" />
+        </List.Dropdown>
+      }
+    >
+      {filteredItems.length === 0 && !isLoading ? (
+        <List.EmptyView icon={Icon.MagnifyingGlass} {...getEmptyViewProps()} />
+      ) : (
+        filteredItems.map((item) => (
+          <List.Item
+            key={item.id}
+            icon={{ source: item.image, fallback: Icon.Box }}
+            title={item.title}
+            subtitle={item.author.name}
+            actions={
+              <ActionPanel>
+                <Action.OpenInBrowser title="View on Web" url={item.url} />
+              </ActionPanel>
+            }
+          />
+        ))
+      )}
     </List>
   );
 }
