@@ -67,9 +67,49 @@ function formatDate(dateString: string): string {
   });
 }
 
+/**
+ * Parses the Raycast Store URL to extract author and extension name.
+ * URL format: https://www.raycast.com/{author}/{extension}
+ */
+function parseExtensionUrl(url: string): { author: string; extension: string } {
+  const path = url.replace("https://www.raycast.com/", "");
+  const [author, extension] = path.split("/");
+  return { author, extension };
+}
+
+/**
+ * Creates a Raycast deeplink to open an extension in the Store.
+ * Format: raycast://extensions/{author}/{extension}
+ */
+function createStoreDeeplink(url: string): string {
+  const { author, extension } = parseExtensionUrl(url);
+  return `raycast://extensions/${author}/${extension}`;
+}
+
 // =============================================================================
 // Components
 // =============================================================================
+
+function ExtensionActions({ item }: { item: FeedItem }) {
+  const storeDeeplink = createStoreDeeplink(item.url);
+
+  return (
+    <ActionPanel>
+      <ActionPanel.Section>
+        <Action.OpenInBrowser title="Open in Raycast Store" url={storeDeeplink} icon={Icon.RaycastLogoNeg} />
+        <Action.OpenInBrowser title="View on Web" url={item.url} icon={Icon.Globe} />
+      </ActionPanel.Section>
+      <ActionPanel.Section>
+        <Action.OpenInBrowser title="View Author Profile" url={item.author.url} icon={Icon.Person} />
+        <Action.CopyToClipboard
+          title="Copy Extension URL"
+          content={item.url}
+          shortcut={{ modifiers: ["cmd"], key: "c" }}
+        />
+      </ActionPanel.Section>
+    </ActionPanel>
+  );
+}
 
 function ExtensionListItem({ item }: { item: FeedItem }) {
   const modifiedDate = new Date(item.date_modified);
@@ -112,11 +152,7 @@ function ExtensionListItem({ item }: { item: FeedItem }) {
           }
         />
       }
-      actions={
-        <ActionPanel>
-          <Action.OpenInBrowser title="View on Web" url={item.url} />
-        </ActionPanel>
-      }
+      actions={<ExtensionActions item={item} />}
     />
   );
 }

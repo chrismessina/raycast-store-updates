@@ -25,12 +25,12 @@
 - [x] Add `List.Item.Detail` with markdown and metadata
 
 ## Phase 5: Actions and Deeplinks
-- [ ] Create `ExtensionActions` component
-- [ ] Parse author/extension from URL for deeplink
-- [ ] Add "Open in Raycast Store" action with deeplink
-- [ ] Add "View on Web" action
-- [ ] Add "View Author Profile" action
-- [ ] Add "Copy Extension URL" action
+- [x] Create `ExtensionActions` component
+- [x] Parse author/extension from URL for deeplink
+- [x] Add "Open in Raycast Store" action with deeplink
+- [x] Add "View on Web" action
+- [x] Add "View Author Profile" action
+- [x] Add "Copy Extension URL" action
 
 ## Phase 6: Final Polish and Cleanup
 - [ ] Remove PLAN.md (implementation complete)
