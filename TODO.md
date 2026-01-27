@@ -7,10 +7,10 @@
 - [x] Update imports (React hooks, Raycast API components, @raycast/utils)
 
 ## Phase 2: Data Fetching and Helper Functions
-- [ ] Implement `useFetch` hook for feed data with caching
-- [ ] Add `isNewExtension()` helper function (24-hour heuristic)
-- [ ] Add filter state with `useState`
-- [ ] Add filtered items computation with `useMemo`
+- [x] Implement `useFetch` hook for feed data with caching
+- [x] Add `isNewExtension()` helper function (24-hour heuristic)
+- [x] Add filter state with `useState`
+- [x] Add filtered items computation with `useMemo`
 
 ## Phase 3: List UI with Search and Filtering
 - [ ] Replace placeholder List with searchable List

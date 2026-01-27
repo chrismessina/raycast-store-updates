@@ -39,21 +39,63 @@ type FilterValue = "all" | "new" | "updated";
 const FEED_URL = "https://chrismessina.github.io/raycast-store-updates/feed.json";
 
 // =============================================================================
+// Helper Functions
+// =============================================================================
+
+/**
+ * Determines if an extension is "new" based on modification date.
+ * Extensions modified within the last 24 hours are considered "new".
+ */
+function isNewExtension(dateModified: string): boolean {
+  const modified = new Date(dateModified);
+  const now = new Date();
+  const hoursDiff = (now.getTime() - modified.getTime()) / (1000 * 60 * 60);
+  return hoursDiff <= 24;
+}
+
+// =============================================================================
 // Command
 // =============================================================================
 
 export default function Command() {
+  // Fetch feed data with caching (stale-while-revalidate)
+  const { data, isLoading } = useFetch<Feed>(FEED_URL, {
+    keepPreviousData: true,
+  });
+
+  // Filter state
+  const [filter, setFilter] = useState<FilterValue>("all");
+
+  // Compute filtered items based on selected filter
+  const filteredItems = useMemo(() => {
+    if (!data?.items) return [];
+
+    switch (filter) {
+      case "new":
+        return data.items.filter((item) => isNewExtension(item.date_modified));
+      case "updated":
+        return data.items.filter((item) => !isNewExtension(item.date_modified));
+      case "all":
+      default:
+        return data.items;
+    }
+  }, [data?.items, filter]);
+
   return (
-    <List>
-      <List.Item
-        icon={Icon.Bird}
-        title="Greeting"
-        actions={
-          <ActionPanel>
-            <Action.OpenInBrowser title="Open Raycast" url="https://raycast.com" />
-          </ActionPanel>
-        }
-      />
+    <List isLoading={isLoading}>
+      {filteredItems.map((item) => (
+        <List.Item
+          key={item.id}
+          icon={{ source: item.image, fallback: Icon.Box }}
+          title={item.title}
+          subtitle={item.author.name}
+          actions={
+            <ActionPanel>
+              <Action.OpenInBrowser title="View on Web" url={item.url} />
+            </ActionPanel>
+          }
+        />
+      ))}
     </List>
   );
 }
