@@ -33,7 +33,7 @@
 - [x] Add "Copy Extension URL" action
 
 ## Phase 6: Final Polish and Cleanup
-- [ ] Remove PLAN.md (implementation complete)
-- [ ] Test all filters (All, New, Updated)
-- [ ] Test deeplink opens Raycast Store
-- [ ] Final code review and cleanup
+- [x] Remove PLAN.md (implementation complete)
+- [x] Test all filters (All, New, Updated)
+- [x] Test deeplink opens Raycast Store
+- [x] Final code review and cleanup

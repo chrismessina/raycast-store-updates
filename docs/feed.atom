@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://raycast.com</id>
+    <title>Raycast Store - Latest</title>
+    <updated>2026-01-26T20:09:57.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://raycast.com"/>
+    <link rel="self" href="https://raycast.com/store/feed.atom"/>
+    <subtitle>We write stuff from time to time that might be interesting 🤷‍♂️</subtitle>
+    <logo>https://raycast.com/favicon.png</logo>
+    <icon>https://raycast.com/favicon.png</icon>
+    <rights>All rights reserved 2026, Raycast</rights>
+    <entry>
+        <title type="html"><![CDATA[Art Wallpapers. Basalt]]></title>
+        <id>https://www.raycast.com/yevgen_glukhov/basalt-wallpapers</id>
+        <link href="https://www.raycast.com/yevgen_glukhov/basalt-wallpapers"/>
+        <updated>2026-01-26T20:09:57.000Z</updated>
+        <summary type="html"><![CDATA[Hand-picked art, daily.]]></summary>
+        <author>
+            <name>Yevgen Glukhov</name>
+            <uri>https://www.raycast.com/yevgen_glukhov</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mollie]]></title>
+        <id>https://www.raycast.com/otter/mollie-for-raycast</id>
+        <link href="https://www.raycast.com/otter/mollie-for-raycast"/>
+        <updated>2026-01-26T13:28:10.000Z</updated>
+        <summary type="html"><![CDATA[A simple way to access and track Mollie in Raycast]]></summary>
+        <author>
+            <name>Thomas</name>
+            <uri>https://www.raycast.com/otter</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Supabase Cron Monitor]]></title>
+        <id>https://www.raycast.com/adrianmarten/supabase-cron-monitor</id>
+        <link href="https://www.raycast.com/adrianmarten/supabase-cron-monitor"/>
+        <updated>2026-01-26T09:36:23.000Z</updated>
+        <summary type="html"><![CDATA[Monitor Supabase pg_cron jobs and run history.]]></summary>
+        <author>
+            <name>Adrian Martén</name>
+            <uri>https://www.raycast.com/adrianmarten</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Custom Icon]]></title>
+        <id>https://www.raycast.com/phlo/custom-icon</id>
+        <link href="https://www.raycast.com/phlo/custom-icon"/>
+        <updated>2026-01-26T09:06:28.000Z</updated>
+        <summary type="html"><![CDATA[Customize icons. Set and reset custom icons for apps, files, and folders.]]></summary>
+        <author>
+            <name>Phlo</name>
+            <uri>https://www.raycast.com/phlo</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Prompts.chat]]></title>
+        <id>https://www.raycast.com/fka/prompts-chat</id>
+        <link href="https://www.raycast.com/fka/prompts-chat"/>
+        <updated>2026-01-26T05:52:19.000Z</updated>
+        <summary type="html"><![CDATA[Search, browse, and copy AI prompts from prompts.chat - the community platform for ChatGPT and AI prompts]]></summary>
+        <author>
+            <name>Fatih Kadir Akın</name>
+            <uri>https://www.raycast.com/fka</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Remix Icon]]></title>
+        <id>https://www.raycast.com/tristan_heinig/remix-icon</id>
+        <link href="https://www.raycast.com/tristan_heinig/remix-icon"/>
+        <updated>2026-01-26T05:39:08.000Z</updated>
+        <summary type="html"><![CDATA[Search and browse icons from Remix Icon library]]></summary>
+        <author>
+            <name>Tristan Heinig</name>
+            <uri>https://www.raycast.com/tristan_heinig</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[42 Api Tools]]></title>
+        <id>https://www.raycast.com/maujogue/42-api</id>
+        <link href="https://www.raycast.com/maujogue/42-api"/>
+        <updated>2026-01-26T05:35:17.000Z</updated>
+        <summary type="html"><![CDATA[Track your logtime and find peers in 42 school clusters directly from Raycast]]></summary>
+        <author>
+            <name>mathis aujogue</name>
+            <uri>https://www.raycast.com/maujogue</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pin]]></title>
+        <id>https://www.raycast.com/tanb/pin</id>
+        <link href="https://www.raycast.com/tanb/pin"/>
+        <updated>2026-01-26T05:18:49.000Z</updated>
+        <summary type="html"><![CDATA[Extension for Pin.app. Pin any window to stay always on top using a mirror overlay.]]></summary>
+        <author>
+            <name>Tomonori Tanabe</name>
+            <uri>https://www.raycast.com/tanb</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ETS2/ATS Profiles]]></title>
+        <id>https://www.raycast.com/yugveer28/ets2-ats-profiles</id>
+        <link href="https://www.raycast.com/yugveer28/ets2-ats-profiles"/>
+        <updated>2026-01-26T04:20:48.000Z</updated>
+        <summary type="html"><![CDATA[Manage Euro Truck Simulator 2 and American Truck Simulator Profiles directly from Raycast!]]></summary>
+        <author>
+            <name>Yugveer Wadzatia</name>
+            <uri>https://www.raycast.com/yugveer28</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fumadocs]]></title>
+        <id>https://www.raycast.com/ridemountainpig/fumadocs</id>
+        <link href="https://www.raycast.com/ridemountainpig/fumadocs"/>
+        <updated>2026-01-25T21:47:23.000Z</updated>
+        <summary type="html"><![CDATA[Search and browse Fumadocs documentation]]></summary>
+        <author>
+            <name>Yen Cheng</name>
+            <uri>https://www.raycast.com/ridemountainpig</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Next Lens]]></title>
+        <id>https://www.raycast.com/1weiho/next-lens</id>
+        <link href="https://www.raycast.com/1weiho/next-lens"/>
+        <updated>2026-01-24T20:46:50.000Z</updated>
+        <summary type="html"><![CDATA[Scans Next.js routes and provides quick insights in the extension.]]></summary>
+        <author>
+            <name>Yiwei Ho</name>
+            <uri>https://www.raycast.com/1weiho</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Manus]]></title>
+        <id>https://www.raycast.com/KthKuang/manus</id>
+        <link href="https://www.raycast.com/KthKuang/manus"/>
+        <updated>2026-01-24T18:05:06.000Z</updated>
+        <summary type="html"><![CDATA[Search and manage Manus AI tasks]]></summary>
+        <author>
+            <name>Kth</name>
+            <uri>https://www.raycast.com/KthKuang</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LocalSend]]></title>
+        <id>https://www.raycast.com/kud/localsend</id>
+        <link href="https://www.raycast.com/kud/localsend"/>
+        <updated>2026-01-24T09:44:32.000Z</updated>
+        <summary type="html"><![CDATA[Share files to nearby devices using LocalSend protocol]]></summary>
+        <author>
+            <name>Erwann Mest</name>
+            <uri>https://www.raycast.com/kud</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Query.Domains]]></title>
+        <id>https://www.raycast.com/nextwalkerovo/query-domains</id>
+        <link href="https://www.raycast.com/nextwalkerovo/query-domains"/>
+        <updated>2026-01-24T04:16:41.000Z</updated>
+        <summary type="html"><![CDATA[Check domain WHOIS, availability, traffic, and tech stack in one place]]></summary>
+        <author>
+            <name>Walker</name>
+            <uri>https://www.raycast.com/nextwalkerovo</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ClaudeCast]]></title>
+        <id>https://www.raycast.com/qazi0/claudecast</id>
+        <link href="https://www.raycast.com/qazi0/claudecast"/>
+        <updated>2026-01-23T20:21:28.000Z</updated>
+        <summary type="html"><![CDATA[Claude Code workflows at your fingertips - Quick prompts, session management, and agentic workflows]]></summary>
+        <author>
+            <name>Siraj Qazi</name>
+            <uri>https://www.raycast.com/qazi0</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Font Converter]]></title>
+        <id>https://www.raycast.com/meshal/font-converter</id>
+        <link href="https://www.raycast.com/meshal/font-converter"/>
+        <updated>2026-01-23T18:58:30.000Z</updated>
+        <summary type="html"><![CDATA[Convert fonts to TTF, WOFF, WOFF2, and EOT formats directly from Raycast]]></summary>
+        <author>
+            <name>meshal</name>
+            <uri>https://www.raycast.com/meshal</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Proton Mail]]></title>
+        <id>https://www.raycast.com/NormC/proton-mail</id>
+        <link href="https://www.raycast.com/NormC/proton-mail"/>
+        <updated>2026-01-23T16:28:33.000Z</updated>
+        <summary type="html"><![CDATA[View and manage your Proton Mail inbox via Proton Mail Bridge]]></summary>
+        <author>
+            <name>Norm Copeland</name>
+            <uri>https://www.raycast.com/NormC</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iOS Resolution]]></title>
+        <id>https://www.raycast.com/ertem_biyik/ios-resolution</id>
+        <link href="https://www.raycast.com/ertem_biyik/ios-resolution"/>
+        <updated>2026-01-23T15:17:52.000Z</updated>
+        <summary type="html"><![CDATA[Display properties of every iPhone, iPad, iPod touch and Apple Watch Apple ever made]]></summary>
+        <author>
+            <name>Ertem Biyik</name>
+            <uri>https://www.raycast.com/ertem_biyik</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[rclone]]></title>
+        <id>https://www.raycast.com/rclone/rclone-raycast</id>
+        <link href="https://www.raycast.com/rclone/rclone-raycast"/>
+        <updated>2026-01-23T12:27:31.000Z</updated>
+        <summary type="html"><![CDATA[A Raycast extension for rclone]]></summary>
+        <author>
+            <name>rclone</name>
+            <uri>https://www.raycast.com/rclone</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[40 Questions - Yearly Reflection]]></title>
+        <id>https://www.raycast.com/dnnsmnstrr/40-questions</id>
+        <link href="https://www.raycast.com/dnnsmnstrr/40-questions"/>
+        <updated>2026-01-23T11:43:49.000Z</updated>
+        <summary type="html"><![CDATA[Questions to ask yourself at the end of each year]]></summary>
+        <author>
+            <name>Dennis Muensterer</name>
+            <uri>https://www.raycast.com/dnnsmnstrr</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pomo]]></title>
+        <id>https://www.raycast.com/claud/pomo</id>
+        <link href="https://www.raycast.com/claud/pomo"/>
+        <updated>2026-01-22T21:00:29.000Z</updated>
+        <summary type="html"><![CDATA[Control Pomo, a minimal Pomodoro timer for your macOS menu bar]]></summary>
+        <author>
+            <name>Claudio Fuentes</name>
+            <uri>https://www.raycast.com/claud</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bklit Analytics]]></title>
+        <id>https://www.raycast.com/uixmat/bklit-analytics</id>
+        <link href="https://www.raycast.com/uixmat/bklit-analytics"/>
+        <updated>2026-01-22T20:05:45.000Z</updated>
+        <summary type="html"><![CDATA[This extension allows you to see your analytics daily digest both in your menu bar and in a snapshot view.]]></summary>
+        <author>
+            <name>Matt</name>
+            <uri>https://www.raycast.com/uixmat</uri>
+        </author>
+        <contributor>
+            <name>Per Nielsen Tikær</name>
+            <uri>https://www.raycast.com/pernielsentikaer</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ShareX]]></title>
+        <id>https://www.raycast.com/the_revolution/sharex</id>
+        <link href="https://www.raycast.com/the_revolution/sharex"/>
+        <updated>2026-01-22T15:06:03.000Z</updated>
+        <summary type="html"><![CDATA[Browse and create ShareX screenshots, videos, and GIFs from Raycast]]></summary>
+        <author>
+            <name>The Revolution</name>
+            <uri>https://www.raycast.com/the_revolution</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Table Converter]]></title>
+        <id>https://www.raycast.com/naserowaimer/table-converter</id>
+        <link href="https://www.raycast.com/naserowaimer/table-converter"/>
+        <updated>2026-01-21T20:27:38.000Z</updated>
+        <summary type="html"><![CDATA[Convert tables from Clipboard to Markdown and vice versa.]]></summary>
+        <author>
+            <name>Naser AlOwaimer</name>
+            <uri>https://www.raycast.com/naserowaimer</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Links]]></title>
+        <id>https://www.raycast.com/boj/go-links</id>
+        <link href="https://www.raycast.com/boj/go-links"/>
+        <updated>2026-01-21T18:07:29.000Z</updated>
+        <summary type="html"><![CDATA[autocomplete for Tailscale Go Links]]></summary>
+        <author>
+            <name>Bolaji Fatade</name>
+            <uri>https://www.raycast.com/boj</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SimpleLogin]]></title>
+        <id>https://www.raycast.com/ciko/simple-login</id>
+        <link href="https://www.raycast.com/ciko/simple-login"/>
+        <updated>2026-01-21T12:13:36.000Z</updated>
+        <summary type="html"><![CDATA[Create and manage email aliases with SimpleLogin to protect your inbox from spam and trackers]]></summary>
+        <author>
+            <name>Andrej Kocijan</name>
+            <uri>https://www.raycast.com/ciko</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[F.lux Control]]></title>
+        <id>https://www.raycast.com/allejo/flux</id>
+        <link href="https://www.raycast.com/allejo/flux"/>
+        <updated>2026-01-21T05:53:47.000Z</updated>
+        <summary type="html"><![CDATA[Control f.lux from Raycast.]]></summary>
+        <author>
+            <name>Vladimir Jimenez</name>
+            <uri>https://www.raycast.com/allejo</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mnemosyne]]></title>
+        <id>https://www.raycast.com/dort/mnemosyne</id>
+        <link href="https://www.raycast.com/dort/mnemosyne"/>
+        <updated>2026-01-20T16:04:23.000Z</updated>
+        <summary type="html"><![CDATA[Quickly save URLs and notes to your Mnemosyne knowledge library]]></summary>
+        <author>
+            <name>Aditya Sarkar</name>
+            <uri>https://www.raycast.com/dort</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mac Mouse Fix]]></title>
+        <id>https://www.raycast.com/marcjulian/mac-mouse-fix</id>
+        <link href="https://www.raycast.com/marcjulian/mac-mouse-fix"/>
+        <updated>2026-01-20T07:00:52.000Z</updated>
+        <summary type="html"><![CDATA[Control Mac Mouse Fix from Raycast]]></summary>
+        <author>
+            <name>Marc Julian</name>
+            <uri>https://www.raycast.com/marcjulian</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hugeicons UI]]></title>
+        <id>https://www.raycast.com/adnan_tresnjo/hugeicons-ui</id>
+        <link href="https://www.raycast.com/adnan_tresnjo/hugeicons-ui"/>
+        <updated>2026-01-20T03:26:37.000Z</updated>
+        <summary type="html"><![CDATA[Browse and copy Hugeicons icons quickly from Raycast]]></summary>
+        <author>
+            <name>Adnan Tresnjo</name>
+            <uri>https://www.raycast.com/adnan_tresnjo</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stashit]]></title>
+        <id>https://www.raycast.com/pmzi/stashit</id>
+        <link href="https://www.raycast.com/pmzi/stashit"/>
+        <updated>2026-01-19T14:40:28.000Z</updated>
+        <summary type="html"><![CDATA[A priority queue for managing tasks with priorities]]></summary>
+        <author>
+            <name>Pouya Mozaffar Magham</name>
+            <uri>https://www.raycast.com/pmzi</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TV Remote]]></title>
+        <id>https://www.raycast.com/alexi.build/tv-remote</id>
+        <link href="https://www.raycast.com/alexi.build/tv-remote"/>
+        <updated>2026-01-19T12:52:35.000Z</updated>
+        <summary type="html"><![CDATA[Control Sony BRAVIA TV picture settings]]></summary>
+        <author>
+            <name>Alexi</name>
+            <uri>https://www.raycast.com/alexi.build</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Raycast Weekly Newsletter]]></title>
+        <id>https://www.raycast.com/alexi.build/raycast-weekly-newsletter</id>
+        <link href="https://www.raycast.com/alexi.build/raycast-weekly-newsletter"/>
+        <updated>2026-01-19T12:27:50.000Z</updated>
+        <summary type="html"><![CDATA[Browse and interact with Raycast Weekly Newsletter]]></summary>
+        <author>
+            <name>Alexi</name>
+            <uri>https://www.raycast.com/alexi.build</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[British National Formulary]]></title>
+        <id>https://www.raycast.com/jrssm/bnf-search-tool</id>
+        <link href="https://www.raycast.com/jrssm/bnf-search-tool"/>
+        <updated>2026-01-19T11:48:36.000Z</updated>
+        <summary type="html"><![CDATA[Search the British National Formulary (BNF) or BNFC (Child version) for medication.]]></summary>
+        <author>
+            <name>Jack Smith</name>
+            <uri>https://www.raycast.com/jrssm</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DreamHost]]></title>
+        <id>https://www.raycast.com/xmok/dreamhost</id>
+        <link href="https://www.raycast.com/xmok/dreamhost"/>
+        <updated>2026-01-19T10:08:35.000Z</updated>
+        <summary type="html"><![CDATA[Manage DreamHost DNS Records]]></summary>
+        <author>
+            <name>xmok</name>
+            <uri>https://www.raycast.com/xmok</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Winutils]]></title>
+        <id>https://www.raycast.com/makhlouf_belouadah/winutils</id>
+        <link href="https://www.raycast.com/makhlouf_belouadah/winutils"/>
+        <updated>2026-01-19T08:35:50.000Z</updated>
+        <summary type="html"><![CDATA[Launches ChrisTitusTech's WinUtil bootstrap from GitHub.]]></summary>
+        <author>
+            <name>Makhlouf belouadah</name>
+            <uri>https://www.raycast.com/makhlouf_belouadah</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ThermoConvert]]></title>
+        <id>https://www.raycast.com/kud/thermoconvert</id>
+        <link href="https://www.raycast.com/kud/thermoconvert"/>
+        <updated>2026-01-19T08:28:26.000Z</updated>
+        <summary type="html"><![CDATA[Instantly convert between all major temperature scales]]></summary>
+        <author>
+            <name>Erwann Mest</name>
+            <uri>https://www.raycast.com/kud</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Biome]]></title>
+        <id>https://www.raycast.com/degouville/biome</id>
+        <link href="https://www.raycast.com/degouville/biome"/>
+        <updated>2026-01-19T07:56:09.000Z</updated>
+        <summary type="html"><![CDATA[Manage and search for Biome rules and releases]]></summary>
+        <author>
+            <name>Mathieu de Gouville</name>
+            <uri>https://www.raycast.com/degouville</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FIX Helper]]></title>
+        <id>https://www.raycast.com/tianwg/fix-helper</id>
+        <link href="https://www.raycast.com/tianwg/fix-helper"/>
+        <updated>2026-01-19T07:44:05.000Z</updated>
+        <summary type="html"><![CDATA[Quickly parse, analyze, and understand FIX messages with ease.]]></summary>
+        <author>
+            <name>Weiguang Tian</name>
+            <uri>https://www.raycast.com/tianwg</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tabby]]></title>
+        <id>https://www.raycast.com/chupi/tabby</id>
+        <link href="https://www.raycast.com/chupi/tabby"/>
+        <updated>2026-01-19T06:31:18.000Z</updated>
+        <summary type="html"><![CDATA[Control Tabby terminal with Raycast]]></summary>
+        <author>
+            <name>varnier</name>
+            <uri>https://www.raycast.com/chupi</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Parse - Speed Reader]]></title>
+        <id>https://www.raycast.com/traf/parse</id>
+        <link href="https://www.raycast.com/traf/parse"/>
+        <updated>2026-01-16T11:57:21.000Z</updated>
+        <summary type="html"><![CDATA[Speed read copied text one word at a time.]]></summary>
+        <author>
+            <name>traf</name>
+            <uri>https://www.raycast.com/traf</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linkinize]]></title>
+        <id>https://www.raycast.com/linkinize/linkinize</id>
+        <link href="https://www.raycast.com/linkinize/linkinize"/>
+        <updated>2026-01-16T10:04:00.000Z</updated>
+        <summary type="html"><![CDATA[AI Bookmark Manager For Teams]]></summary>
+        <author>
+            <name>Linkinize</name>
+            <uri>https://www.raycast.com/linkinize</uri>
+        </author>
+        <contributor>
+            <name>Mahdi Hazaveh</name>
+            <uri>https://www.raycast.com/hazaveh</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[APIs Guru Search]]></title>
+        <id>https://www.raycast.com/zebapy/apis-guru-search</id>
+        <link href="https://www.raycast.com/zebapy/apis-guru-search"/>
+        <updated>2026-01-16T08:01:36.000Z</updated>
+        <summary type="html"><![CDATA[Search APIs Guru, the largest public directory of APIs.]]></summary>
+        <author>
+            <name>Zeb Pykosz</name>
+            <uri>https://www.raycast.com/zebapy</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GLES to MaliOC]]></title>
+        <id>https://www.raycast.com/RomanVPX/gles-to-malioc</id>
+        <link href="https://www.raycast.com/RomanVPX/gles-to-malioc"/>
+        <updated>2026-01-16T07:50:27.000Z</updated>
+        <summary type="html"><![CDATA[Compile GLES shader code with MaliOC and get performance stats.]]></summary>
+        <author>
+            <name>Roman Vishnyakov</name>
+            <uri>https://www.raycast.com/RomanVPX</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Django Docs]]></title>
+        <id>https://www.raycast.com/JensAstrup/django-docs</id>
+        <link href="https://www.raycast.com/JensAstrup/django-docs"/>
+        <updated>2026-01-15T21:32:35.000Z</updated>
+        <summary type="html"><![CDATA[Navigate and search through Django documentation]]></summary>
+        <author>
+            <name>Jens Astrup</name>
+            <uri>https://www.raycast.com/JensAstrup</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Convex]]></title>
+        <id>https://www.raycast.com/devwithbobby/convex</id>
+        <link href="https://www.raycast.com/devwithbobby/convex"/>
+        <updated>2026-01-15T18:59:57.000Z</updated>
+        <summary type="html"><![CDATA[Interact with your Convex projects directly from Raycast]]></summary>
+        <author>
+            <name>Bobby Alv</name>
+            <uri>https://www.raycast.com/devwithbobby</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Try]]></title>
+        <id>https://www.raycast.com/wuyuxiangX/try</id>
+        <link href="https://www.raycast.com/wuyuxiangX/try"/>
+        <updated>2026-01-15T13:11:39.000Z</updated>
+        <summary type="html"><![CDATA[Manage ephemeral workspace directories for experiments. A Raycast port of tobi/try.]]></summary>
+        <author>
+            <name>wuyuxiangX</name>
+            <uri>https://www.raycast.com/wuyuxiangX</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SVG Studio]]></title>
+        <id>https://www.raycast.com/gaosunhao/svg-studio</id>
+        <link href="https://www.raycast.com/gaosunhao/svg-studio"/>
+        <updated>2026-01-15T13:06:42.000Z</updated>
+        <summary type="html"><![CDATA[Powerful SVG previewer and editor with dark mode and PNG export.]]></summary>
+        <author>
+            <name>孙豪 高</name>
+            <uri>https://www.raycast.com/gaosunhao</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bikeshare Station Status]]></title>
+        <id>https://www.raycast.com/itsmingjie/bikeshare-station-status</id>
+        <link href="https://www.raycast.com/itsmingjie/bikeshare-station-status"/>
+        <updated>2026-01-15T12:49:12.000Z</updated>
+        <summary type="html"><![CDATA[Check bike availability at Lyft bikeshare stations, including Citibike (NYC), Bay Wheels (Bay Area), Capital Bikeshare (DC), Biketown (Portland), and Divvy (Chicago).]]></summary>
+        <author>
+            <name>Mingjie Jiang</name>
+            <uri>https://www.raycast.com/itsmingjie</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Office]]></title>
+        <id>https://www.raycast.com/tonka3000/microsoft-office</id>
+        <link href="https://www.raycast.com/tonka3000/microsoft-office"/>
+        <updated>2026-01-15T11:17:28.000Z</updated>
+        <summary type="html"><![CDATA[Command for Office Products]]></summary>
+        <author>
+            <name>Michael Aigner</name>
+            <uri>https://www.raycast.com/tonka3000</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vietnamese Calendar]]></title>
+        <id>https://www.raycast.com/hoando/vietnamese-calendar</id>
+        <link href="https://www.raycast.com/hoando/vietnamese-calendar"/>
+        <updated>2026-01-15T11:15:32.000Z</updated>
+        <summary type="html"><![CDATA[A comprehensive Vietnamese Lunar Calendar for Raycast. View Solar and Lunar dates, check holidays with anniversary counts, and navigate easily with shortcuts.]]></summary>
+        <author>
+            <name>H D</name>
+            <uri>https://www.raycast.com/hoando</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows to Linux Path]]></title>
+        <id>https://www.raycast.com/Showtc/windows-to-linux-path</id>
+        <link href="https://www.raycast.com/Showtc/windows-to-linux-path"/>
+        <updated>2026-01-15T11:08:28.000Z</updated>
+        <summary type="html"><![CDATA[Converts a Windows path into a Linux one and copy it to the clipboard.]]></summary>
+        <author>
+            <name>Showtc</name>
+            <uri>https://www.raycast.com/Showtc</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Better Aliases]]></title>
+        <id>https://www.raycast.com/alexi.build/better-aliases</id>
+        <link href="https://www.raycast.com/alexi.build/better-aliases"/>
+        <updated>2026-01-15T10:30:37.000Z</updated>
+        <summary type="html"><![CDATA[Better Aliases - Create better aliases in Raycast]]></summary>
+        <author>
+            <name>Alexi</name>
+            <uri>https://www.raycast.com/alexi.build</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Font Sniper]]></title>
+        <id>https://www.raycast.com/riomadeit/font-sniper</id>
+        <link href="https://www.raycast.com/riomadeit/font-sniper"/>
+        <updated>2026-01-15T08:34:16.000Z</updated>
+        <summary type="html"><![CDATA[Identify and download fonts from any website.
+
+Disclaimer: FontSniper detects loaded browser fonts for testing/research only. Read more in README]]></summary>
+        <author>
+            <name>@riomadeit</name>
+            <uri>https://www.raycast.com/riomadeit</uri>
+        </author>
+        <contributor>
+            <name>Dhruv Suthar</name>
+            <uri>https://www.raycast.com/0xdhrv</uri>
+        </contributor>
+        <contributor>
+            <name>xmok</name>
+            <uri>https://www.raycast.com/xmok</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LLM Stats]]></title>
+        <id>https://www.raycast.com/ernest0n/llm-stats</id>
+        <link href="https://www.raycast.com/ernest0n/llm-stats"/>
+        <updated>2026-01-15T08:30:18.000Z</updated>
+        <summary type="html"><![CDATA[The largest collection of high-quality evaluations for every AI modality—language, vision, code, reasoning, and beyond]]></summary>
+        <author>
+            <name>Ernest0n</name>
+            <uri>https://www.raycast.com/ernest0n</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pitchcast - Pitchfork Reviews Search]]></title>
+        <id>https://www.raycast.com/stuartromanek/pitchcast</id>
+        <link href="https://www.raycast.com/stuartromanek/pitchcast"/>
+        <updated>2026-01-15T06:54:05.000Z</updated>
+        <summary type="html"><![CDATA[Search Pitchfork.com Reviews]]></summary>
+        <author>
+            <name>Stuart</name>
+            <uri>https://www.raycast.com/stuartromanek</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rainaissance]]></title>
+        <id>https://www.raycast.com/freepicheep/rainaissance</id>
+        <link href="https://www.raycast.com/freepicheep/rainaissance"/>
+        <updated>2026-01-14T20:50:32.000Z</updated>
+        <summary type="html"><![CDATA[Control rain and snow and background sounds on your Mac with Rainaissance through Raycast.]]></summary>
+        <author>
+            <name>Friedrich Stoltzfus</name>
+            <uri>https://www.raycast.com/freepicheep</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[App Tag Manager]]></title>
+        <id>https://www.raycast.com/zaincheung/app-tag-manager</id>
+        <link href="https://www.raycast.com/zaincheung/app-tag-manager"/>
+        <updated>2026-01-14T10:52:42.000Z</updated>
+        <summary type="html"><![CDATA[Organize and search macOS applications with tags]]></summary>
+        <author>
+            <name>Zain Cheung</name>
+            <uri>https://www.raycast.com/zaincheung</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Monocle]]></title>
+        <id>https://www.raycast.com/emlez/monocle</id>
+        <link href="https://www.raycast.com/emlez/monocle"/>
+        <updated>2026-01-14T07:00:14.000Z</updated>
+        <summary type="html"><![CDATA[Extension to control Monocle 3.0 for macOS
+
+Noise-cancelling for your  screen now with cursor shake]]></summary>
+        <author>
+            <name>Emilio Sánchez</name>
+            <uri>https://www.raycast.com/emlez</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft OneDrive]]></title>
+        <id>https://www.raycast.com/xilopaint/microsoft-onedrive</id>
+        <link href="https://www.raycast.com/xilopaint/microsoft-onedrive"/>
+        <updated>2026-01-14T06:37:22.000Z</updated>
+        <summary type="html"><![CDATA[Access, search, and manage your OneDrive and SharePoint files]]></summary>
+        <author>
+            <name>Arthur Pinheiro</name>
+            <uri>https://www.raycast.com/xilopaint</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Customer IO]]></title>
+        <id>https://www.raycast.com/NathanThomassin/customer-io</id>
+        <link href="https://www.raycast.com/NathanThomassin/customer-io"/>
+        <updated>2026-01-13T11:52:23.000Z</updated>
+        <summary type="html"><![CDATA[Interact with customer.io via Raycast]]></summary>
+        <author>
+            <name>Nathan Thomassin</name>
+            <uri>https://www.raycast.com/NathanThomassin</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chinese Character Converter]]></title>
+        <id>https://www.raycast.com/simon_lai/chinese-character-converter</id>
+        <link href="https://www.raycast.com/simon_lai/chinese-character-converter"/>
+        <updated>2026-01-12T07:38:03.000Z</updated>
+        <summary type="html"><![CDATA[Auto convert clipboard content between Traditional and Simplified Chinese]]></summary>
+        <author>
+            <name>Simon Lai</name>
+            <uri>https://www.raycast.com/simon_lai</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MXroute]]></title>
+        <id>https://www.raycast.com/xmok/mxroute</id>
+        <link href="https://www.raycast.com/xmok/mxroute"/>
+        <updated>2026-01-12T06:02:37.000Z</updated>
+        <summary type="html"><![CDATA[Email hosting for your domains]]></summary>
+        <author>
+            <name>xmok</name>
+            <uri>https://www.raycast.com/xmok</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Remote Desktop]]></title>
+        <id>https://www.raycast.com/tonka3000/remote-desktop</id>
+        <link href="https://www.raycast.com/tonka3000/remote-desktop"/>
+        <updated>2026-01-09T18:57:03.000Z</updated>
+        <summary type="html"><![CDATA[Manage Remote Desktop connections]]></summary>
+        <author>
+            <name>Michael Aigner</name>
+            <uri>https://www.raycast.com/tonka3000</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hevy]]></title>
+        <id>https://www.raycast.com/clins1994/hevy</id>
+        <link href="https://www.raycast.com/clins1994/hevy"/>
+        <updated>2026-01-09T12:35:29.000Z</updated>
+        <summary type="html"><![CDATA[Your Hevy workout data at your fingertips via Raycast]]></summary>
+        <author>
+            <name>Caio Lins</name>
+            <uri>https://www.raycast.com/clins1994</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Random Date Generator]]></title>
+        <id>https://www.raycast.com/yasinozmeen/random-date-generator</id>
+        <link href="https://www.raycast.com/yasinozmeen/random-date-generator"/>
+        <updated>2026-01-09T10:30:57.000Z</updated>
+        <summary type="html"><![CDATA[Generate random dates within a specified date range]]></summary>
+        <author>
+            <name>Yasin Özmen</name>
+            <uri>https://www.raycast.com/yasinozmeen</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lemniscate | System Monitor]]></title>
+        <id>https://www.raycast.com/zhassulan_abdrakhmanov/lemniscate-system-monitor</id>
+        <link href="https://www.raycast.com/zhassulan_abdrakhmanov/lemniscate-system-monitor"/>
+        <updated>2026-01-09T09:24:34.000Z</updated>
+        <summary type="html"><![CDATA[Get the basic CPU and memory usage information with process list]]></summary>
+        <author>
+            <name>Zhassulan Abdrakhmanov</name>
+            <uri>https://www.raycast.com/zhassulan_abdrakhmanov</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PowerToys Tool Runner]]></title>
+        <id>https://www.raycast.com/LostViking09/powertoys-tool-runner</id>
+        <link href="https://www.raycast.com/LostViking09/powertoys-tool-runner"/>
+        <updated>2026-01-09T08:08:25.000Z</updated>
+        <summary type="html"><![CDATA[Quickly open PowerToys tools]]></summary>
+        <author>
+            <name>LostViking09</name>
+            <uri>https://www.raycast.com/LostViking09</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unsure Calc]]></title>
+        <id>https://www.raycast.com/PythonicNinja/unsure-calc</id>
+        <link href="https://www.raycast.com/PythonicNinja/unsure-calc"/>
+        <updated>2026-01-08T16:53:19.000Z</updated>
+        <summary type="html"><![CDATA[Lightweight probabilistic calculator that lets you type ranges (with `~`) and arithmetic to see exact bounds plus simulated outcomes and a text histogram.]]></summary>
+        <author>
+            <name>Wojtek Nowak</name>
+            <uri>https://www.raycast.com/PythonicNinja</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hotel Manager]]></title>
+        <id>https://www.raycast.com/yicone/hotel-manager</id>
+        <link href="https://www.raycast.com/yicone/hotel-manager"/>
+        <updated>2026-01-08T16:40:19.000Z</updated>
+        <summary type="html"><![CDATA[Manage Hotel apps]]></summary>
+        <author>
+            <name>Yicone Wang</name>
+            <uri>https://www.raycast.com/yicone</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MarkMarks]]></title>
+        <id>https://www.raycast.com/rmartins/markmarks</id>
+        <link href="https://www.raycast.com/rmartins/markmarks"/>
+        <updated>2026-01-08T12:44:30.000Z</updated>
+        <summary type="html"><![CDATA[Manage bookmarks using a markdown file as persistence layer]]></summary>
+        <author>
+            <name>Rui</name>
+            <uri>https://www.raycast.com/rmartins</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lokalise]]></title>
+        <id>https://www.raycast.com/ikupenov/lokalise</id>
+        <link href="https://www.raycast.com/ikupenov/lokalise"/>
+        <updated>2026-01-08T09:55:19.000Z</updated>
+        <summary type="html"><![CDATA[Manage Lokalise translations directly from Raycast. Add new translation keys, search and browse existing translations, and copy values to clipboard—all without leaving your workflow.]]></summary>
+        <author>
+            <name>Iliyan Kupenov</name>
+            <uri>https://www.raycast.com/ikupenov</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[No as a Service]]></title>
+        <id>https://www.raycast.com/nedini/no-as-a-service</id>
+        <link href="https://www.raycast.com/nedini/no-as-a-service"/>
+        <updated>2026-01-08T03:37:55.000Z</updated>
+        <summary type="html"><![CDATA[Get a random reason to say no. 
+
+Inspired by https://github.com/hotheadhacker/no-as-a-service]]></summary>
+        <author>
+            <name>Matthew Anderson</name>
+            <uri>https://www.raycast.com/nedini</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Leader Key]]></title>
+        <id>https://www.raycast.com/alexi.build/leader-key</id>
+        <link href="https://www.raycast.com/alexi.build/leader-key"/>
+        <updated>2026-01-07T14:21:16.000Z</updated>
+        <summary type="html"><![CDATA[Search and trigger Leader Key shortcuts by alias, label, or value.]]></summary>
+        <author>
+            <name>Alexi</name>
+            <uri>https://www.raycast.com/alexi.build</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Math Functions]]></title>
+        <id>https://www.raycast.com/jesper_sjoberg/math-functions</id>
+        <link href="https://www.raycast.com/jesper_sjoberg/math-functions"/>
+        <updated>2026-01-07T13:59:32.000Z</updated>
+        <summary type="html"><![CDATA[Evaluate mathematical expressions with real-time results. Supports common functions like sum, gcd, lcm, trigonometry, and more. Type expressions and press Enter to copy results.]]></summary>
+        <author>
+            <name>jesper sjöberg</name>
+            <uri>https://www.raycast.com/jesper_sjoberg</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Qoder]]></title>
+        <id>https://www.raycast.com/ezreal09/qoder</id>
+        <link href="https://www.raycast.com/ezreal09/qoder"/>
+        <updated>2026-01-07T12:21:43.000Z</updated>
+        <summary type="html"><![CDATA[Quick access to Qoder AI Editor]]></summary>
+        <author>
+            <name>Ezreal09</name>
+            <uri>https://www.raycast.com/ezreal09</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rust Documentation]]></title>
+        <id>https://www.raycast.com/patrick-ehimen/rust-docs</id>
+        <link href="https://www.raycast.com/patrick-ehimen/rust-docs"/>
+        <updated>2026-01-07T08:56:37.000Z</updated>
+        <summary type="html"><![CDATA[Search Rust Standard Library documentation]]></summary>
+        <author>
+            <name>0xOse</name>
+            <uri>https://www.raycast.com/patrick-ehimen</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Typst Universe]]></title>
+        <id>https://www.raycast.com/cscnk52/typst-universe</id>
+        <link href="https://www.raycast.com/cscnk52/typst-universe"/>
+        <updated>2026-01-06T21:57:33.000Z</updated>
+        <summary type="html"><![CDATA[Search for Typst Universe]]></summary>
+        <author>
+            <name>Cason Kervis</name>
+            <uri>https://www.raycast.com/cscnk52</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Luma]]></title>
+        <id>https://www.raycast.com/ridemountainpig/luma</id>
+        <link href="https://www.raycast.com/ridemountainpig/luma"/>
+        <updated>2026-01-06T08:53:27.000Z</updated>
+        <summary type="html"><![CDATA[Discover Luma event]]></summary>
+        <author>
+            <name>Yen Cheng</name>
+            <uri>https://www.raycast.com/ridemountainpig</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Window Walker]]></title>
+        <id>https://www.raycast.com/nazzy_wazzy_lu/window-walker</id>
+        <link href="https://www.raycast.com/nazzy_wazzy_lu/window-walker"/>
+        <updated>2026-01-02T14:28:10.000Z</updated>
+        <summary type="html"><![CDATA[Quickly switch between open windows. Search by app name or window title, minimize, close, or bring any window to the front.]]></summary>
+        <author>
+            <name>lu</name>
+            <uri>https://www.raycast.com/nazzy_wazzy_lu</uri>
+        </author>
+        <contributor>
+            <name>LostViking09</name>
+            <uri>https://www.raycast.com/LostViking09</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kutt]]></title>
+        <id>https://www.raycast.com/xmok/kutt</id>
+        <link href="https://www.raycast.com/xmok/kutt"/>
+        <updated>2026-01-02T05:22:36.000Z</updated>
+        <summary type="html"><![CDATA[Free & Open Source Modern URL Shortener]]></summary>
+        <author>
+            <name>xmok</name>
+            <uri>https://www.raycast.com/xmok</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fizzy]]></title>
+        <id>https://www.raycast.com/xmok/fizzy</id>
+        <link href="https://www.raycast.com/xmok/fizzy"/>
+        <updated>2025-12-24T14:07:56.000Z</updated>
+        <summary type="html"><![CDATA[Kanban as it should be. Not as it has been.]]></summary>
+        <author>
+            <name>xmok</name>
+            <uri>https://www.raycast.com/xmok</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[cdnjs]]></title>
+        <id>https://www.raycast.com/xmok/cdnjs</id>
+        <link href="https://www.raycast.com/xmok/cdnjs"/>
+        <updated>2025-12-24T14:03:11.000Z</updated>
+        <summary type="html"><![CDATA[Search libraries on cdnjs]]></summary>
+        <author>
+            <name>xmok</name>
+            <uri>https://www.raycast.com/xmok</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zyntra]]></title>
+        <id>https://www.raycast.com/xmok/zyntra</id>
+        <link href="https://www.raycast.com/xmok/zyntra"/>
+        <updated>2025-12-24T12:58:57.000Z</updated>
+        <summary type="html"><![CDATA[Unlimited mailboxes for QA teams]]></summary>
+        <author>
+            <name>xmok</name>
+            <uri>https://www.raycast.com/xmok</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Infomaniak]]></title>
+        <id>https://www.raycast.com/xmok/infomaniak</id>
+        <link href="https://www.raycast.com/xmok/infomaniak"/>
+        <updated>2025-12-24T12:55:48.000Z</updated>
+        <summary type="html"><![CDATA[Sovereign Cloud Service Provider]]></summary>
+        <author>
+            <name>xmok</name>
+            <uri>https://www.raycast.com/xmok</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows Domain]]></title>
+        <id>https://www.raycast.com/tonka3000/windows-domain</id>
+        <link href="https://www.raycast.com/tonka3000/windows-domain"/>
+        <updated>2025-12-19T15:01:33.000Z</updated>
+        <summary type="html"><![CDATA[Get Information from your current Windows Domain]]></summary>
+        <author>
+            <name>Michael Aigner</name>
+            <uri>https://www.raycast.com/tonka3000</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ArchiSteamFarm]]></title>
+        <id>https://www.raycast.com/nazzy_wazzy_lu/archisteamfarm</id>
+        <link href="https://www.raycast.com/nazzy_wazzy_lu/archisteamfarm"/>
+        <updated>2025-12-19T14:54:40.000Z</updated>
+        <summary type="html"><![CDATA[Interact with your locally hosted ASF instance via Raycast!]]></summary>
+        <author>
+            <name>lu</name>
+            <uri>https://www.raycast.com/nazzy_wazzy_lu</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DTF]]></title>
+        <id>https://www.raycast.com/Shadeov/dtf</id>
+        <link href="https://www.raycast.com/Shadeov/dtf"/>
+        <updated>2025-12-19T14:19:36.000Z</updated>
+        <summary type="html"><![CDATA[Browse posts, news, topics, and top blogs from DTF.ru with AI-powered features]]></summary>
+        <author>
+            <name>Shadeov</name>
+            <uri>https://www.raycast.com/Shadeov</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Geoguesser]]></title>
+        <id>https://www.raycast.com/boosteblume/geoguesser</id>
+        <link href="https://www.raycast.com/boosteblume/geoguesser"/>
+        <updated>2025-12-19T08:24:39.000Z</updated>
+        <summary type="html"><![CDATA[Allow you to check your profile, ranking and show you the current daily mission]]></summary>
+        <author>
+            <name>Max Blum</name>
+            <uri>https://www.raycast.com/boosteblume</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Remove Background]]></title>
+        <id>https://www.raycast.com/NathanThomassin/remove-background---replicate-api</id>
+        <link href="https://www.raycast.com/NathanThomassin/remove-background---replicate-api"/>
+        <updated>2025-12-19T07:28:12.000Z</updated>
+        <summary type="html"><![CDATA[Remove image backgrounds instantly using AI Powered by Replicate]]></summary>
+        <author>
+            <name>Nathan Thomassin</name>
+            <uri>https://www.raycast.com/NathanThomassin</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Seafile]]></title>
+        <id>https://www.raycast.com/xmok/seafile</id>
+        <link href="https://www.raycast.com/xmok/seafile"/>
+        <updated>2025-12-18T21:21:08.000Z</updated>
+        <summary type="html"><![CDATA[Open Source File Sync and Share Software]]></summary>
+        <author>
+            <name>xmok</name>
+            <uri>https://www.raycast.com/xmok</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Umami]]></title>
+        <id>https://www.raycast.com/xmok/umami</id>
+        <link href="https://www.raycast.com/xmok/umami"/>
+        <updated>2025-12-18T14:20:48.000Z</updated>
+        <summary type="html"><![CDATA[The modern analytics platform for effortless insights]]></summary>
+        <author>
+            <name>xmok</name>
+            <uri>https://www.raycast.com/xmok</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Aranet CO2 Monitor]]></title>
+        <id>https://www.raycast.com/Osprey/aranet-co2-monitor</id>
+        <link href="https://www.raycast.com/Osprey/aranet-co2-monitor"/>
+        <updated>2025-12-17T19:53:36.000Z</updated>
+        <summary type="html"><![CDATA[Monitor Aranet CO2 monitors via Bluetooth]]></summary>
+        <author>
+            <name>Joe</name>
+            <uri>https://www.raycast.com/Osprey</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lazygit Keybindings]]></title>
+        <id>https://www.raycast.com/NoamEfergan/lazygit-keybindings</id>
+        <link href="https://www.raycast.com/NoamEfergan/lazygit-keybindings"/>
+        <updated>2025-12-17T19:38:20.000Z</updated>
+        <summary type="html"><![CDATA[Search Lazygit keybindings by action or shortcut.]]></summary>
+        <author>
+            <name>Noam Efergan</name>
+            <uri>https://www.raycast.com/NoamEfergan</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NIF - Portugal Tax Number Lookup]]></title>
+        <id>https://www.raycast.com/rgllm/nif</id>
+        <link href="https://www.raycast.com/rgllm/nif"/>
+        <updated>2025-12-16T12:24:20.000Z</updated>
+        <summary type="html"><![CDATA[Search and verify Tax Identification Number (NIF) for Portuguese companies.]]></summary>
+        <author>
+            <name>Rogério Moreira</name>
+            <uri>https://www.raycast.com/rgllm</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Clipboard Type]]></title>
+        <id>https://www.raycast.com/krishna_bhanushali/clipboard-type</id>
+        <link href="https://www.raycast.com/krishna_bhanushali/clipboard-type"/>
+        <updated>2025-12-16T05:41:20.000Z</updated>
+        <summary type="html"><![CDATA[Clipboard Type allows you to paste values of your clipboard, in the places where direct pasting is not allowed, like many web forms or RDP where clipboard is not synced. With Clipboard Type first value of clipboard is typed using internal api rather using OS pasting command]]></summary>
+        <author>
+            <name>Krishna Bhanushali</name>
+            <uri>https://www.raycast.com/krishna_bhanushali</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows Terminal]]></title>
+        <id>https://www.raycast.com/lunaris/windows-terminal</id>
+        <link href="https://www.raycast.com/lunaris/windows-terminal"/>
+        <updated>2025-12-15T07:24:04.000Z</updated>
+        <summary type="html"><![CDATA[Launch and manage Windows Terminal instances]]></summary>
+        <author>
+            <name>Max Lunaris</name>
+            <uri>https://www.raycast.com/lunaris</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Language Tool - Spell & Grammar Checker]]></title>
+        <id>https://www.raycast.com/lucastaonline/raycast-language-tool</id>
+        <link href="https://www.raycast.com/lucastaonline/raycast-language-tool"/>
+        <updated>2025-12-15T05:28:16.000Z</updated>
+        <summary type="html"><![CDATA[Raycast extension that provides instant spelling and grammar correction using LanguageTool. Type any text, get real-time suggestions, and copy the improved version. Ideal for developers, writers, and anyone who wants fast, high-quality text corrections in multiple languages.]]></summary>
+        <author>
+            <name>Baiano</name>
+            <uri>https://www.raycast.com/lucastaonline</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Transit Departures (Catenary for Raycast)]]></title>
+        <id>https://www.raycast.com/quacksire/catenary-raycast</id>
+        <link href="https://www.raycast.com/quacksire/catenary-raycast"/>
+        <updated>2025-12-15T05:00:17.000Z</updated>
+        <summary type="html"><![CDATA[View real-time transit departures for any stop from anywhere using Catenary.]]></summary>
+        <author>
+            <name>quacksire</name>
+            <uri>https://www.raycast.com/quacksire</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows Default Wallpapers]]></title>
+        <id>https://www.raycast.com/muhammadrizo/windows-default-wallpapers</id>
+        <link href="https://www.raycast.com/muhammadrizo/windows-default-wallpapers"/>
+        <updated>2025-12-12T09:36:49.000Z</updated>
+        <summary type="html"><![CDATA[Easily change between the default Windows wallpapers without changing full themes]]></summary>
+        <author>
+            <name>Muhammadrizo Yusufov</name>
+            <uri>https://www.raycast.com/muhammadrizo</uri>
+        </author>
+    </entry>
+</feed>

@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Raycast Store - Latest</title>
+        <link>https://raycast.com</link>
+        <description>We write stuff from time to time that might be interesting 🤷‍♂️</description>
+        <lastBuildDate>Mon, 26 Jan 2026 20:09:57 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>Raycast Store - Latest</title>
+            <url>https://raycast.com/favicon.png</url>
+            <link>https://raycast.com</link>
+        </image>
+        <copyright>All rights reserved 2026, Raycast</copyright>
+        <item>
+            <title><![CDATA[Art Wallpapers. Basalt]]></title>
+            <link>https://www.raycast.com/yevgen_glukhov/basalt-wallpapers</link>
+            <guid>https://www.raycast.com/yevgen_glukhov/basalt-wallpapers</guid>
+            <pubDate>Mon, 26 Jan 2026 20:09:57 GMT</pubDate>
+            <description><![CDATA[Hand-picked art, daily.]]></description>
+            <enclosure url="https://files.raycast.com/9ayylwgz3hukcnwcrz9zn6xfptwk" length="0" type="image//9ayylwgz3hukcnwcrz9zn6xfptwk"/>
+        </item>
+        <item>
+            <title><![CDATA[Mollie]]></title>
+            <link>https://www.raycast.com/otter/mollie-for-raycast</link>
+            <guid>https://www.raycast.com/otter/mollie-for-raycast</guid>
+            <pubDate>Mon, 26 Jan 2026 13:28:10 GMT</pubDate>
+            <description><![CDATA[A simple way to access and track Mollie in Raycast]]></description>
+            <enclosure url="https://files.raycast.com/522kp0lvir6y1jrhlddj7kvcdfle" length="0" type="image//522kp0lvir6y1jrhlddj7kvcdfle"/>
+        </item>
+        <item>
+            <title><![CDATA[Supabase Cron Monitor]]></title>
+            <link>https://www.raycast.com/adrianmarten/supabase-cron-monitor</link>
+            <guid>https://www.raycast.com/adrianmarten/supabase-cron-monitor</guid>
+            <pubDate>Mon, 26 Jan 2026 09:36:23 GMT</pubDate>
+            <description><![CDATA[Monitor Supabase pg_cron jobs and run history.]]></description>
+            <enclosure url="https://files.raycast.com/5hmmglpsfzcenspc9x685j1pcudx" length="0" type="image//5hmmglpsfzcenspc9x685j1pcudx"/>
+        </item>
+        <item>
+            <title><![CDATA[Custom Icon]]></title>
+            <link>https://www.raycast.com/phlo/custom-icon</link>
+            <guid>https://www.raycast.com/phlo/custom-icon</guid>
+            <pubDate>Mon, 26 Jan 2026 09:06:28 GMT</pubDate>
+            <description><![CDATA[Customize icons. Set and reset custom icons for apps, files, and folders.]]></description>
+            <enclosure url="https://files.raycast.com/1pu9xo4srjpuqibjm5zkd9uw6dik" length="0" type="image//1pu9xo4srjpuqibjm5zkd9uw6dik"/>
+        </item>
+        <item>
+            <title><![CDATA[Prompts.chat]]></title>
+            <link>https://www.raycast.com/fka/prompts-chat</link>
+            <guid>https://www.raycast.com/fka/prompts-chat</guid>
+            <pubDate>Mon, 26 Jan 2026 05:52:19 GMT</pubDate>
+            <description><![CDATA[Search, browse, and copy AI prompts from prompts.chat - the community platform for ChatGPT and AI prompts]]></description>
+            <enclosure url="https://files.raycast.com/hp23cpv9m1bxyzstngpovi17iclk" length="0" type="image//hp23cpv9m1bxyzstngpovi17iclk"/>
+        </item>
+        <item>
+            <title><![CDATA[Remix Icon]]></title>
+            <link>https://www.raycast.com/tristan_heinig/remix-icon</link>
+            <guid>https://www.raycast.com/tristan_heinig/remix-icon</guid>
+            <pubDate>Mon, 26 Jan 2026 05:39:08 GMT</pubDate>
+            <description><![CDATA[Search and browse icons from Remix Icon library]]></description>
+            <enclosure url="https://files.raycast.com/3fcii1t2qcpax6j46rmicqwjn517" length="0" type="image//3fcii1t2qcpax6j46rmicqwjn517"/>
+        </item>
+        <item>
+            <title><![CDATA[42 Api Tools]]></title>
+            <link>https://www.raycast.com/maujogue/42-api</link>
+            <guid>https://www.raycast.com/maujogue/42-api</guid>
+            <pubDate>Mon, 26 Jan 2026 05:35:17 GMT</pubDate>
+            <description><![CDATA[Track your logtime and find peers in 42 school clusters directly from Raycast]]></description>
+            <enclosure url="https://files.raycast.com/l8pbod4ht9z2hgmenl7narqd9gk9" length="0" type="image//l8pbod4ht9z2hgmenl7narqd9gk9"/>
+        </item>
+        <item>
+            <title><![CDATA[Pin]]></title>
+            <link>https://www.raycast.com/tanb/pin</link>
+            <guid>https://www.raycast.com/tanb/pin</guid>
+            <pubDate>Mon, 26 Jan 2026 05:18:49 GMT</pubDate>
+            <description><![CDATA[Extension for Pin.app. Pin any window to stay always on top using a mirror overlay.]]></description>
+            <enclosure url="https://files.raycast.com/569zr2893p5m39w7u1s5kcdrp4on" length="0" type="image//569zr2893p5m39w7u1s5kcdrp4on"/>
+        </item>
+        <item>
+            <title><![CDATA[ETS2/ATS Profiles]]></title>
+            <link>https://www.raycast.com/yugveer28/ets2-ats-profiles</link>
+            <guid>https://www.raycast.com/yugveer28/ets2-ats-profiles</guid>
+            <pubDate>Mon, 26 Jan 2026 04:20:48 GMT</pubDate>
+            <description><![CDATA[Manage Euro Truck Simulator 2 and American Truck Simulator Profiles directly from Raycast!]]></description>
+            <enclosure url="https://files.raycast.com/5ve1yofh5abhtyrja8xm4l60b8b0" length="0" type="image//5ve1yofh5abhtyrja8xm4l60b8b0"/>
+        </item>
+        <item>
+            <title><![CDATA[Fumadocs]]></title>
+            <link>https://www.raycast.com/ridemountainpig/fumadocs</link>
+            <guid>https://www.raycast.com/ridemountainpig/fumadocs</guid>
+            <pubDate>Sun, 25 Jan 2026 21:47:23 GMT</pubDate>
+            <description><![CDATA[Search and browse Fumadocs documentation]]></description>
+            <enclosure url="https://files.raycast.com/3jd7uxd72zzq19jsg46x078qqoge" length="0" type="image//3jd7uxd72zzq19jsg46x078qqoge"/>
+        </item>
+        <item>
+            <title><![CDATA[Next Lens]]></title>
+            <link>https://www.raycast.com/1weiho/next-lens</link>
+            <guid>https://www.raycast.com/1weiho/next-lens</guid>
+            <pubDate>Sat, 24 Jan 2026 20:46:50 GMT</pubDate>
+            <description><![CDATA[Scans Next.js routes and provides quick insights in the extension.]]></description>
+            <enclosure url="https://files.raycast.com/p1osiktc9ckh14bqosv0o579uiux" length="0" type="image//p1osiktc9ckh14bqosv0o579uiux"/>
+        </item>
+        <item>
+            <title><![CDATA[Manus]]></title>
+            <link>https://www.raycast.com/KthKuang/manus</link>
+            <guid>https://www.raycast.com/KthKuang/manus</guid>
+            <pubDate>Sat, 24 Jan 2026 18:05:06 GMT</pubDate>
+            <description><![CDATA[Search and manage Manus AI tasks]]></description>
+            <enclosure url="https://files.raycast.com/617x0cxq77pqkmnwlxigr46a7n1n" length="0" type="image//617x0cxq77pqkmnwlxigr46a7n1n"/>
+        </item>
+        <item>
+            <title><![CDATA[LocalSend]]></title>
+            <link>https://www.raycast.com/kud/localsend</link>
+            <guid>https://www.raycast.com/kud/localsend</guid>
+            <pubDate>Sat, 24 Jan 2026 09:44:32 GMT</pubDate>
+            <description><![CDATA[Share files to nearby devices using LocalSend protocol]]></description>
+            <enclosure url="https://files.raycast.com/zvgeqvgyt4m35h99n8749pfnoc34" length="0" type="image//zvgeqvgyt4m35h99n8749pfnoc34"/>
+        </item>
+        <item>
+            <title><![CDATA[Query.Domains]]></title>
+            <link>https://www.raycast.com/nextwalkerovo/query-domains</link>
+            <guid>https://www.raycast.com/nextwalkerovo/query-domains</guid>
+            <pubDate>Sat, 24 Jan 2026 04:16:41 GMT</pubDate>
+            <description><![CDATA[Check domain WHOIS, availability, traffic, and tech stack in one place]]></description>
+            <enclosure url="https://files.raycast.com/85o3jnfp4z2cxe9y24slp1x9qexh" length="0" type="image//85o3jnfp4z2cxe9y24slp1x9qexh"/>
+        </item>
+        <item>
+            <title><![CDATA[ClaudeCast]]></title>
+            <link>https://www.raycast.com/qazi0/claudecast</link>
+            <guid>https://www.raycast.com/qazi0/claudecast</guid>
+            <pubDate>Fri, 23 Jan 2026 20:21:28 GMT</pubDate>
+            <description><![CDATA[Claude Code workflows at your fingertips - Quick prompts, session management, and agentic workflows]]></description>
+            <enclosure url="https://files.raycast.com/bx4idyvg1tpt725x4gyk1daalwn7" length="0" type="image//bx4idyvg1tpt725x4gyk1daalwn7"/>
+        </item>
+        <item>
+            <title><![CDATA[Font Converter]]></title>
+            <link>https://www.raycast.com/meshal/font-converter</link>
+            <guid>https://www.raycast.com/meshal/font-converter</guid>
+            <pubDate>Fri, 23 Jan 2026 18:58:30 GMT</pubDate>
+            <description><![CDATA[Convert fonts to TTF, WOFF, WOFF2, and EOT formats directly from Raycast]]></description>
+            <enclosure url="https://files.raycast.com/sx74lxsdfqr8m1v7w3k97zc6lgun" length="0" type="image//sx74lxsdfqr8m1v7w3k97zc6lgun"/>
+        </item>
+        <item>
+            <title><![CDATA[Proton Mail]]></title>
+            <link>https://www.raycast.com/NormC/proton-mail</link>
+            <guid>https://www.raycast.com/NormC/proton-mail</guid>
+            <pubDate>Fri, 23 Jan 2026 16:28:33 GMT</pubDate>
+            <description><![CDATA[View and manage your Proton Mail inbox via Proton Mail Bridge]]></description>
+            <enclosure url="https://files.raycast.com/klgqsp5e6gvonfgunmw490g63vdd" length="0" type="image//klgqsp5e6gvonfgunmw490g63vdd"/>
+        </item>
+        <item>
+            <title><![CDATA[iOS Resolution]]></title>
+            <link>https://www.raycast.com/ertem_biyik/ios-resolution</link>
+            <guid>https://www.raycast.com/ertem_biyik/ios-resolution</guid>
+            <pubDate>Fri, 23 Jan 2026 15:17:52 GMT</pubDate>
+            <description><![CDATA[Display properties of every iPhone, iPad, iPod touch and Apple Watch Apple ever made]]></description>
+            <enclosure url="https://files.raycast.com/libs7yqz4ddub37qdcf9eo60jivq" length="0" type="image//libs7yqz4ddub37qdcf9eo60jivq"/>
+        </item>
+        <item>
+            <title><![CDATA[rclone]]></title>
+            <link>https://www.raycast.com/rclone/rclone-raycast</link>
+            <guid>https://www.raycast.com/rclone/rclone-raycast</guid>
+            <pubDate>Fri, 23 Jan 2026 12:27:31 GMT</pubDate>
+            <description><![CDATA[A Raycast extension for rclone]]></description>
+            <enclosure url="https://files.raycast.com/162r3jb4o9bcy3t1o725stm50hqc" length="0" type="image//162r3jb4o9bcy3t1o725stm50hqc"/>
+        </item>
+        <item>
+            <title><![CDATA[40 Questions - Yearly Reflection]]></title>
+            <link>https://www.raycast.com/dnnsmnstrr/40-questions</link>
+            <guid>https://www.raycast.com/dnnsmnstrr/40-questions</guid>
+            <pubDate>Fri, 23 Jan 2026 11:43:49 GMT</pubDate>
+            <description><![CDATA[Questions to ask yourself at the end of each year]]></description>
+            <enclosure url="https://files.raycast.com/os76u5r9w6h2cv4evq0oam57quqy" length="0" type="image//os76u5r9w6h2cv4evq0oam57quqy"/>
+        </item>
+        <item>
+            <title><![CDATA[Pomo]]></title>
+            <link>https://www.raycast.com/claud/pomo</link>
+            <guid>https://www.raycast.com/claud/pomo</guid>
+            <pubDate>Thu, 22 Jan 2026 21:00:29 GMT</pubDate>
+            <description><![CDATA[Control Pomo, a minimal Pomodoro timer for your macOS menu bar]]></description>
+            <enclosure url="https://files.raycast.com/ly77luzldytzs08g7irmanigvivh" length="0" type="image//ly77luzldytzs08g7irmanigvivh"/>
+        </item>
+        <item>
+            <title><![CDATA[Bklit Analytics]]></title>
+            <link>https://www.raycast.com/uixmat/bklit-analytics</link>
+            <guid>https://www.raycast.com/uixmat/bklit-analytics</guid>
+            <pubDate>Thu, 22 Jan 2026 20:05:45 GMT</pubDate>
+            <description><![CDATA[This extension allows you to see your analytics daily digest both in your menu bar and in a snapshot view.]]></description>
+            <enclosure url="https://files.raycast.com/ss1k6qc03dulqxjx0w4hu61v5moy" length="0" type="image//ss1k6qc03dulqxjx0w4hu61v5moy"/>
+        </item>
+        <item>
+            <title><![CDATA[ShareX]]></title>
+            <link>https://www.raycast.com/the_revolution/sharex</link>
+            <guid>https://www.raycast.com/the_revolution/sharex</guid>
+            <pubDate>Thu, 22 Jan 2026 15:06:03 GMT</pubDate>
+            <description><![CDATA[Browse and create ShareX screenshots, videos, and GIFs from Raycast]]></description>
+            <enclosure url="https://files.raycast.com/eccx8tmr1ajzxta2308eahnb45bp" length="0" type="image//eccx8tmr1ajzxta2308eahnb45bp"/>
+        </item>
+        <item>
+            <title><![CDATA[Table Converter]]></title>
+            <link>https://www.raycast.com/naserowaimer/table-converter</link>
+            <guid>https://www.raycast.com/naserowaimer/table-converter</guid>
+            <pubDate>Wed, 21 Jan 2026 20:27:38 GMT</pubDate>
+            <description><![CDATA[Convert tables from Clipboard to Markdown and vice versa.]]></description>
+            <enclosure url="https://files.raycast.com/ldh9dksrxtzhorywe3hfgzmz99k2" length="0" type="image//ldh9dksrxtzhorywe3hfgzmz99k2"/>
+        </item>
+        <item>
+            <title><![CDATA[Go Links]]></title>
+            <link>https://www.raycast.com/boj/go-links</link>
+            <guid>https://www.raycast.com/boj/go-links</guid>
+            <pubDate>Wed, 21 Jan 2026 18:07:29 GMT</pubDate>
+            <description><![CDATA[autocomplete for Tailscale Go Links]]></description>
+            <enclosure url="https://files.raycast.com/fwxxfi9lz7confdfbm5ya7z9twe7" length="0" type="image//fwxxfi9lz7confdfbm5ya7z9twe7"/>
+        </item>
+        <item>
+            <title><![CDATA[SimpleLogin]]></title>
+            <link>https://www.raycast.com/ciko/simple-login</link>
+            <guid>https://www.raycast.com/ciko/simple-login</guid>
+            <pubDate>Wed, 21 Jan 2026 12:13:36 GMT</pubDate>
+            <description><![CDATA[Create and manage email aliases with SimpleLogin to protect your inbox from spam and trackers]]></description>
+            <enclosure url="https://files.raycast.com/2eqfhd32137ud4qza0ywgn82mz3s" length="0" type="image//2eqfhd32137ud4qza0ywgn82mz3s"/>
+        </item>
+        <item>
+            <title><![CDATA[F.lux Control]]></title>
+            <link>https://www.raycast.com/allejo/flux</link>
+            <guid>https://www.raycast.com/allejo/flux</guid>
+            <pubDate>Wed, 21 Jan 2026 05:53:47 GMT</pubDate>
+            <description><![CDATA[Control f.lux from Raycast.]]></description>
+            <enclosure url="https://files.raycast.com/d0kppbzj03dthvienqjpyh9er38e" length="0" type="image//d0kppbzj03dthvienqjpyh9er38e"/>
+        </item>
+        <item>
+            <title><![CDATA[Mnemosyne]]></title>
+            <link>https://www.raycast.com/dort/mnemosyne</link>
+            <guid>https://www.raycast.com/dort/mnemosyne</guid>
+            <pubDate>Tue, 20 Jan 2026 16:04:23 GMT</pubDate>
+            <description><![CDATA[Quickly save URLs and notes to your Mnemosyne knowledge library]]></description>
+            <enclosure url="https://files.raycast.com/t4fadkbj6afeprhql5vxsub11emk" length="0" type="image//t4fadkbj6afeprhql5vxsub11emk"/>
+        </item>
+        <item>
+            <title><![CDATA[Mac Mouse Fix]]></title>
+            <link>https://www.raycast.com/marcjulian/mac-mouse-fix</link>
+            <guid>https://www.raycast.com/marcjulian/mac-mouse-fix</guid>
+            <pubDate>Tue, 20 Jan 2026 07:00:52 GMT</pubDate>
+            <description><![CDATA[Control Mac Mouse Fix from Raycast]]></description>
+            <enclosure url="https://files.raycast.com/pvnvh10cx0u6xhd5t0h73xa0yz0p" length="0" type="image//pvnvh10cx0u6xhd5t0h73xa0yz0p"/>
+        </item>
+        <item>
+            <title><![CDATA[Hugeicons UI]]></title>
+            <link>https://www.raycast.com/adnan_tresnjo/hugeicons-ui</link>
+            <guid>https://www.raycast.com/adnan_tresnjo/hugeicons-ui</guid>
+            <pubDate>Tue, 20 Jan 2026 03:26:37 GMT</pubDate>
+            <description><![CDATA[Browse and copy Hugeicons icons quickly from Raycast]]></description>
+            <enclosure url="https://files.raycast.com/qz1deqae940imx1evxfxnll1l9f5" length="0" type="image//qz1deqae940imx1evxfxnll1l9f5"/>
+        </item>
+        <item>
+            <title><![CDATA[Stashit]]></title>
+            <link>https://www.raycast.com/pmzi/stashit</link>
+            <guid>https://www.raycast.com/pmzi/stashit</guid>
+            <pubDate>Mon, 19 Jan 2026 14:40:28 GMT</pubDate>
+            <description><![CDATA[A priority queue for managing tasks with priorities]]></description>
+            <enclosure url="https://files.raycast.com/r7875ih5xo72pb7jncnq11kzv4vo" length="0" type="image//r7875ih5xo72pb7jncnq11kzv4vo"/>
+        </item>
+        <item>
+            <title><![CDATA[TV Remote]]></title>
+            <link>https://www.raycast.com/alexi.build/tv-remote</link>
+            <guid>https://www.raycast.com/alexi.build/tv-remote</guid>
+            <pubDate>Mon, 19 Jan 2026 12:52:35 GMT</pubDate>
+            <description><![CDATA[Control Sony BRAVIA TV picture settings]]></description>
+            <enclosure url="https://files.raycast.com/6mszikmsk94pya3vwxg0y38sxtsx" length="0" type="image//6mszikmsk94pya3vwxg0y38sxtsx"/>
+        </item>
+        <item>
+            <title><![CDATA[Raycast Weekly Newsletter]]></title>
+            <link>https://www.raycast.com/alexi.build/raycast-weekly-newsletter</link>
+            <guid>https://www.raycast.com/alexi.build/raycast-weekly-newsletter</guid>
+            <pubDate>Mon, 19 Jan 2026 12:27:50 GMT</pubDate>
+            <description><![CDATA[Browse and interact with Raycast Weekly Newsletter]]></description>
+            <enclosure url="https://files.raycast.com/sl5vul9zg0640ptviy946ubig8i1" length="0" type="image//sl5vul9zg0640ptviy946ubig8i1"/>
+        </item>
+        <item>
+            <title><![CDATA[British National Formulary]]></title>
+            <link>https://www.raycast.com/jrssm/bnf-search-tool</link>
+            <guid>https://www.raycast.com/jrssm/bnf-search-tool</guid>
+            <pubDate>Mon, 19 Jan 2026 11:48:36 GMT</pubDate>
+            <description><![CDATA[Search the British National Formulary (BNF) or BNFC (Child version) for medication.]]></description>
+            <enclosure url="https://files.raycast.com/xrp5alce2ubozi2wk6zlfdznzylo" length="0" type="image//xrp5alce2ubozi2wk6zlfdznzylo"/>
+        </item>
+        <item>
+            <title><![CDATA[DreamHost]]></title>
+            <link>https://www.raycast.com/xmok/dreamhost</link>
+            <guid>https://www.raycast.com/xmok/dreamhost</guid>
+            <pubDate>Mon, 19 Jan 2026 10:08:35 GMT</pubDate>
+            <description><![CDATA[Manage DreamHost DNS Records]]></description>
+            <enclosure url="https://files.raycast.com/5xgvmsvxe7vmowgy2okxcqckm3e2" length="0" type="image//5xgvmsvxe7vmowgy2okxcqckm3e2"/>
+        </item>
+        <item>
+            <title><![CDATA[Winutils]]></title>
+            <link>https://www.raycast.com/makhlouf_belouadah/winutils</link>
+            <guid>https://www.raycast.com/makhlouf_belouadah/winutils</guid>
+            <pubDate>Mon, 19 Jan 2026 08:35:50 GMT</pubDate>
+            <description><![CDATA[Launches ChrisTitusTech's WinUtil bootstrap from GitHub.]]></description>
+            <enclosure url="https://files.raycast.com/u0kql4dplru46mtohbmgwvf3akhe" length="0" type="image//u0kql4dplru46mtohbmgwvf3akhe"/>
+        </item>
+        <item>
+            <title><![CDATA[ThermoConvert]]></title>
+            <link>https://www.raycast.com/kud/thermoconvert</link>
+            <guid>https://www.raycast.com/kud/thermoconvert</guid>
+            <pubDate>Mon, 19 Jan 2026 08:28:26 GMT</pubDate>
+            <description><![CDATA[Instantly convert between all major temperature scales]]></description>
+            <enclosure url="https://files.raycast.com/jy9qn37pih5xik7w7blkrn447hzu" length="0" type="image//jy9qn37pih5xik7w7blkrn447hzu"/>
+        </item>
+        <item>
+            <title><![CDATA[Biome]]></title>
+            <link>https://www.raycast.com/degouville/biome</link>
+            <guid>https://www.raycast.com/degouville/biome</guid>
+            <pubDate>Mon, 19 Jan 2026 07:56:09 GMT</pubDate>
+            <description><![CDATA[Manage and search for Biome rules and releases]]></description>
+            <enclosure url="https://files.raycast.com/3ctlr5sxo019elyofycdec4w19oz" length="0" type="image//3ctlr5sxo019elyofycdec4w19oz"/>
+        </item>
+        <item>
+            <title><![CDATA[FIX Helper]]></title>
+            <link>https://www.raycast.com/tianwg/fix-helper</link>
+            <guid>https://www.raycast.com/tianwg/fix-helper</guid>
+            <pubDate>Mon, 19 Jan 2026 07:44:05 GMT</pubDate>
+            <description><![CDATA[Quickly parse, analyze, and understand FIX messages with ease.]]></description>
+            <enclosure url="https://files.raycast.com/tio7759bu7ho6migh6nxzec5s07o" length="0" type="image//tio7759bu7ho6migh6nxzec5s07o"/>
+        </item>
+        <item>
+            <title><![CDATA[Tabby]]></title>
+            <link>https://www.raycast.com/chupi/tabby</link>
+            <guid>https://www.raycast.com/chupi/tabby</guid>
+            <pubDate>Mon, 19 Jan 2026 06:31:18 GMT</pubDate>
+            <description><![CDATA[Control Tabby terminal with Raycast]]></description>
+            <enclosure url="https://files.raycast.com/05rnl6vklhddeboquhf4ay56lh97" length="0" type="image//05rnl6vklhddeboquhf4ay56lh97"/>
+        </item>
+        <item>
+            <title><![CDATA[Parse - Speed Reader]]></title>
+            <link>https://www.raycast.com/traf/parse</link>
+            <guid>https://www.raycast.com/traf/parse</guid>
+            <pubDate>Fri, 16 Jan 2026 11:57:21 GMT</pubDate>
+            <description><![CDATA[Speed read copied text one word at a time.]]></description>
+            <enclosure url="https://files.raycast.com/uj5q2jzw47nu61p7cqm5svqt90dh" length="0" type="image//uj5q2jzw47nu61p7cqm5svqt90dh"/>
+        </item>
+        <item>
+            <title><![CDATA[Linkinize]]></title>
+            <link>https://www.raycast.com/linkinize/linkinize</link>
+            <guid>https://www.raycast.com/linkinize/linkinize</guid>
+            <pubDate>Fri, 16 Jan 2026 10:04:00 GMT</pubDate>
+            <description><![CDATA[AI Bookmark Manager For Teams]]></description>
+            <enclosure url="https://files.raycast.com/wzq5bqo4punwbsgmk4xq85yadods" length="0" type="image//wzq5bqo4punwbsgmk4xq85yadods"/>
+        </item>
+        <item>
+            <title><![CDATA[APIs Guru Search]]></title>
+            <link>https://www.raycast.com/zebapy/apis-guru-search</link>
+            <guid>https://www.raycast.com/zebapy/apis-guru-search</guid>
+            <pubDate>Fri, 16 Jan 2026 08:01:36 GMT</pubDate>
+            <description><![CDATA[Search APIs Guru, the largest public directory of APIs.]]></description>
+            <enclosure url="https://files.raycast.com/g1lw4822ymxkgze29f90a4fao5ng" length="0" type="image//g1lw4822ymxkgze29f90a4fao5ng"/>
+        </item>
+        <item>
+            <title><![CDATA[GLES to MaliOC]]></title>
+            <link>https://www.raycast.com/RomanVPX/gles-to-malioc</link>
+            <guid>https://www.raycast.com/RomanVPX/gles-to-malioc</guid>
+            <pubDate>Fri, 16 Jan 2026 07:50:27 GMT</pubDate>
+            <description><![CDATA[Compile GLES shader code with MaliOC and get performance stats.]]></description>
+            <enclosure url="https://files.raycast.com/jp8blzadfvl6g3us7ylt60erhi0v" length="0" type="image//jp8blzadfvl6g3us7ylt60erhi0v"/>
+        </item>
+        <item>
+            <title><![CDATA[Django Docs]]></title>
+            <link>https://www.raycast.com/JensAstrup/django-docs</link>
+            <guid>https://www.raycast.com/JensAstrup/django-docs</guid>
+            <pubDate>Thu, 15 Jan 2026 21:32:35 GMT</pubDate>
+            <description><![CDATA[Navigate and search through Django documentation]]></description>
+            <enclosure url="https://files.raycast.com/1vujvf0yvmtgafknr4cywhsd997z" length="0" type="image//1vujvf0yvmtgafknr4cywhsd997z"/>
+        </item>
+        <item>
+            <title><![CDATA[Convex]]></title>
+            <link>https://www.raycast.com/devwithbobby/convex</link>
+            <guid>https://www.raycast.com/devwithbobby/convex</guid>
+            <pubDate>Thu, 15 Jan 2026 18:59:57 GMT</pubDate>
+            <description><![CDATA[Interact with your Convex projects directly from Raycast]]></description>
+            <enclosure url="https://files.raycast.com/g51na5r1r8nt9fre6qqnt4lcqni3" length="0" type="image//g51na5r1r8nt9fre6qqnt4lcqni3"/>
+        </item>
+        <item>
+            <title><![CDATA[Try]]></title>
+            <link>https://www.raycast.com/wuyuxiangX/try</link>
+            <guid>https://www.raycast.com/wuyuxiangX/try</guid>
+            <pubDate>Thu, 15 Jan 2026 13:11:39 GMT</pubDate>
+            <description><![CDATA[Manage ephemeral workspace directories for experiments. A Raycast port of tobi/try.]]></description>
+            <enclosure url="https://files.raycast.com/ld38a0b5m7qp0loojn40l4qp9xr9" length="0" type="image//ld38a0b5m7qp0loojn40l4qp9xr9"/>
+        </item>
+        <item>
+            <title><![CDATA[SVG Studio]]></title>
+            <link>https://www.raycast.com/gaosunhao/svg-studio</link>
+            <guid>https://www.raycast.com/gaosunhao/svg-studio</guid>
+            <pubDate>Thu, 15 Jan 2026 13:06:42 GMT</pubDate>
+            <description><![CDATA[Powerful SVG previewer and editor with dark mode and PNG export.]]></description>
+            <enclosure url="https://files.raycast.com/627y2f9k7cmkhxmwuce08abmfavv" length="0" type="image//627y2f9k7cmkhxmwuce08abmfavv"/>
+        </item>
+        <item>
+            <title><![CDATA[Bikeshare Station Status]]></title>
+            <link>https://www.raycast.com/itsmingjie/bikeshare-station-status</link>
+            <guid>https://www.raycast.com/itsmingjie/bikeshare-station-status</guid>
+            <pubDate>Thu, 15 Jan 2026 12:49:12 GMT</pubDate>
+            <description><![CDATA[Check bike availability at Lyft bikeshare stations, including Citibike (NYC), Bay Wheels (Bay Area), Capital Bikeshare (DC), Biketown (Portland), and Divvy (Chicago).]]></description>
+            <enclosure url="https://files.raycast.com/9txf8ms31jmxxpqmggzrjtova2wu" length="0" type="image//9txf8ms31jmxxpqmggzrjtova2wu"/>
+        </item>
+        <item>
+            <title><![CDATA[Microsoft Office]]></title>
+            <link>https://www.raycast.com/tonka3000/microsoft-office</link>
+            <guid>https://www.raycast.com/tonka3000/microsoft-office</guid>
+            <pubDate>Thu, 15 Jan 2026 11:17:28 GMT</pubDate>
+            <description><![CDATA[Command for Office Products]]></description>
+            <enclosure url="https://files.raycast.com/ecopiz03zasta3jvd69tur8owb0d" length="0" type="image//ecopiz03zasta3jvd69tur8owb0d"/>
+        </item>
+        <item>
+            <title><![CDATA[Vietnamese Calendar]]></title>
+            <link>https://www.raycast.com/hoando/vietnamese-calendar</link>
+            <guid>https://www.raycast.com/hoando/vietnamese-calendar</guid>
+            <pubDate>Thu, 15 Jan 2026 11:15:32 GMT</pubDate>
+            <description><![CDATA[A comprehensive Vietnamese Lunar Calendar for Raycast. View Solar and Lunar dates, check holidays with anniversary counts, and navigate easily with shortcuts.]]></description>
+            <enclosure url="https://files.raycast.com/atkxf0r5h7bxfl8zrvbth459rnig" length="0" type="image//atkxf0r5h7bxfl8zrvbth459rnig"/>
+        </item>
+        <item>
+            <title><![CDATA[Windows to Linux Path]]></title>
+            <link>https://www.raycast.com/Showtc/windows-to-linux-path</link>
+            <guid>https://www.raycast.com/Showtc/windows-to-linux-path</guid>
+            <pubDate>Thu, 15 Jan 2026 11:08:28 GMT</pubDate>
+            <description><![CDATA[Converts a Windows path into a Linux one and copy it to the clipboard.]]></description>
+            <enclosure url="https://files.raycast.com/xxrunog762r95hiipa46e5clw2vd" length="0" type="image//xxrunog762r95hiipa46e5clw2vd"/>
+        </item>
+        <item>
+            <title><![CDATA[Better Aliases]]></title>
+            <link>https://www.raycast.com/alexi.build/better-aliases</link>
+            <guid>https://www.raycast.com/alexi.build/better-aliases</guid>
+            <pubDate>Thu, 15 Jan 2026 10:30:37 GMT</pubDate>
+            <description><![CDATA[Better Aliases - Create better aliases in Raycast]]></description>
+            <enclosure url="https://files.raycast.com/kq22kf2hthkh93c7wekb0m0qfpx8" length="0" type="image//kq22kf2hthkh93c7wekb0m0qfpx8"/>
+        </item>
+        <item>
+            <title><![CDATA[Font Sniper]]></title>
+            <link>https://www.raycast.com/riomadeit/font-sniper</link>
+            <guid>https://www.raycast.com/riomadeit/font-sniper</guid>
+            <pubDate>Thu, 15 Jan 2026 08:34:16 GMT</pubDate>
+            <description><![CDATA[Identify and download fonts from any website.
+
+Disclaimer: FontSniper detects loaded browser fonts for testing/research only. Read more in README]]></description>
+            <enclosure url="https://files.raycast.com/tr02erawold2kpbpecdwzn83i7od" length="0" type="image//tr02erawold2kpbpecdwzn83i7od"/>
+        </item>
+        <item>
+            <title><![CDATA[LLM Stats]]></title>
+            <link>https://www.raycast.com/ernest0n/llm-stats</link>
+            <guid>https://www.raycast.com/ernest0n/llm-stats</guid>
+            <pubDate>Thu, 15 Jan 2026 08:30:18 GMT</pubDate>
+            <description><![CDATA[The largest collection of high-quality evaluations for every AI modality—language, vision, code, reasoning, and beyond]]></description>
+            <enclosure url="https://files.raycast.com/xs0pvmrjlhcza2mdrqhmihbad8uf" length="0" type="image//xs0pvmrjlhcza2mdrqhmihbad8uf"/>
+        </item>
+        <item>
+            <title><![CDATA[Pitchcast - Pitchfork Reviews Search]]></title>
+            <link>https://www.raycast.com/stuartromanek/pitchcast</link>
+            <guid>https://www.raycast.com/stuartromanek/pitchcast</guid>
+            <pubDate>Thu, 15 Jan 2026 06:54:05 GMT</pubDate>
+            <description><![CDATA[Search Pitchfork.com Reviews]]></description>
+            <enclosure url="https://files.raycast.com/wi0d2adn840ayr2398h3t9y3jyt9" length="0" type="image//wi0d2adn840ayr2398h3t9y3jyt9"/>
+        </item>
+        <item>
+            <title><![CDATA[Rainaissance]]></title>
+            <link>https://www.raycast.com/freepicheep/rainaissance</link>
+            <guid>https://www.raycast.com/freepicheep/rainaissance</guid>
+            <pubDate>Wed, 14 Jan 2026 20:50:32 GMT</pubDate>
+            <description><![CDATA[Control rain and snow and background sounds on your Mac with Rainaissance through Raycast.]]></description>
+            <enclosure url="https://files.raycast.com/bapifbwb56no760mwqfvgmdoetef" length="0" type="image//bapifbwb56no760mwqfvgmdoetef"/>
+        </item>
+        <item>
+            <title><![CDATA[App Tag Manager]]></title>
+            <link>https://www.raycast.com/zaincheung/app-tag-manager</link>
+            <guid>https://www.raycast.com/zaincheung/app-tag-manager</guid>
+            <pubDate>Wed, 14 Jan 2026 10:52:42 GMT</pubDate>
+            <description><![CDATA[Organize and search macOS applications with tags]]></description>
+            <enclosure url="https://files.raycast.com/erfj3pqzwupk9jbtfj44qawib2sf" length="0" type="image//erfj3pqzwupk9jbtfj44qawib2sf"/>
+        </item>
+        <item>
+            <title><![CDATA[Monocle]]></title>
+            <link>https://www.raycast.com/emlez/monocle</link>
+            <guid>https://www.raycast.com/emlez/monocle</guid>
+            <pubDate>Wed, 14 Jan 2026 07:00:14 GMT</pubDate>
+            <description><![CDATA[Extension to control Monocle 3.0 for macOS
+
+Noise-cancelling for your  screen now with cursor shake]]></description>
+            <enclosure url="https://files.raycast.com/ajeb2u0b5f2cl414klpiiy97n6cu" length="0" type="image//ajeb2u0b5f2cl414klpiiy97n6cu"/>
+        </item>
+        <item>
+            <title><![CDATA[Microsoft OneDrive]]></title>
+            <link>https://www.raycast.com/xilopaint/microsoft-onedrive</link>
+            <guid>https://www.raycast.com/xilopaint/microsoft-onedrive</guid>
+            <pubDate>Wed, 14 Jan 2026 06:37:22 GMT</pubDate>
+            <description><![CDATA[Access, search, and manage your OneDrive and SharePoint files]]></description>
+            <enclosure url="https://files.raycast.com/1g2u2eyagpc3abtjiyotx3mm8hju" length="0" type="image//1g2u2eyagpc3abtjiyotx3mm8hju"/>
+        </item>
+        <item>
+            <title><![CDATA[Customer IO]]></title>
+            <link>https://www.raycast.com/NathanThomassin/customer-io</link>
+            <guid>https://www.raycast.com/NathanThomassin/customer-io</guid>
+            <pubDate>Tue, 13 Jan 2026 11:52:23 GMT</pubDate>
+            <description><![CDATA[Interact with customer.io via Raycast]]></description>
+            <enclosure url="https://files.raycast.com/fxuqzd9rwl01kc776bidpvquhrvw" length="0" type="image//fxuqzd9rwl01kc776bidpvquhrvw"/>
+        </item>
+        <item>
+            <title><![CDATA[Chinese Character Converter]]></title>
+            <link>https://www.raycast.com/simon_lai/chinese-character-converter</link>
+            <guid>https://www.raycast.com/simon_lai/chinese-character-converter</guid>
+            <pubDate>Mon, 12 Jan 2026 07:38:03 GMT</pubDate>
+            <description><![CDATA[Auto convert clipboard content between Traditional and Simplified Chinese]]></description>
+            <enclosure url="https://files.raycast.com/fss3sliwyzxy5dic1hl3ssybqomn" length="0" type="image//fss3sliwyzxy5dic1hl3ssybqomn"/>
+        </item>
+        <item>
+            <title><![CDATA[MXroute]]></title>
+            <link>https://www.raycast.com/xmok/mxroute</link>
+            <guid>https://www.raycast.com/xmok/mxroute</guid>
+            <pubDate>Mon, 12 Jan 2026 06:02:37 GMT</pubDate>
+            <description><![CDATA[Email hosting for your domains]]></description>
+            <enclosure url="https://files.raycast.com/t3je6ma5hbmqp0swqej7yfbxdeml" length="0" type="image//t3je6ma5hbmqp0swqej7yfbxdeml"/>
+        </item>
+        <item>
+            <title><![CDATA[Remote Desktop]]></title>
+            <link>https://www.raycast.com/tonka3000/remote-desktop</link>
+            <guid>https://www.raycast.com/tonka3000/remote-desktop</guid>
+            <pubDate>Fri, 09 Jan 2026 18:57:03 GMT</pubDate>
+            <description><![CDATA[Manage Remote Desktop connections]]></description>
+            <enclosure url="https://files.raycast.com/nvwc7mua8u211zbpkea5q3m1q8m7" length="0" type="image//nvwc7mua8u211zbpkea5q3m1q8m7"/>
+        </item>
+        <item>
+            <title><![CDATA[Hevy]]></title>
+            <link>https://www.raycast.com/clins1994/hevy</link>
+            <guid>https://www.raycast.com/clins1994/hevy</guid>
+            <pubDate>Fri, 09 Jan 2026 12:35:29 GMT</pubDate>
+            <description><![CDATA[Your Hevy workout data at your fingertips via Raycast]]></description>
+            <enclosure url="https://files.raycast.com/w8mnyo1i95zj1zzlymcvxyh6fx5l" length="0" type="image//w8mnyo1i95zj1zzlymcvxyh6fx5l"/>
+        </item>
+        <item>
+            <title><![CDATA[Random Date Generator]]></title>
+            <link>https://www.raycast.com/yasinozmeen/random-date-generator</link>
+            <guid>https://www.raycast.com/yasinozmeen/random-date-generator</guid>
+            <pubDate>Fri, 09 Jan 2026 10:30:57 GMT</pubDate>
+            <description><![CDATA[Generate random dates within a specified date range]]></description>
+            <enclosure url="https://files.raycast.com/9rrmdwz6ahizwgp30s32k10eo3gj" length="0" type="image//9rrmdwz6ahizwgp30s32k10eo3gj"/>
+        </item>
+        <item>
+            <title><![CDATA[Lemniscate | System Monitor]]></title>
+            <link>https://www.raycast.com/zhassulan_abdrakhmanov/lemniscate-system-monitor</link>
+            <guid>https://www.raycast.com/zhassulan_abdrakhmanov/lemniscate-system-monitor</guid>
+            <pubDate>Fri, 09 Jan 2026 09:24:34 GMT</pubDate>
+            <description><![CDATA[Get the basic CPU and memory usage information with process list]]></description>
+            <enclosure url="https://files.raycast.com/t1c3uio0jyzy47mm0u96q1xfbaex" length="0" type="image//t1c3uio0jyzy47mm0u96q1xfbaex"/>
+        </item>
+        <item>
+            <title><![CDATA[PowerToys Tool Runner]]></title>
+            <link>https://www.raycast.com/LostViking09/powertoys-tool-runner</link>
+            <guid>https://www.raycast.com/LostViking09/powertoys-tool-runner</guid>
+            <pubDate>Fri, 09 Jan 2026 08:08:25 GMT</pubDate>
+            <description><![CDATA[Quickly open PowerToys tools]]></description>
+            <enclosure url="https://files.raycast.com/99qit6q1moeujozgf75i4xdtjxr2" length="0" type="image//99qit6q1moeujozgf75i4xdtjxr2"/>
+        </item>
+        <item>
+            <title><![CDATA[Unsure Calc]]></title>
+            <link>https://www.raycast.com/PythonicNinja/unsure-calc</link>
+            <guid>https://www.raycast.com/PythonicNinja/unsure-calc</guid>
+            <pubDate>Thu, 08 Jan 2026 16:53:19 GMT</pubDate>
+            <description><![CDATA[Lightweight probabilistic calculator that lets you type ranges (with `~`) and arithmetic to see exact bounds plus simulated outcomes and a text histogram.]]></description>
+            <enclosure url="https://files.raycast.com/bs7o7uj62t6oilsa326saq6c3i4e" length="0" type="image//bs7o7uj62t6oilsa326saq6c3i4e"/>
+        </item>
+        <item>
+            <title><![CDATA[Hotel Manager]]></title>
+            <link>https://www.raycast.com/yicone/hotel-manager</link>
+            <guid>https://www.raycast.com/yicone/hotel-manager</guid>
+            <pubDate>Thu, 08 Jan 2026 16:40:19 GMT</pubDate>
+            <description><![CDATA[Manage Hotel apps]]></description>
+            <enclosure url="https://files.raycast.com/gea3lh0nogcu5bsksetjpiumyzc5" length="0" type="image//gea3lh0nogcu5bsksetjpiumyzc5"/>
+        </item>
+        <item>
+            <title><![CDATA[MarkMarks]]></title>
+            <link>https://www.raycast.com/rmartins/markmarks</link>
+            <guid>https://www.raycast.com/rmartins/markmarks</guid>
+            <pubDate>Thu, 08 Jan 2026 12:44:30 GMT</pubDate>
+            <description><![CDATA[Manage bookmarks using a markdown file as persistence layer]]></description>
+            <enclosure url="https://files.raycast.com/m7x7zlo5yuolw9g6a01c4jxzhqyr" length="0" type="image//m7x7zlo5yuolw9g6a01c4jxzhqyr"/>
+        </item>
+        <item>
+            <title><![CDATA[Lokalise]]></title>
+            <link>https://www.raycast.com/ikupenov/lokalise</link>
+            <guid>https://www.raycast.com/ikupenov/lokalise</guid>
+            <pubDate>Thu, 08 Jan 2026 09:55:19 GMT</pubDate>
+            <description><![CDATA[Manage Lokalise translations directly from Raycast. Add new translation keys, search and browse existing translations, and copy values to clipboard—all without leaving your workflow.]]></description>
+            <enclosure url="https://files.raycast.com/a82mklmyja1qyrk8fmul85w0c1ro" length="0" type="image//a82mklmyja1qyrk8fmul85w0c1ro"/>
+        </item>
+        <item>
+            <title><![CDATA[No as a Service]]></title>
+            <link>https://www.raycast.com/nedini/no-as-a-service</link>
+            <guid>https://www.raycast.com/nedini/no-as-a-service</guid>
+            <pubDate>Thu, 08 Jan 2026 03:37:55 GMT</pubDate>
+            <description><![CDATA[Get a random reason to say no. 
+
+Inspired by https://github.com/hotheadhacker/no-as-a-service]]></description>
+            <enclosure url="https://files.raycast.com/9l1fk7vij8ip98tu8rj9kdzdi0wt" length="0" type="image//9l1fk7vij8ip98tu8rj9kdzdi0wt"/>
+        </item>
+        <item>
+            <title><![CDATA[Leader Key]]></title>
+            <link>https://www.raycast.com/alexi.build/leader-key</link>
+            <guid>https://www.raycast.com/alexi.build/leader-key</guid>
+            <pubDate>Wed, 07 Jan 2026 14:21:16 GMT</pubDate>
+            <description><![CDATA[Search and trigger Leader Key shortcuts by alias, label, or value.]]></description>
+            <enclosure url="https://files.raycast.com/3x3d2jrevdvpztw8qm3wmk462xsc" length="0" type="image//3x3d2jrevdvpztw8qm3wmk462xsc"/>
+        </item>
+        <item>
+            <title><![CDATA[Math Functions]]></title>
+            <link>https://www.raycast.com/jesper_sjoberg/math-functions</link>
+            <guid>https://www.raycast.com/jesper_sjoberg/math-functions</guid>
+            <pubDate>Wed, 07 Jan 2026 13:59:32 GMT</pubDate>
+            <description><![CDATA[Evaluate mathematical expressions with real-time results. Supports common functions like sum, gcd, lcm, trigonometry, and more. Type expressions and press Enter to copy results.]]></description>
+            <enclosure url="https://files.raycast.com/p2k5g12adpim6b4pndwvf71luuvm" length="0" type="image//p2k5g12adpim6b4pndwvf71luuvm"/>
+        </item>
+        <item>
+            <title><![CDATA[Qoder]]></title>
+            <link>https://www.raycast.com/ezreal09/qoder</link>
+            <guid>https://www.raycast.com/ezreal09/qoder</guid>
+            <pubDate>Wed, 07 Jan 2026 12:21:43 GMT</pubDate>
+            <description><![CDATA[Quick access to Qoder AI Editor]]></description>
+            <enclosure url="https://files.raycast.com/via81a5fqt36y58q0bjewlea387l" length="0" type="image//via81a5fqt36y58q0bjewlea387l"/>
+        </item>
+        <item>
+            <title><![CDATA[Rust Documentation]]></title>
+            <link>https://www.raycast.com/patrick-ehimen/rust-docs</link>
+            <guid>https://www.raycast.com/patrick-ehimen/rust-docs</guid>
+            <pubDate>Wed, 07 Jan 2026 08:56:37 GMT</pubDate>
+            <description><![CDATA[Search Rust Standard Library documentation]]></description>
+            <enclosure url="https://files.raycast.com/yiaq5mghp9iqib4zdifutxjnr9sd" length="0" type="image//yiaq5mghp9iqib4zdifutxjnr9sd"/>
+        </item>
+        <item>
+            <title><![CDATA[Typst Universe]]></title>
+            <link>https://www.raycast.com/cscnk52/typst-universe</link>
+            <guid>https://www.raycast.com/cscnk52/typst-universe</guid>
+            <pubDate>Tue, 06 Jan 2026 21:57:33 GMT</pubDate>
+            <description><![CDATA[Search for Typst Universe]]></description>
+            <enclosure url="https://files.raycast.com/ni0fcgprqz2ubafn47f1fn32x08x" length="0" type="image//ni0fcgprqz2ubafn47f1fn32x08x"/>
+        </item>
+        <item>
+            <title><![CDATA[Luma]]></title>
+            <link>https://www.raycast.com/ridemountainpig/luma</link>
+            <guid>https://www.raycast.com/ridemountainpig/luma</guid>
+            <pubDate>Tue, 06 Jan 2026 08:53:27 GMT</pubDate>
+            <description><![CDATA[Discover Luma event]]></description>
+            <enclosure url="https://files.raycast.com/mqgtfp4afal5wb2dlacwudomb1z8" length="0" type="image//mqgtfp4afal5wb2dlacwudomb1z8"/>
+        </item>
+        <item>
+            <title><![CDATA[Window Walker]]></title>
+            <link>https://www.raycast.com/nazzy_wazzy_lu/window-walker</link>
+            <guid>https://www.raycast.com/nazzy_wazzy_lu/window-walker</guid>
+            <pubDate>Fri, 02 Jan 2026 14:28:10 GMT</pubDate>
+            <description><![CDATA[Quickly switch between open windows. Search by app name or window title, minimize, close, or bring any window to the front.]]></description>
+            <enclosure url="https://files.raycast.com/x3va7kxq00il66kf6xbsrovbaah7" length="0" type="image//x3va7kxq00il66kf6xbsrovbaah7"/>
+        </item>
+        <item>
+            <title><![CDATA[Kutt]]></title>
+            <link>https://www.raycast.com/xmok/kutt</link>
+            <guid>https://www.raycast.com/xmok/kutt</guid>
+            <pubDate>Fri, 02 Jan 2026 05:22:36 GMT</pubDate>
+            <description><![CDATA[Free & Open Source Modern URL Shortener]]></description>
+            <enclosure url="https://files.raycast.com/szyyhsgz1e8pqxhh2hem73wh2orv" length="0" type="image//szyyhsgz1e8pqxhh2hem73wh2orv"/>
+        </item>
+        <item>
+            <title><![CDATA[Fizzy]]></title>
+            <link>https://www.raycast.com/xmok/fizzy</link>
+            <guid>https://www.raycast.com/xmok/fizzy</guid>
+            <pubDate>Wed, 24 Dec 2025 14:07:56 GMT</pubDate>
+            <description><![CDATA[Kanban as it should be. Not as it has been.]]></description>
+            <enclosure url="https://files.raycast.com/bmkcf6mg76va2lixkx2o7gxub897" length="0" type="image//bmkcf6mg76va2lixkx2o7gxub897"/>
+        </item>
+        <item>
+            <title><![CDATA[cdnjs]]></title>
+            <link>https://www.raycast.com/xmok/cdnjs</link>
+            <guid>https://www.raycast.com/xmok/cdnjs</guid>
+            <pubDate>Wed, 24 Dec 2025 14:03:11 GMT</pubDate>
+            <description><![CDATA[Search libraries on cdnjs]]></description>
+            <enclosure url="https://files.raycast.com/j3jr23vhd9fwsfp1211lx3nf7de9" length="0" type="image//j3jr23vhd9fwsfp1211lx3nf7de9"/>
+        </item>
+        <item>
+            <title><![CDATA[Zyntra]]></title>
+            <link>https://www.raycast.com/xmok/zyntra</link>
+            <guid>https://www.raycast.com/xmok/zyntra</guid>
+            <pubDate>Wed, 24 Dec 2025 12:58:57 GMT</pubDate>
+            <description><![CDATA[Unlimited mailboxes for QA teams]]></description>
+            <enclosure url="https://files.raycast.com/5p1xrtqodvw1c15xc4oecc5luu3a" length="0" type="image//5p1xrtqodvw1c15xc4oecc5luu3a"/>
+        </item>
+        <item>
+            <title><![CDATA[Infomaniak]]></title>
+            <link>https://www.raycast.com/xmok/infomaniak</link>
+            <guid>https://www.raycast.com/xmok/infomaniak</guid>
+            <pubDate>Wed, 24 Dec 2025 12:55:48 GMT</pubDate>
+            <description><![CDATA[Sovereign Cloud Service Provider]]></description>
+            <enclosure url="https://files.raycast.com/ashod4o97z4rm52q2h1dpw46aub1" length="0" type="image//ashod4o97z4rm52q2h1dpw46aub1"/>
+        </item>
+        <item>
+            <title><![CDATA[Windows Domain]]></title>
+            <link>https://www.raycast.com/tonka3000/windows-domain</link>
+            <guid>https://www.raycast.com/tonka3000/windows-domain</guid>
+            <pubDate>Fri, 19 Dec 2025 15:01:33 GMT</pubDate>
+            <description><![CDATA[Get Information from your current Windows Domain]]></description>
+            <enclosure url="https://files.raycast.com/jakvqhf65gdik0s54gz1benx8yu2" length="0" type="image//jakvqhf65gdik0s54gz1benx8yu2"/>
+        </item>
+        <item>
+            <title><![CDATA[ArchiSteamFarm]]></title>
+            <link>https://www.raycast.com/nazzy_wazzy_lu/archisteamfarm</link>
+            <guid>https://www.raycast.com/nazzy_wazzy_lu/archisteamfarm</guid>
+            <pubDate>Fri, 19 Dec 2025 14:54:40 GMT</pubDate>
+            <description><![CDATA[Interact with your locally hosted ASF instance via Raycast!]]></description>
+            <enclosure url="https://files.raycast.com/a80x2478wungps1j24snschjh7db" length="0" type="image//a80x2478wungps1j24snschjh7db"/>
+        </item>
+        <item>
+            <title><![CDATA[DTF]]></title>
+            <link>https://www.raycast.com/Shadeov/dtf</link>
+            <guid>https://www.raycast.com/Shadeov/dtf</guid>
+            <pubDate>Fri, 19 Dec 2025 14:19:36 GMT</pubDate>
+            <description><![CDATA[Browse posts, news, topics, and top blogs from DTF.ru with AI-powered features]]></description>
+            <enclosure url="https://files.raycast.com/qe5xa9xdec6wuns2o8so8vtt6oqc" length="0" type="image//qe5xa9xdec6wuns2o8so8vtt6oqc"/>
+        </item>
+        <item>
+            <title><![CDATA[Geoguesser]]></title>
+            <link>https://www.raycast.com/boosteblume/geoguesser</link>
+            <guid>https://www.raycast.com/boosteblume/geoguesser</guid>
+            <pubDate>Fri, 19 Dec 2025 08:24:39 GMT</pubDate>
+            <description><![CDATA[Allow you to check your profile, ranking and show you the current daily mission]]></description>
+            <enclosure url="https://files.raycast.com/najhyesbxtzskrb2gi7gk0vcvhn5" length="0" type="image//najhyesbxtzskrb2gi7gk0vcvhn5"/>
+        </item>
+        <item>
+            <title><![CDATA[Remove Background]]></title>
+            <link>https://www.raycast.com/NathanThomassin/remove-background---replicate-api</link>
+            <guid>https://www.raycast.com/NathanThomassin/remove-background---replicate-api</guid>
+            <pubDate>Fri, 19 Dec 2025 07:28:12 GMT</pubDate>
+            <description><![CDATA[Remove image backgrounds instantly using AI Powered by Replicate]]></description>
+            <enclosure url="https://files.raycast.com/ep4jvubove9ma7ak91wf463a8wek" length="0" type="image//ep4jvubove9ma7ak91wf463a8wek"/>
+        </item>
+        <item>
+            <title><![CDATA[Seafile]]></title>
+            <link>https://www.raycast.com/xmok/seafile</link>
+            <guid>https://www.raycast.com/xmok/seafile</guid>
+            <pubDate>Thu, 18 Dec 2025 21:21:08 GMT</pubDate>
+            <description><![CDATA[Open Source File Sync and Share Software]]></description>
+            <enclosure url="https://files.raycast.com/9ncwbi5k8a30fdb0m6u2ezt05dmv" length="0" type="image//9ncwbi5k8a30fdb0m6u2ezt05dmv"/>
+        </item>
+        <item>
+            <title><![CDATA[Umami]]></title>
+            <link>https://www.raycast.com/xmok/umami</link>
+            <guid>https://www.raycast.com/xmok/umami</guid>
+            <pubDate>Thu, 18 Dec 2025 14:20:48 GMT</pubDate>
+            <description><![CDATA[The modern analytics platform for effortless insights]]></description>
+            <enclosure url="https://files.raycast.com/f9r8sy46b6lx7sjzbmj7x40uinob" length="0" type="image//f9r8sy46b6lx7sjzbmj7x40uinob"/>
+        </item>
+        <item>
+            <title><![CDATA[Aranet CO2 Monitor]]></title>
+            <link>https://www.raycast.com/Osprey/aranet-co2-monitor</link>
+            <guid>https://www.raycast.com/Osprey/aranet-co2-monitor</guid>
+            <pubDate>Wed, 17 Dec 2025 19:53:36 GMT</pubDate>
+            <description><![CDATA[Monitor Aranet CO2 monitors via Bluetooth]]></description>
+            <enclosure url="https://files.raycast.com/znzy1e3d32te3fe11fiq3moio6vl" length="0" type="image//znzy1e3d32te3fe11fiq3moio6vl"/>
+        </item>
+        <item>
+            <title><![CDATA[Lazygit Keybindings]]></title>
+            <link>https://www.raycast.com/NoamEfergan/lazygit-keybindings</link>
+            <guid>https://www.raycast.com/NoamEfergan/lazygit-keybindings</guid>
+            <pubDate>Wed, 17 Dec 2025 19:38:20 GMT</pubDate>
+            <description><![CDATA[Search Lazygit keybindings by action or shortcut.]]></description>
+            <enclosure url="https://files.raycast.com/leq00v9rjx50rrg12o17h3ro3xzg" length="0" type="image//leq00v9rjx50rrg12o17h3ro3xzg"/>
+        </item>
+        <item>
+            <title><![CDATA[NIF - Portugal Tax Number Lookup]]></title>
+            <link>https://www.raycast.com/rgllm/nif</link>
+            <guid>https://www.raycast.com/rgllm/nif</guid>
+            <pubDate>Tue, 16 Dec 2025 12:24:20 GMT</pubDate>
+            <description><![CDATA[Search and verify Tax Identification Number (NIF) for Portuguese companies.]]></description>
+            <enclosure url="https://files.raycast.com/25xulfl8iysv9u8i6fu55xaaft79" length="0" type="image//25xulfl8iysv9u8i6fu55xaaft79"/>
+        </item>
+        <item>
+            <title><![CDATA[Clipboard Type]]></title>
+            <link>https://www.raycast.com/krishna_bhanushali/clipboard-type</link>
+            <guid>https://www.raycast.com/krishna_bhanushali/clipboard-type</guid>
+            <pubDate>Tue, 16 Dec 2025 05:41:20 GMT</pubDate>
+            <description><![CDATA[Clipboard Type allows you to paste values of your clipboard, in the places where direct pasting is not allowed, like many web forms or RDP where clipboard is not synced. With Clipboard Type first value of clipboard is typed using internal api rather using OS pasting command]]></description>
+            <enclosure url="https://files.raycast.com/u1ha49skillblufza5qamw4e4b78" length="0" type="image//u1ha49skillblufza5qamw4e4b78"/>
+        </item>
+        <item>
+            <title><![CDATA[Windows Terminal]]></title>
+            <link>https://www.raycast.com/lunaris/windows-terminal</link>
+            <guid>https://www.raycast.com/lunaris/windows-terminal</guid>
+            <pubDate>Mon, 15 Dec 2025 07:24:04 GMT</pubDate>
+            <description><![CDATA[Launch and manage Windows Terminal instances]]></description>
+            <enclosure url="https://files.raycast.com/wqeiqfcfnzyr8ep23l4ncq4n4c28" length="0" type="image//wqeiqfcfnzyr8ep23l4ncq4n4c28"/>
+        </item>
+        <item>
+            <title><![CDATA[Language Tool - Spell & Grammar Checker]]></title>
+            <link>https://www.raycast.com/lucastaonline/raycast-language-tool</link>
+            <guid>https://www.raycast.com/lucastaonline/raycast-language-tool</guid>
+            <pubDate>Mon, 15 Dec 2025 05:28:16 GMT</pubDate>
+            <description><![CDATA[Raycast extension that provides instant spelling and grammar correction using LanguageTool. Type any text, get real-time suggestions, and copy the improved version. Ideal for developers, writers, and anyone who wants fast, high-quality text corrections in multiple languages.]]></description>
+            <enclosure url="https://files.raycast.com/ykkueh21rz2pc4xj3z4zrzgoh50o" length="0" type="image//ykkueh21rz2pc4xj3z4zrzgoh50o"/>
+        </item>
+        <item>
+            <title><![CDATA[Transit Departures (Catenary for Raycast)]]></title>
+            <link>https://www.raycast.com/quacksire/catenary-raycast</link>
+            <guid>https://www.raycast.com/quacksire/catenary-raycast</guid>
+            <pubDate>Mon, 15 Dec 2025 05:00:17 GMT</pubDate>
+            <description><![CDATA[View real-time transit departures for any stop from anywhere using Catenary.]]></description>
+            <enclosure url="https://files.raycast.com/dwiydomusdm3zarc81y8w6el9f00" length="0" type="image//dwiydomusdm3zarc81y8w6el9f00"/>
+        </item>
+        <item>
+            <title><![CDATA[Windows Default Wallpapers]]></title>
+            <link>https://www.raycast.com/muhammadrizo/windows-default-wallpapers</link>
+            <guid>https://www.raycast.com/muhammadrizo/windows-default-wallpapers</guid>
+            <pubDate>Fri, 12 Dec 2025 09:36:49 GMT</pubDate>
+            <description><![CDATA[Easily change between the default Windows wallpapers without changing full themes]]></description>
+            <enclosure url="https://files.raycast.com/z1r0enrtgj4unphyhavfrq635d4v" length="0" type="image//z1r0enrtgj4unphyhavfrq635d4v"/>
+        </item>
+    </channel>
+</rss>

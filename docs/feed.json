@@ -1,0 +1,1209 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Raycast Store - Latest",
+    "home_page_url": "https://raycast.com",
+    "description": "We write stuff from time to time that might be interesting 🤷‍♂️",
+    "icon": "https://raycast.com/favicon.png",
+    "items": [
+        {
+            "id": "https://www.raycast.com/yevgen_glukhov/basalt-wallpapers",
+            "url": "https://www.raycast.com/yevgen_glukhov/basalt-wallpapers",
+            "title": "Art Wallpapers. Basalt",
+            "summary": "Hand-picked art, daily.",
+            "image": "https://files.raycast.com/9ayylwgz3hukcnwcrz9zn6xfptwk",
+            "date_modified": "2026-01-26T20:09:57.000Z",
+            "author": {
+                "name": "Yevgen Glukhov",
+                "url": "https://www.raycast.com/yevgen_glukhov"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/otter/mollie-for-raycast",
+            "url": "https://www.raycast.com/otter/mollie-for-raycast",
+            "title": "Mollie",
+            "summary": "A simple way to access and track Mollie in Raycast",
+            "image": "https://files.raycast.com/522kp0lvir6y1jrhlddj7kvcdfle",
+            "date_modified": "2026-01-26T13:28:10.000Z",
+            "author": {
+                "name": "Thomas",
+                "url": "https://www.raycast.com/otter"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/adrianmarten/supabase-cron-monitor",
+            "url": "https://www.raycast.com/adrianmarten/supabase-cron-monitor",
+            "title": "Supabase Cron Monitor",
+            "summary": "Monitor Supabase pg_cron jobs and run history.",
+            "image": "https://files.raycast.com/5hmmglpsfzcenspc9x685j1pcudx",
+            "date_modified": "2026-01-26T09:36:23.000Z",
+            "author": {
+                "name": "Adrian Martén",
+                "url": "https://www.raycast.com/adrianmarten"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/phlo/custom-icon",
+            "url": "https://www.raycast.com/phlo/custom-icon",
+            "title": "Custom Icon",
+            "summary": "Customize icons. Set and reset custom icons for apps, files, and folders.",
+            "image": "https://files.raycast.com/1pu9xo4srjpuqibjm5zkd9uw6dik",
+            "date_modified": "2026-01-26T09:06:28.000Z",
+            "author": {
+                "name": "Phlo",
+                "url": "https://www.raycast.com/phlo"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/fka/prompts-chat",
+            "url": "https://www.raycast.com/fka/prompts-chat",
+            "title": "Prompts.chat",
+            "summary": "Search, browse, and copy AI prompts from prompts.chat - the community platform for ChatGPT and AI prompts",
+            "image": "https://files.raycast.com/hp23cpv9m1bxyzstngpovi17iclk",
+            "date_modified": "2026-01-26T05:52:19.000Z",
+            "author": {
+                "name": "Fatih Kadir Akın",
+                "url": "https://www.raycast.com/fka"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/tristan_heinig/remix-icon",
+            "url": "https://www.raycast.com/tristan_heinig/remix-icon",
+            "title": "Remix Icon",
+            "summary": "Search and browse icons from Remix Icon library",
+            "image": "https://files.raycast.com/3fcii1t2qcpax6j46rmicqwjn517",
+            "date_modified": "2026-01-26T05:39:08.000Z",
+            "author": {
+                "name": "Tristan Heinig",
+                "url": "https://www.raycast.com/tristan_heinig"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/maujogue/42-api",
+            "url": "https://www.raycast.com/maujogue/42-api",
+            "title": "42 Api Tools",
+            "summary": "Track your logtime and find peers in 42 school clusters directly from Raycast",
+            "image": "https://files.raycast.com/l8pbod4ht9z2hgmenl7narqd9gk9",
+            "date_modified": "2026-01-26T05:35:17.000Z",
+            "author": {
+                "name": "mathis aujogue",
+                "url": "https://www.raycast.com/maujogue"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/tanb/pin",
+            "url": "https://www.raycast.com/tanb/pin",
+            "title": "Pin",
+            "summary": "Extension for Pin.app. Pin any window to stay always on top using a mirror overlay.",
+            "image": "https://files.raycast.com/569zr2893p5m39w7u1s5kcdrp4on",
+            "date_modified": "2026-01-26T05:18:49.000Z",
+            "author": {
+                "name": "Tomonori Tanabe",
+                "url": "https://www.raycast.com/tanb"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/yugveer28/ets2-ats-profiles",
+            "url": "https://www.raycast.com/yugveer28/ets2-ats-profiles",
+            "title": "ETS2/ATS Profiles",
+            "summary": "Manage Euro Truck Simulator 2 and American Truck Simulator Profiles directly from Raycast!",
+            "image": "https://files.raycast.com/5ve1yofh5abhtyrja8xm4l60b8b0",
+            "date_modified": "2026-01-26T04:20:48.000Z",
+            "author": {
+                "name": "Yugveer Wadzatia",
+                "url": "https://www.raycast.com/yugveer28"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/ridemountainpig/fumadocs",
+            "url": "https://www.raycast.com/ridemountainpig/fumadocs",
+            "title": "Fumadocs",
+            "summary": "Search and browse Fumadocs documentation",
+            "image": "https://files.raycast.com/3jd7uxd72zzq19jsg46x078qqoge",
+            "date_modified": "2026-01-25T21:47:23.000Z",
+            "author": {
+                "name": "Yen Cheng",
+                "url": "https://www.raycast.com/ridemountainpig"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/1weiho/next-lens",
+            "url": "https://www.raycast.com/1weiho/next-lens",
+            "title": "Next Lens",
+            "summary": "Scans Next.js routes and provides quick insights in the extension.",
+            "image": "https://files.raycast.com/p1osiktc9ckh14bqosv0o579uiux",
+            "date_modified": "2026-01-24T20:46:50.000Z",
+            "author": {
+                "name": "Yiwei Ho",
+                "url": "https://www.raycast.com/1weiho"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/KthKuang/manus",
+            "url": "https://www.raycast.com/KthKuang/manus",
+            "title": "Manus",
+            "summary": "Search and manage Manus AI tasks",
+            "image": "https://files.raycast.com/617x0cxq77pqkmnwlxigr46a7n1n",
+            "date_modified": "2026-01-24T18:05:06.000Z",
+            "author": {
+                "name": "Kth",
+                "url": "https://www.raycast.com/KthKuang"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/kud/localsend",
+            "url": "https://www.raycast.com/kud/localsend",
+            "title": "LocalSend",
+            "summary": "Share files to nearby devices using LocalSend protocol",
+            "image": "https://files.raycast.com/zvgeqvgyt4m35h99n8749pfnoc34",
+            "date_modified": "2026-01-24T09:44:32.000Z",
+            "author": {
+                "name": "Erwann Mest",
+                "url": "https://www.raycast.com/kud"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/nextwalkerovo/query-domains",
+            "url": "https://www.raycast.com/nextwalkerovo/query-domains",
+            "title": "Query.Domains",
+            "summary": "Check domain WHOIS, availability, traffic, and tech stack in one place",
+            "image": "https://files.raycast.com/85o3jnfp4z2cxe9y24slp1x9qexh",
+            "date_modified": "2026-01-24T04:16:41.000Z",
+            "author": {
+                "name": "Walker",
+                "url": "https://www.raycast.com/nextwalkerovo"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/qazi0/claudecast",
+            "url": "https://www.raycast.com/qazi0/claudecast",
+            "title": "ClaudeCast",
+            "summary": "Claude Code workflows at your fingertips - Quick prompts, session management, and agentic workflows",
+            "image": "https://files.raycast.com/bx4idyvg1tpt725x4gyk1daalwn7",
+            "date_modified": "2026-01-23T20:21:28.000Z",
+            "author": {
+                "name": "Siraj Qazi",
+                "url": "https://www.raycast.com/qazi0"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/meshal/font-converter",
+            "url": "https://www.raycast.com/meshal/font-converter",
+            "title": "Font Converter",
+            "summary": "Convert fonts to TTF, WOFF, WOFF2, and EOT formats directly from Raycast",
+            "image": "https://files.raycast.com/sx74lxsdfqr8m1v7w3k97zc6lgun",
+            "date_modified": "2026-01-23T18:58:30.000Z",
+            "author": {
+                "name": "meshal",
+                "url": "https://www.raycast.com/meshal"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/NormC/proton-mail",
+            "url": "https://www.raycast.com/NormC/proton-mail",
+            "title": "Proton Mail",
+            "summary": "View and manage your Proton Mail inbox via Proton Mail Bridge",
+            "image": "https://files.raycast.com/klgqsp5e6gvonfgunmw490g63vdd",
+            "date_modified": "2026-01-23T16:28:33.000Z",
+            "author": {
+                "name": "Norm Copeland",
+                "url": "https://www.raycast.com/NormC"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/ertem_biyik/ios-resolution",
+            "url": "https://www.raycast.com/ertem_biyik/ios-resolution",
+            "title": "iOS Resolution",
+            "summary": "Display properties of every iPhone, iPad, iPod touch and Apple Watch Apple ever made",
+            "image": "https://files.raycast.com/libs7yqz4ddub37qdcf9eo60jivq",
+            "date_modified": "2026-01-23T15:17:52.000Z",
+            "author": {
+                "name": "Ertem Biyik",
+                "url": "https://www.raycast.com/ertem_biyik"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/rclone/rclone-raycast",
+            "url": "https://www.raycast.com/rclone/rclone-raycast",
+            "title": "rclone",
+            "summary": "A Raycast extension for rclone",
+            "image": "https://files.raycast.com/162r3jb4o9bcy3t1o725stm50hqc",
+            "date_modified": "2026-01-23T12:27:31.000Z",
+            "author": {
+                "name": "rclone",
+                "url": "https://www.raycast.com/rclone"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/dnnsmnstrr/40-questions",
+            "url": "https://www.raycast.com/dnnsmnstrr/40-questions",
+            "title": "40 Questions - Yearly Reflection",
+            "summary": "Questions to ask yourself at the end of each year",
+            "image": "https://files.raycast.com/os76u5r9w6h2cv4evq0oam57quqy",
+            "date_modified": "2026-01-23T11:43:49.000Z",
+            "author": {
+                "name": "Dennis Muensterer",
+                "url": "https://www.raycast.com/dnnsmnstrr"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/claud/pomo",
+            "url": "https://www.raycast.com/claud/pomo",
+            "title": "Pomo",
+            "summary": "Control Pomo, a minimal Pomodoro timer for your macOS menu bar",
+            "image": "https://files.raycast.com/ly77luzldytzs08g7irmanigvivh",
+            "date_modified": "2026-01-22T21:00:29.000Z",
+            "author": {
+                "name": "Claudio Fuentes",
+                "url": "https://www.raycast.com/claud"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/uixmat/bklit-analytics",
+            "url": "https://www.raycast.com/uixmat/bklit-analytics",
+            "title": "Bklit Analytics",
+            "summary": "This extension allows you to see your analytics daily digest both in your menu bar and in a snapshot view.",
+            "image": "https://files.raycast.com/ss1k6qc03dulqxjx0w4hu61v5moy",
+            "date_modified": "2026-01-22T20:05:45.000Z",
+            "author": {
+                "name": "Matt",
+                "url": "https://www.raycast.com/uixmat"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/the_revolution/sharex",
+            "url": "https://www.raycast.com/the_revolution/sharex",
+            "title": "ShareX",
+            "summary": "Browse and create ShareX screenshots, videos, and GIFs from Raycast",
+            "image": "https://files.raycast.com/eccx8tmr1ajzxta2308eahnb45bp",
+            "date_modified": "2026-01-22T15:06:03.000Z",
+            "author": {
+                "name": "The Revolution",
+                "url": "https://www.raycast.com/the_revolution"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/naserowaimer/table-converter",
+            "url": "https://www.raycast.com/naserowaimer/table-converter",
+            "title": "Table Converter",
+            "summary": "Convert tables from Clipboard to Markdown and vice versa.",
+            "image": "https://files.raycast.com/ldh9dksrxtzhorywe3hfgzmz99k2",
+            "date_modified": "2026-01-21T20:27:38.000Z",
+            "author": {
+                "name": "Naser AlOwaimer",
+                "url": "https://www.raycast.com/naserowaimer"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/boj/go-links",
+            "url": "https://www.raycast.com/boj/go-links",
+            "title": "Go Links",
+            "summary": "autocomplete for Tailscale Go Links",
+            "image": "https://files.raycast.com/fwxxfi9lz7confdfbm5ya7z9twe7",
+            "date_modified": "2026-01-21T18:07:29.000Z",
+            "author": {
+                "name": "Bolaji Fatade",
+                "url": "https://www.raycast.com/boj"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/ciko/simple-login",
+            "url": "https://www.raycast.com/ciko/simple-login",
+            "title": "SimpleLogin",
+            "summary": "Create and manage email aliases with SimpleLogin to protect your inbox from spam and trackers",
+            "image": "https://files.raycast.com/2eqfhd32137ud4qza0ywgn82mz3s",
+            "date_modified": "2026-01-21T12:13:36.000Z",
+            "author": {
+                "name": "Andrej Kocijan",
+                "url": "https://www.raycast.com/ciko"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/allejo/flux",
+            "url": "https://www.raycast.com/allejo/flux",
+            "title": "F.lux Control",
+            "summary": "Control f.lux from Raycast.",
+            "image": "https://files.raycast.com/d0kppbzj03dthvienqjpyh9er38e",
+            "date_modified": "2026-01-21T05:53:47.000Z",
+            "author": {
+                "name": "Vladimir Jimenez",
+                "url": "https://www.raycast.com/allejo"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/dort/mnemosyne",
+            "url": "https://www.raycast.com/dort/mnemosyne",
+            "title": "Mnemosyne",
+            "summary": "Quickly save URLs and notes to your Mnemosyne knowledge library",
+            "image": "https://files.raycast.com/t4fadkbj6afeprhql5vxsub11emk",
+            "date_modified": "2026-01-20T16:04:23.000Z",
+            "author": {
+                "name": "Aditya Sarkar",
+                "url": "https://www.raycast.com/dort"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/marcjulian/mac-mouse-fix",
+            "url": "https://www.raycast.com/marcjulian/mac-mouse-fix",
+            "title": "Mac Mouse Fix",
+            "summary": "Control Mac Mouse Fix from Raycast",
+            "image": "https://files.raycast.com/pvnvh10cx0u6xhd5t0h73xa0yz0p",
+            "date_modified": "2026-01-20T07:00:52.000Z",
+            "author": {
+                "name": "Marc Julian",
+                "url": "https://www.raycast.com/marcjulian"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/adnan_tresnjo/hugeicons-ui",
+            "url": "https://www.raycast.com/adnan_tresnjo/hugeicons-ui",
+            "title": "Hugeicons UI",
+            "summary": "Browse and copy Hugeicons icons quickly from Raycast",
+            "image": "https://files.raycast.com/qz1deqae940imx1evxfxnll1l9f5",
+            "date_modified": "2026-01-20T03:26:37.000Z",
+            "author": {
+                "name": "Adnan Tresnjo",
+                "url": "https://www.raycast.com/adnan_tresnjo"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/pmzi/stashit",
+            "url": "https://www.raycast.com/pmzi/stashit",
+            "title": "Stashit",
+            "summary": "A priority queue for managing tasks with priorities",
+            "image": "https://files.raycast.com/r7875ih5xo72pb7jncnq11kzv4vo",
+            "date_modified": "2026-01-19T14:40:28.000Z",
+            "author": {
+                "name": "Pouya Mozaffar Magham",
+                "url": "https://www.raycast.com/pmzi"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/alexi.build/tv-remote",
+            "url": "https://www.raycast.com/alexi.build/tv-remote",
+            "title": "TV Remote",
+            "summary": "Control Sony BRAVIA TV picture settings",
+            "image": "https://files.raycast.com/6mszikmsk94pya3vwxg0y38sxtsx",
+            "date_modified": "2026-01-19T12:52:35.000Z",
+            "author": {
+                "name": "Alexi",
+                "url": "https://www.raycast.com/alexi.build"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/alexi.build/raycast-weekly-newsletter",
+            "url": "https://www.raycast.com/alexi.build/raycast-weekly-newsletter",
+            "title": "Raycast Weekly Newsletter",
+            "summary": "Browse and interact with Raycast Weekly Newsletter",
+            "image": "https://files.raycast.com/sl5vul9zg0640ptviy946ubig8i1",
+            "date_modified": "2026-01-19T12:27:50.000Z",
+            "author": {
+                "name": "Alexi",
+                "url": "https://www.raycast.com/alexi.build"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/jrssm/bnf-search-tool",
+            "url": "https://www.raycast.com/jrssm/bnf-search-tool",
+            "title": "British National Formulary",
+            "summary": "Search the British National Formulary (BNF) or BNFC (Child version) for medication.",
+            "image": "https://files.raycast.com/xrp5alce2ubozi2wk6zlfdznzylo",
+            "date_modified": "2026-01-19T11:48:36.000Z",
+            "author": {
+                "name": "Jack Smith",
+                "url": "https://www.raycast.com/jrssm"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/xmok/dreamhost",
+            "url": "https://www.raycast.com/xmok/dreamhost",
+            "title": "DreamHost",
+            "summary": "Manage DreamHost DNS Records",
+            "image": "https://files.raycast.com/5xgvmsvxe7vmowgy2okxcqckm3e2",
+            "date_modified": "2026-01-19T10:08:35.000Z",
+            "author": {
+                "name": "xmok",
+                "url": "https://www.raycast.com/xmok"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/makhlouf_belouadah/winutils",
+            "url": "https://www.raycast.com/makhlouf_belouadah/winutils",
+            "title": "Winutils",
+            "summary": "Launches ChrisTitusTech's WinUtil bootstrap from GitHub.",
+            "image": "https://files.raycast.com/u0kql4dplru46mtohbmgwvf3akhe",
+            "date_modified": "2026-01-19T08:35:50.000Z",
+            "author": {
+                "name": "Makhlouf belouadah",
+                "url": "https://www.raycast.com/makhlouf_belouadah"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/kud/thermoconvert",
+            "url": "https://www.raycast.com/kud/thermoconvert",
+            "title": "ThermoConvert",
+            "summary": "Instantly convert between all major temperature scales",
+            "image": "https://files.raycast.com/jy9qn37pih5xik7w7blkrn447hzu",
+            "date_modified": "2026-01-19T08:28:26.000Z",
+            "author": {
+                "name": "Erwann Mest",
+                "url": "https://www.raycast.com/kud"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/degouville/biome",
+            "url": "https://www.raycast.com/degouville/biome",
+            "title": "Biome",
+            "summary": "Manage and search for Biome rules and releases",
+            "image": "https://files.raycast.com/3ctlr5sxo019elyofycdec4w19oz",
+            "date_modified": "2026-01-19T07:56:09.000Z",
+            "author": {
+                "name": "Mathieu de Gouville",
+                "url": "https://www.raycast.com/degouville"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/tianwg/fix-helper",
+            "url": "https://www.raycast.com/tianwg/fix-helper",
+            "title": "FIX Helper",
+            "summary": "Quickly parse, analyze, and understand FIX messages with ease.",
+            "image": "https://files.raycast.com/tio7759bu7ho6migh6nxzec5s07o",
+            "date_modified": "2026-01-19T07:44:05.000Z",
+            "author": {
+                "name": "Weiguang Tian",
+                "url": "https://www.raycast.com/tianwg"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/chupi/tabby",
+            "url": "https://www.raycast.com/chupi/tabby",
+            "title": "Tabby",
+            "summary": "Control Tabby terminal with Raycast",
+            "image": "https://files.raycast.com/05rnl6vklhddeboquhf4ay56lh97",
+            "date_modified": "2026-01-19T06:31:18.000Z",
+            "author": {
+                "name": "varnier",
+                "url": "https://www.raycast.com/chupi"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/traf/parse",
+            "url": "https://www.raycast.com/traf/parse",
+            "title": "Parse - Speed Reader",
+            "summary": "Speed read copied text one word at a time.",
+            "image": "https://files.raycast.com/uj5q2jzw47nu61p7cqm5svqt90dh",
+            "date_modified": "2026-01-16T11:57:21.000Z",
+            "author": {
+                "name": "traf",
+                "url": "https://www.raycast.com/traf"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/linkinize/linkinize",
+            "url": "https://www.raycast.com/linkinize/linkinize",
+            "title": "Linkinize",
+            "summary": "AI Bookmark Manager For Teams",
+            "image": "https://files.raycast.com/wzq5bqo4punwbsgmk4xq85yadods",
+            "date_modified": "2026-01-16T10:04:00.000Z",
+            "author": {
+                "name": "Linkinize",
+                "url": "https://www.raycast.com/linkinize"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/zebapy/apis-guru-search",
+            "url": "https://www.raycast.com/zebapy/apis-guru-search",
+            "title": "APIs Guru Search",
+            "summary": "Search APIs Guru, the largest public directory of APIs.",
+            "image": "https://files.raycast.com/g1lw4822ymxkgze29f90a4fao5ng",
+            "date_modified": "2026-01-16T08:01:36.000Z",
+            "author": {
+                "name": "Zeb Pykosz",
+                "url": "https://www.raycast.com/zebapy"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/RomanVPX/gles-to-malioc",
+            "url": "https://www.raycast.com/RomanVPX/gles-to-malioc",
+            "title": "GLES to MaliOC",
+            "summary": "Compile GLES shader code with MaliOC and get performance stats.",
+            "image": "https://files.raycast.com/jp8blzadfvl6g3us7ylt60erhi0v",
+            "date_modified": "2026-01-16T07:50:27.000Z",
+            "author": {
+                "name": "Roman Vishnyakov",
+                "url": "https://www.raycast.com/RomanVPX"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/JensAstrup/django-docs",
+            "url": "https://www.raycast.com/JensAstrup/django-docs",
+            "title": "Django Docs",
+            "summary": "Navigate and search through Django documentation",
+            "image": "https://files.raycast.com/1vujvf0yvmtgafknr4cywhsd997z",
+            "date_modified": "2026-01-15T21:32:35.000Z",
+            "author": {
+                "name": "Jens Astrup",
+                "url": "https://www.raycast.com/JensAstrup"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/devwithbobby/convex",
+            "url": "https://www.raycast.com/devwithbobby/convex",
+            "title": "Convex",
+            "summary": "Interact with your Convex projects directly from Raycast",
+            "image": "https://files.raycast.com/g51na5r1r8nt9fre6qqnt4lcqni3",
+            "date_modified": "2026-01-15T18:59:57.000Z",
+            "author": {
+                "name": "Bobby Alv",
+                "url": "https://www.raycast.com/devwithbobby"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/wuyuxiangX/try",
+            "url": "https://www.raycast.com/wuyuxiangX/try",
+            "title": "Try",
+            "summary": "Manage ephemeral workspace directories for experiments. A Raycast port of tobi/try.",
+            "image": "https://files.raycast.com/ld38a0b5m7qp0loojn40l4qp9xr9",
+            "date_modified": "2026-01-15T13:11:39.000Z",
+            "author": {
+                "name": "wuyuxiangX",
+                "url": "https://www.raycast.com/wuyuxiangX"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/gaosunhao/svg-studio",
+            "url": "https://www.raycast.com/gaosunhao/svg-studio",
+            "title": "SVG Studio",
+            "summary": "Powerful SVG previewer and editor with dark mode and PNG export.",
+            "image": "https://files.raycast.com/627y2f9k7cmkhxmwuce08abmfavv",
+            "date_modified": "2026-01-15T13:06:42.000Z",
+            "author": {
+                "name": "孙豪 高",
+                "url": "https://www.raycast.com/gaosunhao"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/itsmingjie/bikeshare-station-status",
+            "url": "https://www.raycast.com/itsmingjie/bikeshare-station-status",
+            "title": "Bikeshare Station Status",
+            "summary": "Check bike availability at Lyft bikeshare stations, including Citibike (NYC), Bay Wheels (Bay Area), Capital Bikeshare (DC), Biketown (Portland), and Divvy (Chicago).",
+            "image": "https://files.raycast.com/9txf8ms31jmxxpqmggzrjtova2wu",
+            "date_modified": "2026-01-15T12:49:12.000Z",
+            "author": {
+                "name": "Mingjie Jiang",
+                "url": "https://www.raycast.com/itsmingjie"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/tonka3000/microsoft-office",
+            "url": "https://www.raycast.com/tonka3000/microsoft-office",
+            "title": "Microsoft Office",
+            "summary": "Command for Office Products",
+            "image": "https://files.raycast.com/ecopiz03zasta3jvd69tur8owb0d",
+            "date_modified": "2026-01-15T11:17:28.000Z",
+            "author": {
+                "name": "Michael Aigner",
+                "url": "https://www.raycast.com/tonka3000"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/hoando/vietnamese-calendar",
+            "url": "https://www.raycast.com/hoando/vietnamese-calendar",
+            "title": "Vietnamese Calendar",
+            "summary": "A comprehensive Vietnamese Lunar Calendar for Raycast. View Solar and Lunar dates, check holidays with anniversary counts, and navigate easily with shortcuts.",
+            "image": "https://files.raycast.com/atkxf0r5h7bxfl8zrvbth459rnig",
+            "date_modified": "2026-01-15T11:15:32.000Z",
+            "author": {
+                "name": "H D",
+                "url": "https://www.raycast.com/hoando"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/Showtc/windows-to-linux-path",
+            "url": "https://www.raycast.com/Showtc/windows-to-linux-path",
+            "title": "Windows to Linux Path",
+            "summary": "Converts a Windows path into a Linux one and copy it to the clipboard.",
+            "image": "https://files.raycast.com/xxrunog762r95hiipa46e5clw2vd",
+            "date_modified": "2026-01-15T11:08:28.000Z",
+            "author": {
+                "name": "Showtc",
+                "url": "https://www.raycast.com/Showtc"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/alexi.build/better-aliases",
+            "url": "https://www.raycast.com/alexi.build/better-aliases",
+            "title": "Better Aliases",
+            "summary": "Better Aliases - Create better aliases in Raycast",
+            "image": "https://files.raycast.com/kq22kf2hthkh93c7wekb0m0qfpx8",
+            "date_modified": "2026-01-15T10:30:37.000Z",
+            "author": {
+                "name": "Alexi",
+                "url": "https://www.raycast.com/alexi.build"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/riomadeit/font-sniper",
+            "url": "https://www.raycast.com/riomadeit/font-sniper",
+            "title": "Font Sniper",
+            "summary": "Identify and download fonts from any website.\n\nDisclaimer: FontSniper detects loaded browser fonts for testing/research only. Read more in README",
+            "image": "https://files.raycast.com/tr02erawold2kpbpecdwzn83i7od",
+            "date_modified": "2026-01-15T08:34:16.000Z",
+            "author": {
+                "name": "@riomadeit",
+                "url": "https://www.raycast.com/riomadeit"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/ernest0n/llm-stats",
+            "url": "https://www.raycast.com/ernest0n/llm-stats",
+            "title": "LLM Stats",
+            "summary": "The largest collection of high-quality evaluations for every AI modality—language, vision, code, reasoning, and beyond",
+            "image": "https://files.raycast.com/xs0pvmrjlhcza2mdrqhmihbad8uf",
+            "date_modified": "2026-01-15T08:30:18.000Z",
+            "author": {
+                "name": "Ernest0n",
+                "url": "https://www.raycast.com/ernest0n"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/stuartromanek/pitchcast",
+            "url": "https://www.raycast.com/stuartromanek/pitchcast",
+            "title": "Pitchcast - Pitchfork Reviews Search",
+            "summary": "Search Pitchfork.com Reviews",
+            "image": "https://files.raycast.com/wi0d2adn840ayr2398h3t9y3jyt9",
+            "date_modified": "2026-01-15T06:54:05.000Z",
+            "author": {
+                "name": "Stuart",
+                "url": "https://www.raycast.com/stuartromanek"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/freepicheep/rainaissance",
+            "url": "https://www.raycast.com/freepicheep/rainaissance",
+            "title": "Rainaissance",
+            "summary": "Control rain and snow and background sounds on your Mac with Rainaissance through Raycast.",
+            "image": "https://files.raycast.com/bapifbwb56no760mwqfvgmdoetef",
+            "date_modified": "2026-01-14T20:50:32.000Z",
+            "author": {
+                "name": "Friedrich Stoltzfus",
+                "url": "https://www.raycast.com/freepicheep"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/zaincheung/app-tag-manager",
+            "url": "https://www.raycast.com/zaincheung/app-tag-manager",
+            "title": "App Tag Manager",
+            "summary": "Organize and search macOS applications with tags",
+            "image": "https://files.raycast.com/erfj3pqzwupk9jbtfj44qawib2sf",
+            "date_modified": "2026-01-14T10:52:42.000Z",
+            "author": {
+                "name": "Zain Cheung",
+                "url": "https://www.raycast.com/zaincheung"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/emlez/monocle",
+            "url": "https://www.raycast.com/emlez/monocle",
+            "title": "Monocle",
+            "summary": "Extension to control Monocle 3.0 for macOS\n\nNoise-cancelling for your  screen now with cursor shake",
+            "image": "https://files.raycast.com/ajeb2u0b5f2cl414klpiiy97n6cu",
+            "date_modified": "2026-01-14T07:00:14.000Z",
+            "author": {
+                "name": "Emilio Sánchez",
+                "url": "https://www.raycast.com/emlez"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/xilopaint/microsoft-onedrive",
+            "url": "https://www.raycast.com/xilopaint/microsoft-onedrive",
+            "title": "Microsoft OneDrive",
+            "summary": "Access, search, and manage your OneDrive and SharePoint files",
+            "image": "https://files.raycast.com/1g2u2eyagpc3abtjiyotx3mm8hju",
+            "date_modified": "2026-01-14T06:37:22.000Z",
+            "author": {
+                "name": "Arthur Pinheiro",
+                "url": "https://www.raycast.com/xilopaint"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/NathanThomassin/customer-io",
+            "url": "https://www.raycast.com/NathanThomassin/customer-io",
+            "title": "Customer IO",
+            "summary": "Interact with customer.io via Raycast",
+            "image": "https://files.raycast.com/fxuqzd9rwl01kc776bidpvquhrvw",
+            "date_modified": "2026-01-13T11:52:23.000Z",
+            "author": {
+                "name": "Nathan Thomassin",
+                "url": "https://www.raycast.com/NathanThomassin"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/simon_lai/chinese-character-converter",
+            "url": "https://www.raycast.com/simon_lai/chinese-character-converter",
+            "title": "Chinese Character Converter",
+            "summary": "Auto convert clipboard content between Traditional and Simplified Chinese",
+            "image": "https://files.raycast.com/fss3sliwyzxy5dic1hl3ssybqomn",
+            "date_modified": "2026-01-12T07:38:03.000Z",
+            "author": {
+                "name": "Simon Lai",
+                "url": "https://www.raycast.com/simon_lai"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/xmok/mxroute",
+            "url": "https://www.raycast.com/xmok/mxroute",
+            "title": "MXroute",
+            "summary": "Email hosting for your domains",
+            "image": "https://files.raycast.com/t3je6ma5hbmqp0swqej7yfbxdeml",
+            "date_modified": "2026-01-12T06:02:37.000Z",
+            "author": {
+                "name": "xmok",
+                "url": "https://www.raycast.com/xmok"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/tonka3000/remote-desktop",
+            "url": "https://www.raycast.com/tonka3000/remote-desktop",
+            "title": "Remote Desktop",
+            "summary": "Manage Remote Desktop connections",
+            "image": "https://files.raycast.com/nvwc7mua8u211zbpkea5q3m1q8m7",
+            "date_modified": "2026-01-09T18:57:03.000Z",
+            "author": {
+                "name": "Michael Aigner",
+                "url": "https://www.raycast.com/tonka3000"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/clins1994/hevy",
+            "url": "https://www.raycast.com/clins1994/hevy",
+            "title": "Hevy",
+            "summary": "Your Hevy workout data at your fingertips via Raycast",
+            "image": "https://files.raycast.com/w8mnyo1i95zj1zzlymcvxyh6fx5l",
+            "date_modified": "2026-01-09T12:35:29.000Z",
+            "author": {
+                "name": "Caio Lins",
+                "url": "https://www.raycast.com/clins1994"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/yasinozmeen/random-date-generator",
+            "url": "https://www.raycast.com/yasinozmeen/random-date-generator",
+            "title": "Random Date Generator",
+            "summary": "Generate random dates within a specified date range",
+            "image": "https://files.raycast.com/9rrmdwz6ahizwgp30s32k10eo3gj",
+            "date_modified": "2026-01-09T10:30:57.000Z",
+            "author": {
+                "name": "Yasin Özmen",
+                "url": "https://www.raycast.com/yasinozmeen"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/zhassulan_abdrakhmanov/lemniscate-system-monitor",
+            "url": "https://www.raycast.com/zhassulan_abdrakhmanov/lemniscate-system-monitor",
+            "title": "Lemniscate | System Monitor",
+            "summary": "Get the basic CPU and memory usage information with process list",
+            "image": "https://files.raycast.com/t1c3uio0jyzy47mm0u96q1xfbaex",
+            "date_modified": "2026-01-09T09:24:34.000Z",
+            "author": {
+                "name": "Zhassulan Abdrakhmanov",
+                "url": "https://www.raycast.com/zhassulan_abdrakhmanov"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/LostViking09/powertoys-tool-runner",
+            "url": "https://www.raycast.com/LostViking09/powertoys-tool-runner",
+            "title": "PowerToys Tool Runner",
+            "summary": "Quickly open PowerToys tools",
+            "image": "https://files.raycast.com/99qit6q1moeujozgf75i4xdtjxr2",
+            "date_modified": "2026-01-09T08:08:25.000Z",
+            "author": {
+                "name": "LostViking09",
+                "url": "https://www.raycast.com/LostViking09"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/PythonicNinja/unsure-calc",
+            "url": "https://www.raycast.com/PythonicNinja/unsure-calc",
+            "title": "Unsure Calc",
+            "summary": "Lightweight probabilistic calculator that lets you type ranges (with `~`) and arithmetic to see exact bounds plus simulated outcomes and a text histogram.",
+            "image": "https://files.raycast.com/bs7o7uj62t6oilsa326saq6c3i4e",
+            "date_modified": "2026-01-08T16:53:19.000Z",
+            "author": {
+                "name": "Wojtek Nowak",
+                "url": "https://www.raycast.com/PythonicNinja"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/yicone/hotel-manager",
+            "url": "https://www.raycast.com/yicone/hotel-manager",
+            "title": "Hotel Manager",
+            "summary": "Manage Hotel apps",
+            "image": "https://files.raycast.com/gea3lh0nogcu5bsksetjpiumyzc5",
+            "date_modified": "2026-01-08T16:40:19.000Z",
+            "author": {
+                "name": "Yicone Wang",
+                "url": "https://www.raycast.com/yicone"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/rmartins/markmarks",
+            "url": "https://www.raycast.com/rmartins/markmarks",
+            "title": "MarkMarks",
+            "summary": "Manage bookmarks using a markdown file as persistence layer",
+            "image": "https://files.raycast.com/m7x7zlo5yuolw9g6a01c4jxzhqyr",
+            "date_modified": "2026-01-08T12:44:30.000Z",
+            "author": {
+                "name": "Rui",
+                "url": "https://www.raycast.com/rmartins"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/ikupenov/lokalise",
+            "url": "https://www.raycast.com/ikupenov/lokalise",
+            "title": "Lokalise",
+            "summary": "Manage Lokalise translations directly from Raycast. Add new translation keys, search and browse existing translations, and copy values to clipboard—all without leaving your workflow.",
+            "image": "https://files.raycast.com/a82mklmyja1qyrk8fmul85w0c1ro",
+            "date_modified": "2026-01-08T09:55:19.000Z",
+            "author": {
+                "name": "Iliyan Kupenov",
+                "url": "https://www.raycast.com/ikupenov"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/nedini/no-as-a-service",
+            "url": "https://www.raycast.com/nedini/no-as-a-service",
+            "title": "No as a Service",
+            "summary": "Get a random reason to say no. \n\nInspired by https://github.com/hotheadhacker/no-as-a-service",
+            "image": "https://files.raycast.com/9l1fk7vij8ip98tu8rj9kdzdi0wt",
+            "date_modified": "2026-01-08T03:37:55.000Z",
+            "author": {
+                "name": "Matthew Anderson",
+                "url": "https://www.raycast.com/nedini"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/alexi.build/leader-key",
+            "url": "https://www.raycast.com/alexi.build/leader-key",
+            "title": "Leader Key",
+            "summary": "Search and trigger Leader Key shortcuts by alias, label, or value.",
+            "image": "https://files.raycast.com/3x3d2jrevdvpztw8qm3wmk462xsc",
+            "date_modified": "2026-01-07T14:21:16.000Z",
+            "author": {
+                "name": "Alexi",
+                "url": "https://www.raycast.com/alexi.build"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/jesper_sjoberg/math-functions",
+            "url": "https://www.raycast.com/jesper_sjoberg/math-functions",
+            "title": "Math Functions",
+            "summary": "Evaluate mathematical expressions with real-time results. Supports common functions like sum, gcd, lcm, trigonometry, and more. Type expressions and press Enter to copy results.",
+            "image": "https://files.raycast.com/p2k5g12adpim6b4pndwvf71luuvm",
+            "date_modified": "2026-01-07T13:59:32.000Z",
+            "author": {
+                "name": "jesper sjöberg",
+                "url": "https://www.raycast.com/jesper_sjoberg"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/ezreal09/qoder",
+            "url": "https://www.raycast.com/ezreal09/qoder",
+            "title": "Qoder",
+            "summary": "Quick access to Qoder AI Editor",
+            "image": "https://files.raycast.com/via81a5fqt36y58q0bjewlea387l",
+            "date_modified": "2026-01-07T12:21:43.000Z",
+            "author": {
+                "name": "Ezreal09",
+                "url": "https://www.raycast.com/ezreal09"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/patrick-ehimen/rust-docs",
+            "url": "https://www.raycast.com/patrick-ehimen/rust-docs",
+            "title": "Rust Documentation",
+            "summary": "Search Rust Standard Library documentation",
+            "image": "https://files.raycast.com/yiaq5mghp9iqib4zdifutxjnr9sd",
+            "date_modified": "2026-01-07T08:56:37.000Z",
+            "author": {
+                "name": "0xOse",
+                "url": "https://www.raycast.com/patrick-ehimen"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/cscnk52/typst-universe",
+            "url": "https://www.raycast.com/cscnk52/typst-universe",
+            "title": "Typst Universe",
+            "summary": "Search for Typst Universe",
+            "image": "https://files.raycast.com/ni0fcgprqz2ubafn47f1fn32x08x",
+            "date_modified": "2026-01-06T21:57:33.000Z",
+            "author": {
+                "name": "Cason Kervis",
+                "url": "https://www.raycast.com/cscnk52"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/ridemountainpig/luma",
+            "url": "https://www.raycast.com/ridemountainpig/luma",
+            "title": "Luma",
+            "summary": "Discover Luma event",
+            "image": "https://files.raycast.com/mqgtfp4afal5wb2dlacwudomb1z8",
+            "date_modified": "2026-01-06T08:53:27.000Z",
+            "author": {
+                "name": "Yen Cheng",
+                "url": "https://www.raycast.com/ridemountainpig"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/nazzy_wazzy_lu/window-walker",
+            "url": "https://www.raycast.com/nazzy_wazzy_lu/window-walker",
+            "title": "Window Walker",
+            "summary": "Quickly switch between open windows. Search by app name or window title, minimize, close, or bring any window to the front.",
+            "image": "https://files.raycast.com/x3va7kxq00il66kf6xbsrovbaah7",
+            "date_modified": "2026-01-02T14:28:10.000Z",
+            "author": {
+                "name": "lu",
+                "url": "https://www.raycast.com/nazzy_wazzy_lu"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/xmok/kutt",
+            "url": "https://www.raycast.com/xmok/kutt",
+            "title": "Kutt",
+            "summary": "Free & Open Source Modern URL Shortener",
+            "image": "https://files.raycast.com/szyyhsgz1e8pqxhh2hem73wh2orv",
+            "date_modified": "2026-01-02T05:22:36.000Z",
+            "author": {
+                "name": "xmok",
+                "url": "https://www.raycast.com/xmok"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/xmok/fizzy",
+            "url": "https://www.raycast.com/xmok/fizzy",
+            "title": "Fizzy",
+            "summary": "Kanban as it should be. Not as it has been.",
+            "image": "https://files.raycast.com/bmkcf6mg76va2lixkx2o7gxub897",
+            "date_modified": "2025-12-24T14:07:56.000Z",
+            "author": {
+                "name": "xmok",
+                "url": "https://www.raycast.com/xmok"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/xmok/cdnjs",
+            "url": "https://www.raycast.com/xmok/cdnjs",
+            "title": "cdnjs",
+            "summary": "Search libraries on cdnjs",
+            "image": "https://files.raycast.com/j3jr23vhd9fwsfp1211lx3nf7de9",
+            "date_modified": "2025-12-24T14:03:11.000Z",
+            "author": {
+                "name": "xmok",
+                "url": "https://www.raycast.com/xmok"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/xmok/zyntra",
+            "url": "https://www.raycast.com/xmok/zyntra",
+            "title": "Zyntra",
+            "summary": "Unlimited mailboxes for QA teams",
+            "image": "https://files.raycast.com/5p1xrtqodvw1c15xc4oecc5luu3a",
+            "date_modified": "2025-12-24T12:58:57.000Z",
+            "author": {
+                "name": "xmok",
+                "url": "https://www.raycast.com/xmok"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/xmok/infomaniak",
+            "url": "https://www.raycast.com/xmok/infomaniak",
+            "title": "Infomaniak",
+            "summary": "Sovereign Cloud Service Provider",
+            "image": "https://files.raycast.com/ashod4o97z4rm52q2h1dpw46aub1",
+            "date_modified": "2025-12-24T12:55:48.000Z",
+            "author": {
+                "name": "xmok",
+                "url": "https://www.raycast.com/xmok"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/tonka3000/windows-domain",
+            "url": "https://www.raycast.com/tonka3000/windows-domain",
+            "title": "Windows Domain",
+            "summary": "Get Information from your current Windows Domain",
+            "image": "https://files.raycast.com/jakvqhf65gdik0s54gz1benx8yu2",
+            "date_modified": "2025-12-19T15:01:33.000Z",
+            "author": {
+                "name": "Michael Aigner",
+                "url": "https://www.raycast.com/tonka3000"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/nazzy_wazzy_lu/archisteamfarm",
+            "url": "https://www.raycast.com/nazzy_wazzy_lu/archisteamfarm",
+            "title": "ArchiSteamFarm",
+            "summary": "Interact with your locally hosted ASF instance via Raycast!",
+            "image": "https://files.raycast.com/a80x2478wungps1j24snschjh7db",
+            "date_modified": "2025-12-19T14:54:40.000Z",
+            "author": {
+                "name": "lu",
+                "url": "https://www.raycast.com/nazzy_wazzy_lu"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/Shadeov/dtf",
+            "url": "https://www.raycast.com/Shadeov/dtf",
+            "title": "DTF",
+            "summary": "Browse posts, news, topics, and top blogs from DTF.ru with AI-powered features",
+            "image": "https://files.raycast.com/qe5xa9xdec6wuns2o8so8vtt6oqc",
+            "date_modified": "2025-12-19T14:19:36.000Z",
+            "author": {
+                "name": "Shadeov",
+                "url": "https://www.raycast.com/Shadeov"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/boosteblume/geoguesser",
+            "url": "https://www.raycast.com/boosteblume/geoguesser",
+            "title": "Geoguesser",
+            "summary": "Allow you to check your profile, ranking and show you the current daily mission",
+            "image": "https://files.raycast.com/najhyesbxtzskrb2gi7gk0vcvhn5",
+            "date_modified": "2025-12-19T08:24:39.000Z",
+            "author": {
+                "name": "Max Blum",
+                "url": "https://www.raycast.com/boosteblume"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/NathanThomassin/remove-background---replicate-api",
+            "url": "https://www.raycast.com/NathanThomassin/remove-background---replicate-api",
+            "title": "Remove Background",
+            "summary": "Remove image backgrounds instantly using AI Powered by Replicate",
+            "image": "https://files.raycast.com/ep4jvubove9ma7ak91wf463a8wek",
+            "date_modified": "2025-12-19T07:28:12.000Z",
+            "author": {
+                "name": "Nathan Thomassin",
+                "url": "https://www.raycast.com/NathanThomassin"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/xmok/seafile",
+            "url": "https://www.raycast.com/xmok/seafile",
+            "title": "Seafile",
+            "summary": "Open Source File Sync and Share Software",
+            "image": "https://files.raycast.com/9ncwbi5k8a30fdb0m6u2ezt05dmv",
+            "date_modified": "2025-12-18T21:21:08.000Z",
+            "author": {
+                "name": "xmok",
+                "url": "https://www.raycast.com/xmok"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/xmok/umami",
+            "url": "https://www.raycast.com/xmok/umami",
+            "title": "Umami",
+            "summary": "The modern analytics platform for effortless insights",
+            "image": "https://files.raycast.com/f9r8sy46b6lx7sjzbmj7x40uinob",
+            "date_modified": "2025-12-18T14:20:48.000Z",
+            "author": {
+                "name": "xmok",
+                "url": "https://www.raycast.com/xmok"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/Osprey/aranet-co2-monitor",
+            "url": "https://www.raycast.com/Osprey/aranet-co2-monitor",
+            "title": "Aranet CO2 Monitor",
+            "summary": "Monitor Aranet CO2 monitors via Bluetooth",
+            "image": "https://files.raycast.com/znzy1e3d32te3fe11fiq3moio6vl",
+            "date_modified": "2025-12-17T19:53:36.000Z",
+            "author": {
+                "name": "Joe",
+                "url": "https://www.raycast.com/Osprey"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/NoamEfergan/lazygit-keybindings",
+            "url": "https://www.raycast.com/NoamEfergan/lazygit-keybindings",
+            "title": "Lazygit Keybindings",
+            "summary": "Search Lazygit keybindings by action or shortcut.",
+            "image": "https://files.raycast.com/leq00v9rjx50rrg12o17h3ro3xzg",
+            "date_modified": "2025-12-17T19:38:20.000Z",
+            "author": {
+                "name": "Noam Efergan",
+                "url": "https://www.raycast.com/NoamEfergan"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/rgllm/nif",
+            "url": "https://www.raycast.com/rgllm/nif",
+            "title": "NIF - Portugal Tax Number Lookup",
+            "summary": "Search and verify Tax Identification Number (NIF) for Portuguese companies.",
+            "image": "https://files.raycast.com/25xulfl8iysv9u8i6fu55xaaft79",
+            "date_modified": "2025-12-16T12:24:20.000Z",
+            "author": {
+                "name": "Rogério Moreira",
+                "url": "https://www.raycast.com/rgllm"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/krishna_bhanushali/clipboard-type",
+            "url": "https://www.raycast.com/krishna_bhanushali/clipboard-type",
+            "title": "Clipboard Type",
+            "summary": "Clipboard Type allows you to paste values of your clipboard, in the places where direct pasting is not allowed, like many web forms or RDP where clipboard is not synced. With Clipboard Type first value of clipboard is typed using internal api rather using OS pasting command",
+            "image": "https://files.raycast.com/u1ha49skillblufza5qamw4e4b78",
+            "date_modified": "2025-12-16T05:41:20.000Z",
+            "author": {
+                "name": "Krishna Bhanushali",
+                "url": "https://www.raycast.com/krishna_bhanushali"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/lunaris/windows-terminal",
+            "url": "https://www.raycast.com/lunaris/windows-terminal",
+            "title": "Windows Terminal",
+            "summary": "Launch and manage Windows Terminal instances",
+            "image": "https://files.raycast.com/wqeiqfcfnzyr8ep23l4ncq4n4c28",
+            "date_modified": "2025-12-15T07:24:04.000Z",
+            "author": {
+                "name": "Max Lunaris",
+                "url": "https://www.raycast.com/lunaris"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/lucastaonline/raycast-language-tool",
+            "url": "https://www.raycast.com/lucastaonline/raycast-language-tool",
+            "title": "Language Tool - Spell & Grammar Checker",
+            "summary": "Raycast extension that provides instant spelling and grammar correction using LanguageTool. Type any text, get real-time suggestions, and copy the improved version. Ideal for developers, writers, and anyone who wants fast, high-quality text corrections in multiple languages.",
+            "image": "https://files.raycast.com/ykkueh21rz2pc4xj3z4zrzgoh50o",
+            "date_modified": "2025-12-15T05:28:16.000Z",
+            "author": {
+                "name": "Baiano",
+                "url": "https://www.raycast.com/lucastaonline"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/quacksire/catenary-raycast",
+            "url": "https://www.raycast.com/quacksire/catenary-raycast",
+            "title": "Transit Departures (Catenary for Raycast)",
+            "summary": "View real-time transit departures for any stop from anywhere using Catenary.",
+            "image": "https://files.raycast.com/dwiydomusdm3zarc81y8w6el9f00",
+            "date_modified": "2025-12-15T05:00:17.000Z",
+            "author": {
+                "name": "quacksire",
+                "url": "https://www.raycast.com/quacksire"
+            }
+        },
+        {
+            "id": "https://www.raycast.com/muhammadrizo/windows-default-wallpapers",
+            "url": "https://www.raycast.com/muhammadrizo/windows-default-wallpapers",
+            "title": "Windows Default Wallpapers",
+            "summary": "Easily change between the default Windows wallpapers without changing full themes",
+            "image": "https://files.raycast.com/z1r0enrtgj4unphyhavfrq635d4v",
+            "date_modified": "2025-12-12T09:36:49.000Z",
+            "author": {
+                "name": "Muhammadrizo Yusufov",
+                "url": "https://www.raycast.com/muhammadrizo"
+            }
+        }
+    ]
+}
