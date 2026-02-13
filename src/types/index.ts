@@ -1,7 +1,3 @@
-interface Preferences {
-  platformFilter: "all" | "macOS" | "windows";
-}
-
 interface FeedAuthor {
   name: string;
   url: string;
