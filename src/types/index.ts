@@ -60,4 +60,4 @@ interface StoreItem {
 
 type FilterValue = "all" | "new" | "updated";
 
-export type { Preferences, FeedAuthor, FeedItem, Feed, GitHubPR, StoreItem, FilterValue };
+export type { FeedAuthor, FeedItem, Feed, GitHubPR, StoreItem, FilterValue };
