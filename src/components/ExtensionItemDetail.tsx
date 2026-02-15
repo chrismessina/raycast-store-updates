@@ -25,9 +25,7 @@ export function ExtensionItemDetail({ item }: { item: StoreItem }) {
   const hasMac = item.platforms?.some((p) => p.toLowerCase() === "macos") ?? true;
   const hasWindows = item.platforms?.some((p) => p.toLowerCase() === "windows") ?? false;
 
-  const validCategories = (item.categories ?? []).filter(
-    (c) => typeof c === "string" && c.trim().length > 0,
-  );
+  const validCategories = (item.categories ?? []).filter((c) => typeof c === "string" && c.trim().length > 0);
 
   const dateLabel = item.type === "new" ? "Published" : "Updated";
   const formattedDate = new Date(item.date).toLocaleDateString("en-US", {
