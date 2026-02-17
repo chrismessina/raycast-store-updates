@@ -209,7 +209,7 @@ export async function convertPRsToStoreItems(prs: GitHubPR[], newItemDates: Map<
     if (slug) {
       // Skip if this extension is in the "new" list and the PR is not newer
       const feedDate = newItemDates.get(slug);
-      if (feedDate && new Date(pr.merged_at).getTime() <= new Date(feedDate).getTime()) continue;
+      if (feedDate && new Date(pr.merged_at).getTime() < new Date(feedDate).getTime()) continue;
       if (seen.has(slug)) continue;
       seen.add(slug);
       candidates.push({ pr, slug });
