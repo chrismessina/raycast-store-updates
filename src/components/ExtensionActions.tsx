@@ -87,6 +87,7 @@ export function ExtensionActions({
           title="Copy Extension URL"
           content={item.url}
           shortcut={{ modifiers: ["cmd", "shift"], key: "c" }}
+          icon={Icon.Clipboard}
         />
       </ActionPanel.Section>
 
