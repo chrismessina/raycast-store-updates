@@ -54,7 +54,9 @@ export default function Command() {
         const resetHeader = response.headers.get("X-RateLimit-Reset");
         const resetEpoch = resetHeader ? parseInt(resetHeader, 10) : undefined;
         await recordRateLimit(resetEpoch);
-        throw new Error("rate limit exceeded");
+        // Return empty array so useFetch doesn't show its own error toast;
+        // the rate limit will be surfaced when the user next tries to refresh.
+        return [];
       }
       const resetHeader = response.headers.get("X-RateLimit-Reset");
       const resetEpoch = resetHeader ? parseInt(resetHeader, 10) : undefined;
