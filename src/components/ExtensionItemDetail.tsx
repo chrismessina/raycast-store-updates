@@ -43,7 +43,9 @@ export function ExtensionItemDetail({ item }: { item: StoreItem }) {
           <List.Item.Detail.Metadata.TagList title="Type">
             <List.Item.Detail.Metadata.TagList.Item
               text={item.type === "new" ? "New" : item.type === "removed" ? "Removed" : "Update"}
-              icon={item.type === "new" ? Icon.StarCircle : item.type === "removed" ? Icon.MinusCircle : Icon.ArrowUpCircle}
+              icon={
+                item.type === "new" ? Icon.StarCircle : item.type === "removed" ? Icon.MinusCircle : Icon.ArrowUpCircle
+              }
               color={item.type === "new" ? Color.Green : item.type === "removed" ? Color.Red : Color.Blue}
             />
           </List.Item.Detail.Metadata.TagList>
