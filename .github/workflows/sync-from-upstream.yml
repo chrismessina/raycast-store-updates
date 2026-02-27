@@ -4,6 +4,16 @@ on:
   repository_dispatch:
     types: [upstream-sync]
   workflow_dispatch:
+    inputs:
+      ext_dir:
+        description: "Override monorepo directory name (extensions/<ext_dir>) if it differs from package.json name"
+        required: false
+
+# Set UPSTREAM_EXT_DIR in repo-level env vars to permanently override the
+# monorepo directory name when it differs from the package.json name field.
+# e.g. for chrismessina/raycast-reader: UPSTREAM_EXT_DIR = reader-mode
+env:
+  UPSTREAM_EXT_DIR: ""
 
 jobs:
   sync:
@@ -21,6 +31,11 @@ jobs:
         id: meta
         run: |
           NAME=$(jq -r '.name' package.json)
+          # Use override if provided (dispatch payload > workflow input > env var > package.json name)
+          OVERRIDE="${{ github.event.client_payload.ext_name }}"
+          if [ -z "$OVERRIDE" ]; then OVERRIDE="${{ inputs.ext_dir }}"; fi
+          if [ -z "$OVERRIDE" ]; then OVERRIDE="${UPSTREAM_EXT_DIR}"; fi
+          if [ -n "$OVERRIDE" ]; then NAME="$OVERRIDE"; fi
           echo "name=$NAME" >> "$GITHUB_OUTPUT"
 
       - name: Download extension files from upstream monorepo
