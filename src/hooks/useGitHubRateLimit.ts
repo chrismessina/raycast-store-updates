@@ -1,14 +1,9 @@
 import { LocalStorage } from "@raycast/api";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback } from "react";
 
 const LAST_FETCH_KEY = "github-last-fetch-time";
 const RATE_LIMIT_RESET_KEY = "github-rate-limit-reset";
 const MIN_REFRESH_INTERVAL_MS = 5 * 60 * 1000; // 5 minutes
-
-interface RateLimitState {
-  lastFetchTime: number;
-  rateLimitResetTime: number | null;
-}
 
 interface UseGitHubRateLimitResult {
   /** Returns null if refresh is allowed, or a message describing when to retry. */
@@ -20,20 +15,6 @@ interface UseGitHubRateLimitResult {
 }
 
 export function useGitHubRateLimit(): UseGitHubRateLimitResult {
-  const [state, setState] = useState<RateLimitState>({ lastFetchTime: 0, rateLimitResetTime: null });
-
-  useEffect(() => {
-    Promise.all([
-      LocalStorage.getItem<string>(LAST_FETCH_KEY),
-      LocalStorage.getItem<string>(RATE_LIMIT_RESET_KEY),
-    ]).then(([lastFetch, resetTime]) => {
-      setState({
-        lastFetchTime: lastFetch ? parseInt(lastFetch, 10) : 0,
-        rateLimitResetTime: resetTime ? parseInt(resetTime, 10) : null,
-      });
-    });
-  }, []);
-
   const checkRefreshAllowed = useCallback(async (): Promise<string | null> => {
     const [lastFetch, resetTime] = await Promise.all([
       LocalStorage.getItem<string>(LAST_FETCH_KEY),
@@ -61,18 +42,13 @@ export function useGitHubRateLimit(): UseGitHubRateLimitResult {
   }, []);
 
   const recordFetch = useCallback(async (rateLimitResetEpochSeconds?: number) => {
-    const now = Date.now();
-    await LocalStorage.setItem(LAST_FETCH_KEY, String(now));
-    setState((s) => ({ ...s, lastFetchTime: now }));
+    await LocalStorage.setItem(LAST_FETCH_KEY, String(Date.now()));
 
     if (rateLimitResetEpochSeconds) {
-      const resetMs = rateLimitResetEpochSeconds * 1000;
-      await LocalStorage.setItem(RATE_LIMIT_RESET_KEY, String(resetMs));
-      setState((s) => ({ ...s, rateLimitResetTime: resetMs }));
+      await LocalStorage.setItem(RATE_LIMIT_RESET_KEY, String(rateLimitResetEpochSeconds * 1000));
     } else {
       // Clear any stale rate limit
       await LocalStorage.removeItem(RATE_LIMIT_RESET_KEY);
-      setState((s) => ({ ...s, rateLimitResetTime: null }));
     }
   }, []);
 
@@ -80,7 +56,6 @@ export function useGitHubRateLimit(): UseGitHubRateLimitResult {
     // Default: block for 60 minutes if we don't know the reset time
     const resetMs = resetEpochSeconds ? resetEpochSeconds * 1000 : Date.now() + 60 * 60 * 1000;
     await LocalStorage.setItem(RATE_LIMIT_RESET_KEY, String(resetMs));
-    setState((s) => ({ ...s, rateLimitResetTime: resetMs }));
   }, []);
 
   return { checkRefreshAllowed, recordFetch, recordRateLimit };
