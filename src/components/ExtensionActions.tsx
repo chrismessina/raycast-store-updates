@@ -1,8 +1,8 @@
-import { ActionPanel, Action, Icon, Keyboard } from "@raycast/api";
-import { StoreItem } from "../types";
-import { FilterToggles } from "../hooks/useFilterToggles";
-import { createStoreDeeplink, extractLatestChanges, MACOS_TINT_COLOR, WINDOWS_TINT_COLOR } from "../utils";
+import { Action, ActionPanel, Icon, Keyboard } from "@raycast/api";
 import { useChangelog } from "../hooks/useChangelog";
+import { FilterToggles } from "../hooks/useFilterToggles";
+import { StoreItem } from "../types";
+import { createStoreDeeplink, extractLatestChanges, MACOS_TINT_COLOR, WINDOWS_TINT_COLOR } from "../utils";
 import { ChangelogDetail } from "./ChangelogDetail";
 
 const GITHUB_EXTENSIONS_BASE = "https://github.com/raycast/extensions/blob/main/extensions";

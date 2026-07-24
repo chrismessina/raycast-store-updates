@@ -1,5 +1,5 @@
-import { LocalStorage } from "@raycast/api";
 import { useCallback } from "react";
+import { LocalStorage } from "@raycast/api";
 
 const LAST_FETCH_KEY = "github-last-fetch-time";
 const RATE_LIMIT_RESET_KEY = "github-rate-limit-reset";

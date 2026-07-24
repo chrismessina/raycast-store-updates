@@ -1,4 +1,4 @@
-import { List, Color, Icon } from "@raycast/api";
+import { Color, Icon, List } from "@raycast/api";
 import { StoreItem } from "../types";
 import { createStoreDeeplink, MACOS_TINT_COLOR, WINDOWS_TINT_COLOR } from "../utils";
 

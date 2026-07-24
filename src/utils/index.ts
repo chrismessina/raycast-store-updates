@@ -1,7 +1,7 @@
-import { GitHubPR, GitHubPRFile, StoreItem } from "../types";
+import { existsSync, readdirSync, readFileSync } from "fs";
+import { dirname, join } from "path";
 import { environment } from "@raycast/api";
-import { readdirSync, readFileSync, existsSync } from "fs";
-import { join, dirname } from "path";
+import { GitHubPR, GitHubPRFile, StoreItem } from "../types";
 
 const RAW_CONTENT_BASE = "https://raw.githubusercontent.com/raycast/extensions/main/extensions";
 

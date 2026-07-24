@@ -1,4 +1,4 @@
-import { ActionPanel, Action, Icon, Keyboard, useNavigation } from "@raycast/api";
+import { Action, ActionPanel, Icon, Keyboard, useNavigation } from "@raycast/api";
 import { StoreItem } from "../types";
 import { createStoreDeeplink, extractLatestChanges } from "../utils";
 import { ChangelogDetail } from "./ChangelogDetail";

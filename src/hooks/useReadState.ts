@@ -1,5 +1,5 @@
+import { useCallback, useEffect, useRef, useState } from "react";
 import { LocalStorage, showToast, Toast } from "@raycast/api";
-import { useEffect, useState, useCallback, useRef } from "react";
 
 const READ_ITEMS_KEY = "read-items";
 

@@ -1,9 +1,9 @@
-import { List, Icon, Color } from "@raycast/api";
-import { StoreItem, FilterValue } from "../types";
-import { MACOS_TINT_COLOR, WINDOWS_TINT_COLOR } from "../utils";
+import { Color, Icon, List } from "@raycast/api";
 import { FilterToggles } from "../hooks/useFilterToggles";
-import { ExtensionItemDetail } from "./ExtensionItemDetail";
+import { FilterValue, StoreItem } from "../types";
+import { MACOS_TINT_COLOR, WINDOWS_TINT_COLOR } from "../utils";
 import { ExtensionActions } from "./ExtensionActions";
+import { ExtensionItemDetail } from "./ExtensionItemDetail";
 
 interface ExtensionListItemProps {
   item: StoreItem;

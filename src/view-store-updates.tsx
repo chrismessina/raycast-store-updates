@@ -1,17 +1,17 @@
-import { List, Icon, getPreferenceValues, showToast, Toast } from "@raycast/api";
+import { useEffect, useMemo, useState } from "react";
+import { getPreferenceValues, Icon, List, showToast, Toast } from "@raycast/api";
 import { useFetch } from "@raycast/utils";
-import { useState, useMemo, useEffect } from "react";
-import { Feed, GitHubPR, StoreItem, FilterValue } from "./types";
-import {
-  parseExtensionUrl,
-  fetchExtensionPackageInfo,
-  convertPRsToStoreItems,
-  getInstalledExtensionSlugs,
-} from "./utils";
 import { ExtensionListItem } from "./components/ExtensionListItem";
-import { useReadState } from "./hooks/useReadState";
 import { useFilterToggles } from "./hooks/useFilterToggles";
 import { useGitHubRateLimit } from "./hooks/useGitHubRateLimit";
+import { useReadState } from "./hooks/useReadState";
+import { Feed, FilterValue, GitHubPR, StoreItem } from "./types";
+import {
+  convertPRsToStoreItems,
+  fetchExtensionPackageInfo,
+  getInstalledExtensionSlugs,
+  parseExtensionUrl,
+} from "./utils";
 
 // =============================================================================
 // Constants
