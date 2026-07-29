@@ -1,5 +1,5 @@
-import { useCallback, useEffect, useState } from "react";
 import { LocalStorage, showToast, Toast } from "@raycast/api";
+import { useEffect, useState, useCallback } from "react";
 
 const FILTER_KEY = "filter-toggles";
 
