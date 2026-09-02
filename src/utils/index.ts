@@ -1,13 +1,22 @@
 import { Feed, FeedItem, GitHubPR, GitHubPRFile, StoreItem } from "../types";
 import { Cache, Color, environment, getPreferenceValues, Icon, Image } from "@raycast/api";
-import { readdirSync, readFileSync, existsSync } from "fs";
-import { join, dirname } from "path";
+import { readdirSync, existsSync } from "fs";
+import { dirname } from "path";
 import { fetchMergedPRsViaGraphQL, isGraphQLEnabled } from "./graphql";
 
 export const RAW_CONTENT_BASE = "https://raw.githubusercontent.com/raycast/extensions/main/extensions";
 export const FEED_URL = "https://www.raycast.com/store/feed.json";
 export const GITHUB_PRS_URL =
   "https://api.github.com/repos/raycast/extensions/pulls?state=closed&sort=updated&direction=desc&per_page=50";
+
+/**
+ * Raycast's public Store search API (the one ray.so uses). Unauthenticated, and
+ * NOT api.github.com — so it does not draw on the billed budget in docs/api-cost.md.
+ */
+export const STORE_SEARCH_API = "https://www.raycast.com/frontend_api/extensions/search";
+
+/** Max `ids[]` values per Store search request, to bound query-string length. */
+const INSTALLED_ID_BATCH_SIZE = 100;
 
 /**
  * Builds headers for GitHub REST API calls. When the optional `githubToken`
@@ -273,6 +282,17 @@ export function parseExtensionUrl(url: string): { author: string; extension: str
 }
 
 /**
+ * The URL scheme of the running Raycast app.
+ *
+ * NOT always "raycast": the internal/beta build registers `raycast-x` and reads
+ * its data from a separate directory. Hardcoding either one breaks the deeplink
+ * for every user of the other build, so always go through this.
+ */
+function raycastScheme(): string {
+  return process.env.RAYCAST_SCHEME ?? "raycast";
+}
+
+/**
  * Creates a Raycast deeplink to open an extension in the Store.
  * Format: raycast://extensions/{author}/{extension}
  * Returns original URL if parsing fails.
@@ -282,7 +302,16 @@ export function createStoreDeeplink(url: string): string {
   if (!parsed) {
     return url;
   }
-  return `${process.env.RAYCAST_SCHEME ?? "raycast"}://extensions/${parsed.author}/${parsed.extension}`;
+  return `${raycastScheme()}://extensions/${parsed.author}/${parsed.extension}`;
+}
+
+/**
+ * Deeplink to Raycast's built-in "Check for Extension Updates" command, which
+ * updates installed Store extensions. This complements the list: the extension
+ * SHOWS what changed upstream, but updating is Raycast's own job.
+ */
+export function checkForUpdatesDeeplink(): string {
+  return `${raycastScheme()}://extensions/raycast/raycast/check-for-extension-updates`;
 }
 
 /**
@@ -862,48 +891,141 @@ export async function scanStoreUpdates(): Promise<StoreItem[]> {
   return [...newItems, ...updatedItems].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 
+/** A directory named by a Store extension UUID, e.g. 0d433601-466d-4e67-934e-5a7593fd6928. */
+const EXTENSION_UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+
 /**
- * Gets the set of installed extension slugs by reading from the Raycast
- * support directory. Each extension directory contains a package.json with a
- * `name` field.
+ * Reads the names of the directories under Raycast's extensions folder.
+ *
+ * Returns null in two distinct cases, both meaning "do not filter on this":
+ * the command is running under `ray develop` (checked first, before any
+ * derivation is attempted), or the folder could not be read.
  *
  * The location is derived relatively from environment.assetsPath
  * (.../extensions/<ext-id>/assets -> .../extensions) so it does not hardcode a
  * platform-specific path. On macOS this resolves under
- * ~/Library/Application Support/com.raycast.macos/extensions/; the Windows
- * layout has not been verified, so callers should treat an empty result as
- * "unknown" rather than "no matching extensions" on Windows.
+ * ~/Library/Application Support/com.raycast.macos/extensions/.
+ *
+ * That derivation is unsound under `ray develop`, where assetsPath can be the
+ * project's own assets/ folder — walking two parents then lands on whatever
+ * merely contains the checkout: a folder of sibling repos, or, for a
+ * raycast/extensions clone, the monorepo's own extensions/ directory. Either
+ * would be read as a list of installed extensions.
+ *
+ * `environment.isDevelopment` is the documented flag for exactly that
+ * distinction ("development command vs. an installed command from the Store").
+ * Two earlier guards tried to recognise the real directory by inspection and
+ * both were defeatable: testing the path text (basename "extensions" plus a
+ * /raycast/i parent) is satisfied by a clone at ~/dev/raycast/extensions, and
+ * requiring a UUID-named child is satisfied by one UUID-named worktree beside
+ * the checkout. Testing the property directly is what closed it.
+ *
+ * Raycast does not document assetsPath's layout for any other non-Store mode
+ * (sideload, local build, CI harness, beta), so soundness there is unverified
+ * rather than guaranteed. The failure mode if one of those is also unsound is
+ * the original bug, not a worse one.
+ *
+ * The cost is that My Updates does not filter while developing this extension:
+ * null means "could not tell", so both surfaces show everything rather than
+ * inventing installs.
  */
-export function getInstalledExtensionSlugs(): Set<string> {
+function readInstalledExtensionDirs(): string[] | null {
+  if (environment.isDevelopment) return null;
+  try {
+    const extensionsDir = dirname(dirname(environment.assetsPath));
+    if (!existsSync(extensionsDir)) return null;
+    return readdirSync(extensionsDir, { withFileTypes: true })
+      .filter((entry) => entry.isDirectory())
+      .map((entry) => entry.name);
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Resolves installed extension UUIDs to slugs via the Raycast Store's public
+ * search API, batching so the whole installed set costs a handful of requests.
+ * Returns null if ANY batch fails — see the comment on the failure branch.
+ *
+ * This endpoint is NOT api.github.com, so it does not draw on the billed 60/hr
+ * budget that docs/api-cost.md governs.
+ *
+ * `ids[]` accepts UUIDs only — passing slugs returns an empty result set with a
+ * 200, not an error — which is exactly why this is keyed off the UUID-named
+ * directories rather than the slug-named ones.
+ *
+ * A 200 that returns FEWER records than ids requested is a complete answer, not
+ * a partial one: the response is keyed by `id`, and a missing id means that
+ * extension is not in the Store index (unpublished or delisted). Measured
+ * 2026-09-01 against 130 installed UUIDs — one absent, and it resolves to no
+ * slug anywhere. Such an extension is therefore dropped from the filter, and if
+ * it somehow still received a merged PR upstream that one update would not show
+ * under My Updates. Treating a short response as a failure instead would be
+ * worse: it permanently disables the filter for anyone holding a single
+ * delisted install, which is the common case rather than the rare one.
+ */
+async function resolveInstalledStoreSlugs(ids: string[]): Promise<Set<string> | null> {
   const slugs = new Set<string>();
 
-  try {
-    // environment.assetsPath is like:
-    // ~/Library/Application Support/com.raycast.macos/extensions/<ext-id>/assets
-    // We go up to the extensions directory
-    const assetsPath = environment.assetsPath;
-    const extensionsDir = dirname(dirname(assetsPath));
-
-    if (!existsSync(extensionsDir)) return slugs;
-
-    const entries = readdirSync(extensionsDir, { withFileTypes: true });
-    for (const entry of entries) {
-      if (!entry.isDirectory()) continue;
-      const pkgPath = join(extensionsDir, entry.name, "package.json");
-      try {
-        if (!existsSync(pkgPath)) continue;
-        const raw = readFileSync(pkgPath, "utf-8");
-        const pkg = JSON.parse(raw) as { name?: string };
-        if (pkg.name) {
-          slugs.add(pkg.name);
-        }
-      } catch {
-        // Skip unreadable extensions
+  // Chunked to bound the query-string length: 157 ids already produces a ~6.3KB
+  // URL, so an unchunked request would grow without limit as installs grow.
+  for (let i = 0; i < ids.length; i += INSTALLED_ID_BATCH_SIZE) {
+    const batch = ids.slice(i, i + INSTALLED_ID_BATCH_SIZE);
+    const query = batch.map((id) => `ids[]=${encodeURIComponent(id)}`).join("&");
+    try {
+      const response = await fetch(`${STORE_SEARCH_API}?q=&page=1&per_page=${batch.length}&${query}`);
+      if (!response.ok) return null;
+      const payload = await response.json();
+      const data = asArray<{ name?: string }>((payload as { data?: unknown })?.data);
+      for (const extension of data) {
+        if (extension?.name) slugs.add(extension.name);
       }
+    } catch {
+      // Unlike the enrichment helpers in this module, a partial result here is
+      // NOT a safe degradation. This set is applied as an authoritative filter,
+      // so dropping one batch of 100 silently HIDES updates for those hundred
+      // extensions — indistinguishable, on screen, from "they have no updates".
+      // Report the whole resolution as unknown and let the caller stop
+      // filtering instead.
+      return null;
     }
-  } catch {
-    // If we can't read the directory, return empty set
   }
 
   return slugs;
+}
+
+/**
+ * The full set of installed extension slugs, or null when the answer is not
+ * knowable right now.
+ *
+ * Raycast names each installed extension's directory by its identity, and the
+ * naming discriminates the two install kinds:
+ *
+ * | Directory name | Meaning                                |
+ * | -------------- | -------------------------------------- |
+ * | UUID           | installed from the Store               |
+ * | slug           | built locally via `ray develop`        |
+ *
+ * Only the slug-named ones are resolvable offline. Store-installed ones need
+ * the Store API, because nothing on disk records their slug: the directory
+ * holds a single opaque `com.raycast.api.cache` folder of hashed blobs, and
+ * there is no package.json at any depth.
+ *
+ * That absent package.json is why this previously returned an EMPTY set for
+ * every user — it read `<dir>/package.json` and collected `pkg.name`, and the
+ * file does not exist (verified across 158 installed extensions, 2026-08-01).
+ * The `my-updates` filter and the `menuBarScope: "my-updates"` preference both
+ * matched nothing as a result, failing closed and so looking like "no updates"
+ * rather than an error. Null is the fix for that class of bug: an empty Set now
+ * means "you have nothing installed", and only that.
+ */
+export async function fetchInstalledExtensionSlugs(): Promise<Set<string> | null> {
+  const dirs = readInstalledExtensionDirs();
+  if (!dirs) return null;
+
+  const fromStore = await resolveInstalledStoreSlugs(dirs.filter((name) => EXTENSION_UUID_RE.test(name)));
+  if (!fromStore) return null;
+
+  const local = dirs.filter((name) => !EXTENSION_UUID_RE.test(name));
+  return new Set([...local, ...fromStore]);
 }
