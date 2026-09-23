@@ -102,6 +102,12 @@ export default function Command(props: LaunchProps<{ launchContext?: ViewStoreUp
   }, [changelogSlug, changelogTitle, push]);
 
   const [isRefreshing, setIsRefreshing] = useState(false);
+  // Bumped by Refresh so the installed-extension lookup below re-runs with it.
+  // Without this, installing or removing an extension while the view stays mounted
+  // leaves the old Set in place: the new extension's updates stay hidden and the
+  // removed one's keep showing, and Refresh — the one affordance that looks like it
+  // should fix that — only revalidates the feed and the PRs.
+  const [installedNonce, setInstalledNonce] = useState(0);
   const [isProcessingNew, setIsProcessingNew] = useState(false);
   const [isProcessingPRs, setIsProcessingPRs] = useState(false);
 
@@ -122,6 +128,7 @@ export default function Command(props: LaunchProps<{ launchContext?: ViewStoreUp
 
     setIsRefreshing(true);
     try {
+      setInstalledNonce((n) => n + 1);
       await Promise.all([revalidateFeed(), revalidatePRs()]);
       await showToast({
         style: Toast.Style.Success,
@@ -132,9 +139,8 @@ export default function Command(props: LaunchProps<{ launchContext?: ViewStoreUp
     }
   };
 
-  // Get installed extensions if filter is enabled. Store-installed extensions are
-  // named on disk by UUID, so naming them requires a Store API round-trip; only
-  // locally-developed ones are readable synchronously.
+  // Get installed extensions if filter is enabled. The lookup reads every installed
+  // extension's package.json from disk, so it is async and gets its own loading state.
   //
   // Three states, and the difference between the last two is the whole point:
   //   undefined -> still resolving. Show a spinner, not an empty list.
@@ -155,7 +161,7 @@ export default function Command(props: LaunchProps<{ launchContext?: ViewStoreUp
     return () => {
       cancelled = true;
     };
-  }, [filter]);
+  }, [filter, installedNonce]);
 
   // Reflect the async post-processing (and the LocalStorage-backed hooks) in the
   // loading state so the list doesn't flash "No Extensions Found" prematurely.

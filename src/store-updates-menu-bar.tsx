@@ -90,8 +90,8 @@ export default function Command() {
   // new items under this scope would contradict the filter it is named after.
   const scope = getPreferenceValues<Preferences>().menuBarScope ?? "all";
 
-  // Store-installed extensions are named on disk by UUID, so resolving them to slugs
-  // needs a Store API round-trip. Same three states as the main list: undefined is
+  // Installed extensions are read from disk asynchronously (every installed extension's
+  // package.json). Same three states as the main list: undefined is
   // "still resolving", null is "could not tell", and only a Set is authoritative.
   // Both non-Set states leave the menu unscoped — a badge that under-counts is worse
   // than one that briefly over-counts, because the whole point is to surface things.
