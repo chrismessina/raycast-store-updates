@@ -8,17 +8,11 @@ export interface ChangelogVersion {
   body: string;
 }
 
-// Every part of a heading after the title is optional, because the corpus is not uniform.
-// Surveyed across a random 250 of the monorepo's 2,996 changelogs (2026-09-22), 868
-// headings: the bracketed-title-plus-ISO-date form dominates, but 6 headings carry no date
-// at all (`## [Maintenance]`), 5 have no brackets (`## 1.1.0 - 2023-01-31`), and
-// single-digit days (`## [BugFix] - 2023-11-5`) occur. A strict \d{2}-\d{2} would
-// silently drop those sections — and dropping a section is worse than showing it undated,
-// because the bullets go missing with it. All 868 headings in that sample parse to a row.
-//
-// Also accepts any `{UPPER_CASE}` placeholder and a parenthesised date: a 250-file sample
-// of the monorepo (2026-09-22) turned up `{PR_MREGE_DATE}`, `{PG_MERGE_DATE}` and
-// `(2022-03-19)`, each of which otherwise stays glued to the end of the row's title.
+// The date after a heading's title, which is optional and lenient on purpose. A random 250
+// of the monorepo's changelogs (2026-09-22, 868 headings, every one parsed to a row) had
+// headings with no date (`## [Maintenance]`), single-digit days (`2023-11-5`), parenthesised
+// dates (`(2022-03-19)`) and misspelled placeholders (`{PR_MREGE_DATE}`). A stricter pattern
+// either drops those sections, bullets included, or leaves the date glued to the title.
 const TRAILING_DATE = /\s+-\s+\(?(\{[A-Z_]+\}|\d{4}-\d{1,2}-\d{1,2})\)?$/;
 
 /**

@@ -54,8 +54,7 @@ export function ChangelogDetail({ slug, title, items, currentIndex }: ChangelogD
       isLoading={isLoading}
       isShowingDetail
       // Shown whenever no row is selected — while the changelog is still loading, and
-      // when a search filters out every version. Without it those states have no actions
-      // at all, where the old Detail view always had them.
+      // when a search filters out every version. Without it those states have no actions.
       actions={actions}
       navigationTitle={`${title} — Version History`}
       searchBarPlaceholder="Search versions…"

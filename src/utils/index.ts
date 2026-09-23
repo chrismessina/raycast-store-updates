@@ -668,10 +668,9 @@ export async function convertPRsToStoreItems(
   // Process removal PRs: find their deleted slugs, confirm via 404, emit one item per slug.
   //
   // This runs BEFORE the update fallbacks below, so removals get first claim on the shared
-  // /files budget. It used to run last, and a scan whose update fallbacks had spent the
-  // tokenless allowance of 5 dropped removal checks without a word — a missing removal
-  // looks identical to "nothing was removed", while a starved update merely keeps its
-  // title-derived slug. Silence is the worse failure, so it goes first.
+  // /files budget (5 per scan without a token). A starved update merely keeps its
+  // title-derived slug; a starved removal vanishes without a word, indistinguishable from
+  // "nothing was removed". Silence is the worse failure, so removals go first.
   //
   // Keyed by slug, this memoizes the in-flight confirmation rather than merely recording
   // "seen". A Set cannot express what is needed: two removal PRs deleting the same
@@ -690,12 +689,12 @@ export async function convertPRsToStoreItems(
     // needs no billed request at all. That matters more than it looks: most PRs this
     // classifies as removals are not (a survey of merged "Remove…" PRs, 2026-09-22, was
     // dominated by "Remove outdated screenshots from … README", "Remove contributor …"),
-    // and each used to spend a /files call only to be rejected. Now the extension simply
-    // answers 200 and is dropped, at no cost.
+    // and for those the extension simply answers 200 and is dropped, at no cost.
     //
     // Only an unlabelled PR — e.g. a staff bulk removal like "Removed two extensions" —
-    // falls back to /files, which proves removal by requiring every file under
-    // extensions/<slug>/ to be deleted. That call is budgeted like every other.
+    // falls back to /files, which requires every file under extensions/<slug>/ on the
+    // first page of the PR's file list (100; it does not paginate) to be deleted. That
+    // call is budgeted like every other.
     let slugs = labelSlugs(pr);
     if (slugs.length === 0) {
       if (!filesBudget.spend()) return [];
@@ -938,13 +937,13 @@ function installedExtensionsDir(): string | null {
  * for Store installs (folders named by UUID) and local `ray develop` builds (folders
  * named by slug) alike, so nothing needs resolving over the network.
  *
- * This replaced reading `~/Library/Application Support/com.raycast.macos/extensions/`,
- * which turned out not to be a registry at all: Raycast creates an extension's folder
- * there the first time it RUNS (it holds supportPath and the Cache store), so an
- * extension installed but never opened was invisible, and its updates were filtered
- * out of My Updates. Verified 2026-09-22: Hide My Email was installed, never run, and
- * absent there — and present here. Store folders there also carry no package.json,
- * which forced a batched Store-API lookup to turn UUIDs into slugs; that is gone too.
+ * Do NOT read `~/Library/Application Support/com.raycast.macos/extensions/` instead. It
+ * looks like a registry and is not one: Raycast creates an extension's folder there the
+ * first time it RUNS (it holds supportPath and the Cache store), so an extension that is
+ * installed but never opened is absent, and its updates would be filtered out of My
+ * Updates. Verified 2026-09-22: Hide My Email was installed, never run, and absent there
+ * — but present here. Its Store folders also carry no package.json, so slugs could only
+ * come from a network lookup.
  *
  * Null, never an empty or partial Set, whenever the read cannot be trusted — a filter
  * that fails closed looks exactly like "you have no updates":
