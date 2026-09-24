@@ -2,7 +2,7 @@
 
 ## [US English] - {PR_MERGE_DATE}
 
-- Use US English spelling throughout the extension and its README ("License", not "Licence")
+- Use US English spelling throughout the extension and its README
 
 ## [Version History, Working My Updates, and Update Checks] - 2026-09-23
 
