@@ -1,13 +1,13 @@
 {
-  "upstream_commit": "9bffcaf06124b5f4a6e1701c48ed32a049ecb596",
-  "synced_at": "2026-09-24T00:46:06Z",
+  "upstream_commit": "5e47a265b2c0c5eedc1409b820217ee3f1fb1110",
+  "synced_at": "2026-09-25T00:42:43Z",
   "files": {
     ".gitignore": "3969014fb9b1172f68e81bd029e284e8a47de3ad",
     ".prettierrc": "fc0f5030683fa6196d08943646300755fce2f207",
-    "AGENTS.md": "3389e42b7a4b3a56731e14331d24d24c342913cd",
-    "CHANGELOG.md": "97de36a1db2c1a55d50b12e29e6cdae7b39b7ef8",
+    "AGENTS.md": "c89dec8d91d1b5b4caa5f64b1568ac7c43be9d06",
+    "CHANGELOG.md": "d74a57de59e94c8d1d3e1a9ba92307efc908693d",
     "LICENSE": "262a067eb1f9517d8abde3ecd5eeac8de359e701",
-    "README.md": "253f8c3090b5bd68f8662a74fd445df176cfab07",
+    "README.md": "f3a01ea6e20270975b07506697ec3597eff25832",
     "assets/platform-macos.svg": "cd1dbcf531bdb856a800ad0d09073e39a2c9a95a",
     "assets/platform-windows.svg": "4c4cbcc17e6b739340dcbdca942bddc5d1c299c0",
     "assets/store-updates-icon.png": "2ef3c243bb951b3967ea8e9eb4b9c692f1a1a0d3",
@@ -32,13 +32,13 @@
     "src/hooks/useFilterToggles.ts": "28afd2a64bb585c2c8fcc6c4ccfd9f1b0969de10",
     "src/hooks/useGitHubRateLimit.ts": "149db080d62aec701b4fee22557eb70b56f773f7",
     "src/hooks/useReadState.ts": "715f38f419c3d18f99619ec9a8c4d3f811a2fe6b",
-    "src/store-updates-menu-bar.tsx": "37d91697e26ce16dbfe14a6f330824f47cc9de4d",
+    "src/store-updates-menu-bar.tsx": "096be8825a05b04da316cd96ca83d3425c712f45",
     "src/types/index.ts": "be3908ccec911d49ce21e25334059b8f0dea2e83",
-    "src/utils/changelog.ts": "aab1dc5f7826f501e558be8670697ca4d55391c5",
-    "src/utils/graphql.ts": "08810b006b4fdaeb591ba06258f716b25d2219b3",
-    "src/utils/index.ts": "8932c7fd87eeab8b8b856b2d0a843c2b9344e541",
+    "src/utils/changelog.ts": "fd54529908b96a5d43d34d352038cf1d86efaf03",
+    "src/utils/graphql.ts": "6d7577db21dae3e9f625f3b8baae8e67f0781677",
+    "src/utils/index.ts": "5bed22629d525fdbf150789e4a433a28f014ffd4",
     "src/utils/store-cache.ts": "e76a691a8dd42eb3669502da067752dfac5788f0",
-    "src/view-store-updates.tsx": "e5a7e036af9a59b3544d0b16a4d33b2ff75928a0",
+    "src/view-store-updates.tsx": "da307b88326fa1034d9e2a8cd1578fba74af9d94",
     "tsconfig.json": "108a12113b1fc83cdedbe799083e972f946a48a3"
   }
 }
