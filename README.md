@@ -9,7 +9,7 @@
 
 **One chronological view of everything happening in the Raycast Store — new extensions, updates to the ones you already have, and the ones that quietly disappeared.**
 
-[Features](#features) • [Requirements](#requirements) • [Quick Start](#quick-start) • [Usage](#usage) • [Development](#development)
+[Features](#features) • [Requirements](#requirements) • [Quick Start](#quick-start) • [Usage](#usage)
 
 </div>
 
@@ -101,50 +101,6 @@ why this table names the semantic rather than a key combination.
 
 ---
 
-## Development
-
-### Project Structure
-
-```
-raycast-store-updates/
-├── src/
-│   ├── view-store-updates.tsx      # The main list command
-│   ├── store-updates-menu-bar.tsx  # The menu-bar badge
-│   ├── components/                 # List items, detail panes, action panels
-│   ├── hooks/                      # Read state, filter toggles, changelog, rate limit
-│   ├── types/                      # The unified StoreItem shape
-│   └── utils/                      # Fetching, slug resolution, caching, GraphQL
-├── assets/                         # Extension and platform icons
-├── metadata/                       # Store screenshots
-├── media/                          # README images
-├── package.json
-└── tsconfig.json
-```
-
-### Scripts
-
-| Script | Description |
-| --- | --- |
-| `npm run dev` | Start in development mode with hot reload |
-| `npm run build` | Build for production |
-| `npm run lint` | Run Raycast ESLint config |
-| `npm run fix-lint` | Auto-fix lint issues |
-| `npm run publish` | Publish to the Raycast Store |
-
-Verification is `npm run build`, `npm run lint`, `npm test`, and
-`npx ray evals --non-interactive --exit-on-error`. Test the commands and Ask AI tool in Raycast.
-
-### Clone & Run
-
-```sh
-git clone https://github.com/chrismessina/raycast-store-updates.git
-cd raycast-store-updates
-npm install
-npm run dev
-```
-
----
-
 ## Tech Stack
 
 | Package | Role |
@@ -154,5 +110,7 @@ npm run dev
 | `@chrismessina/raycast-kit` | House-style failure toasts and count-aware copy |
 
 ---
+
+Want to contribute? See [CONTRIBUTING.md](https://github.com/chrismessina/raycast-store-updates/blob/main/CONTRIBUTING.md).
 
 MIT © [Chris Messina](https://github.com/chrismessina)
