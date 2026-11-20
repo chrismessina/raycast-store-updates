@@ -6,22 +6,22 @@ Thanks for helping. This guide covers running Raycast Store Updates locally and 
 
 Raycast Store Updates is published in the [Raycast Store](https://www.raycast.com/chrismessina/raycast-store-updates).
 Open pull requests against [`raycast/extensions`](https://github.com/raycast/extensions/tree/main/extensions/raycast-store-updates),
-not this repository: Raycast reviews every change there, and merged changes sync back here
-automatically. Open [issues](https://github.com/chrismessina/raycast-store-updates/issues) here or in
+not this repository: Raycast reviews every change there, and merged changes come back here in a
+sync pull request. Open [issues](https://github.com/chrismessina/raycast-store-updates/issues) here or in
 `raycast/extensions`, whichever you prefer.
 
 ## Run it locally
 
-You need [Raycast](https://www.raycast.com/) and Node.js 22 or later.
+You need [Raycast](https://www.raycast.com/) and Node.js 22.22.2 or later.
 
 1. In Raycast, find Raycast Store Updates in the Store and choose **Fork Extension** from the action panel.
    Raycast checks out only this extension's folder from `raycast/extensions`.
 2. In that folder, run `npm ci`, then `npm run dev`. Raycast opens the development version, and
    saving a file reloads it.
 
-Without a token, development shares GitHub's 60 requests/hour anonymous budget, which a few
-reloads can use up. Set the **GitHub Token** preference to a classic token with no scopes to get
-5,000. `docs/api-cost.md` explains where the requests go.
+Without a token, the development build shares GitHub's anonymous budget of 60 requests per hour,
+which a few reloads can use up. Set the **GitHub Token** preference to a classic token with no
+scopes to raise the budget to 5,000. `docs/api-cost.md` explains where the requests go.
 
 ## Scripts
 
@@ -32,6 +32,8 @@ reloads can use up. Set the **GitHub Token** preference to a classic token with 
 | `npm run lint` | Run Raycast's ESLint and Prettier checks |
 | `npm run fix-lint` | Fix what the linter can fix |
 | `npm test` | Run the unit tests (Vitest, in `test/`) |
+| `npm run publish` | Open or update the pull request in `raycast/extensions` (`ray publish`) |
+| `prepublishOnly` | Stops `npm publish`: the extension goes to the Raycast Store, never to the npm registry |
 
 ## How it works
 
